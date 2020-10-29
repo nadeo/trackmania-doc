@@ -1,0 +1,2 @@
+dev:
+	docker-compose up
