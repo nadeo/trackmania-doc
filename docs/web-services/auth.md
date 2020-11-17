@@ -13,7 +13,7 @@ Authentication is available through OAuth2.
 2. After the user authorize your application, they are redirected to the `redirect_uri` with the query parameter:
     - `code`: a code you need to exchange for an access token
     - `state`: check that it's the same value than then one you generated at step 1.
-3. The application should issue a `POST` request to https://api.trackmania.com/oauth/access_token with the parameters:
+3. The application should issue a `POST` request to https://api.trackmania.com/api/access_token with the parameters:
     - `grant_type`: `authorization_code`
     - `client_id`: your client ID
     - `client_secret`: your client secret
@@ -26,3 +26,23 @@ The answer of stage 3 will contain:
    - `expires_in`
    - `access_token`
    - `refresh_token`
+
+## Client credentials 
+
+This is ment to be use for machine-to-machine authentication. 
+
+1. Issue a `POST` request to https://api.trackmania.com/api/access_token with the parameters:
+    - `grant_type`: `client_credentials`
+    - `client_id`: your client ID
+    - `client_secret`: your client secret
+    - `scope`: space delimited list of scopes
+    
+The answer will container
+
+   - `token_type`
+   - `expires_in`
+   - `access_token`
+
+## Implicit grant
+
+As it's no longer a good practice, implicit grant won't be available.
