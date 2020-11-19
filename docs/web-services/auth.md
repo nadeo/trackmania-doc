@@ -2,7 +2,9 @@
 
 Authentication is available through OAuth2. 
 
-## Auth code flow
+## Grants
+
+### Auth code flow
 
 1. Redirect the user to https://api.trackmania.com/oauth/authorize with the query parameters:
     - `response_type`: `code`
@@ -27,9 +29,9 @@ The answer of stage 3 will contain:
    - `access_token`
    - `refresh_token`
 
-## Client credentials 
+### Client credentials 
 
-This is ment to be use for machine-to-machine authentication. 
+This is ment to be used for machine-to-machine authentication. 
 
 1. Issue a `POST` request to https://api.trackmania.com/api/access_token with the parameters:
     - `grant_type`: `client_credentials`
@@ -43,6 +45,10 @@ The answer will container
    - `expires_in`
    - `access_token`
 
-## Implicit grant
+### Implicit grant
 
 As it's no longer a good practice, implicit grant won't be available.
+
+## Scopes
+
+For now, only empty scope is supported. 
