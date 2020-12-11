@@ -16,8 +16,8 @@ This will create the folder `{Trackmania_user_dir}\Work\Items\Samples` and fill 
 
 ## Current release
 
-**Importer zip**: [TODO](TODO)
-**Sample zip**: [TODO](TODO)
+**Importer zip**: <http://files.v04.maniaplanet.com/tools/NadeoImporter.zip>
+**Sample zip**: <http://files.v04.maniaplanet.com/tools/NadeoImporter_Samples.zip>
 
 
 [How to import an item]: <https://doc.trackmania.com/nadeo-importer/02-how-to-import-an-item>
