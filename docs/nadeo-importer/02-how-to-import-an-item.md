@@ -54,6 +54,12 @@ The .MeshParams.xml and .fbx files do not appear in the arguments of this comman
 - .Item.xml contains a reference (either explicit or implicit: see tag `MeshParamsLink` in section [How to create the Item xml file]) to the .MeshParams.xml file
 - .MeshParams.xml contains a reference (either excplit or implicit: see attribute `FbxFile` in section [How to create the MeshParams xml file]) to the .fbx file.
 
+There is also a facultative command argument: /LogMeshStats
+This will give you some information about the fbx you are importing.
+```sh
+.\NadeoImporter Item Items\Samples\StaticObjects\Slope_Base.Item.xml /LogMeshStats
+```
+
 ### PowerShell vs classic command line
 The `.\` before `NadeoImporter` is mandatory in PowerShell, but not in classic command line.
 

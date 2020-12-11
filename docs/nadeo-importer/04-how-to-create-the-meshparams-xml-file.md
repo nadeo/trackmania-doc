@@ -26,6 +26,7 @@ Then adapt it to your situation, according to the following explanations:
 					- attributes:
 						- `Name`: the name of the material in the fbx file, that you have chosen when making your model in the 3d software you have used (Blender, 3ds Max...)
 						- `Link`: the name of a material of Trackmania material library. **The list of library materials can be found in `{Trackmania_exe_dir}\NadeoImporterMaterialLib.txt`**, which was placed next to `NadeoImporter.exe` when you unzipped the importer files (see section [Download and install])
+						- `Color`: facultative. If the linked material is a colorizable one, you can specify the color you want with a 3-digit or 6-digit hexadecimal color code (RGB or RRGGBB). For instance: F00 or FF0000 for red, 0F0 or 00FF00 for green, 00F or 0000FF for blue, FF0 or FFFF00 for yellow, etc.
 
 You should get something like this:
 
