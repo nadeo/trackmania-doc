@@ -4,6 +4,8 @@
 
 First download the **importer zip** file, and also the **sample zip** file if you are interested (see below for the download links).
 
+> **Note for Chrome users**: If left-clicking on the download links has no effect, try to right-click on it and select `Open link in new tab` in the context menu.
+
 The importer must be unzipped in the `{Trackmania_exe_dir}` folder, which is the folder that contains `Trackmania.exe`, typically `C:\Program Files\Ubisoft\Ubisoft Game Launcher\games\Trackmania` or `C:\Program Files\Trackmania`.
 You might neeed administrator rights to unzip and place the importer files in there.
 

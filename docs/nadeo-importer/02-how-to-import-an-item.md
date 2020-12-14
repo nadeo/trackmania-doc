@@ -37,8 +37,7 @@ For more information about how to create and edit source assets, see the followi
 
 To generate the .Item.Gbx File:
 
-1. Open a command line window in your {Trackmania_exe_dir} folder.
-	> One quick way to do that is to maintain Shift and right-click on this folder in Windows Explorer, and then select "Open PowerShell window here" or "Open command window here" in the context menu.
+1. Open a command line window in your {Trackmania_exe_dir} folder. One quick way to do that is to maintain Shift and right-click on this folder in Windows Explorer, and then select "Open PowerShell window here" or "Open command window here" in the context menu.
 2. Type the following command:
 ```sh
 .\NadeoImporter Item {Item.xml_Filename_Relative_To_WorkFolder}
