@@ -1,6 +1,7 @@
 # How to create the Item xml file
 
 Just create an empty text file (which has the extension ".txt" by default) and change its extension by renaming it `{ItemName}.Item.xml` (for example: `Slope_Base.Item.xml`).
+
 Open this file in your favorite text editor (for example: Notepad++), and copy-paste the following template:
 
 ```xml

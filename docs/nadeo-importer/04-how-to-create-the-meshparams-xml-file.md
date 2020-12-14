@@ -1,6 +1,7 @@
 # How to create the MeshParams xml file
 
 Just create an empty text file (which has the extension ".txt" by default) and change its extension by renaming it `{ItemName}.MeshParams.xml` (for example: `Slope_Base.MeshParams.xml`).
+
 Open this file in your favorite text editor (for example: Notepad++), and copy-paste the following template:
 
 ```xml
@@ -13,6 +14,7 @@ Open this file in your favorite text editor (for example: Notepad++), and copy-p
 ```
 
 Then adapt it to your situation, according to the following explanations:
+
 - `MeshParams` tag is mandatory
 	- attributes:
 		- `MeshType` is mandatory and should not be changed ("Static")
