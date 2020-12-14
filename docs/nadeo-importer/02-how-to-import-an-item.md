@@ -8,17 +8,17 @@ The corresponding imported files (.Item.Gbx) will be created in sub folders of `
 
 For instance:
 
-	- source assets:
+- source assets:
 
-		`{Trackmania_user_dir}\Work\Items\Samples\StaticObjects\Mesh\Slope_Base.fbx`
+	`{Trackmania_user_dir}\Work\Items\Samples\StaticObjects\Mesh\Slope_Base.fbx`
 
-		`{Trackmania_user_dir}\Work\Items\Samples\StaticObjects\Mesh\Slope_Base.MeshParams.xml`
+	`{Trackmania_user_dir}\Work\Items\Samples\StaticObjects\Mesh\Slope_Base.MeshParams.xml`
 
-		`{Trackmania_user_dir}\Work\Items\Samples\StaticObjects\Slope_Base.Item.xml`
+	`{Trackmania_user_dir}\Work\Items\Samples\StaticObjects\Slope_Base.Item.xml`
 
-	- imported file:
+- imported file:
 
-		`{Trackmania_user_dir}\Items\Samples\StaticObjects\Slope_Base.Item.gbx`
+	`{Trackmania_user_dir}\Items\Samples\StaticObjects\Slope_Base.Item.gbx`
 
 So you must create the source assets first.
 
@@ -26,11 +26,11 @@ The `Samples.zip` file that you can download in section [Download and install] c
 
 For more information about how to create and edit source assets, see the following sections:
 
-	- [How to create the fbx file]
+- [How to create the fbx file]
 
-	- [How to create the MeshParams xml file]
+- [How to create the MeshParams xml file]
 
-	- [How to create the Item xml file].
+- [How to create the Item xml file].
 
 
 ## Import command
@@ -38,9 +38,7 @@ For more information about how to create and edit source assets, see the followi
 To generate the .Item.Gbx File:
 
 1. Open a command line window in your {Trackmania_exe_dir} folder.
-
-> One quick way to do that is to maintain Shift and right-click on this folder in Windows Explorer, and then select "Open PowerShell window here" or "Open command window here" in the context menu.
-
+	> One quick way to do that is to maintain Shift and right-click on this folder in Windows Explorer, and then select "Open PowerShell window here" or "Open command window here" in the context menu.
 2. Type the following command:
 ```sh
 .\NadeoImporter Item {Item.xml_Filename_Relative_To_WorkFolder}
@@ -67,9 +65,9 @@ If you want your item to have an icon in the Map Editor (which is recommended), 
 ### Command arguments
 The .MeshParams.xml and .fbx files do not appear in the arguments of this command line, because:
 
-	- .Item.xml contains a reference (either explicit or implicit: see tag `MeshParamsLink` in section [How to create the Item xml file]) to the .MeshParams.xml file
+- .Item.xml contains a reference (either explicit or implicit: see tag `MeshParamsLink` in section [How to create the Item xml file]) to the .MeshParams.xml file
 
-	- .MeshParams.xml contains a reference (either excplit or implicit: see attribute `FbxFile` in section [How to create the MeshParams xml file]) to the .fbx file.
+- .MeshParams.xml contains a reference (either excplit or implicit: see attribute `FbxFile` in section [How to create the MeshParams xml file]) to the .fbx file.
 
 There is also a facultative command argument: `/LogMeshStats`.
 This will give you some information about the fbx you are importing.
