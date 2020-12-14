@@ -63,8 +63,8 @@ This will give you some information about the fbx you are importing.
 ### PowerShell vs classic command line
 The `.\` before `NadeoImporter` is mandatory in PowerShell, but not in classic command line.
 
-[Download and install]: <https://doc.trackmania.com/nadeo-importer/01-download-and-install>
-[How to create the fbx file]: <https://doc.trackmania.com/nadeo-importer/03-how-to-create-the-fbx-file>
-[How to create the MeshParams xml file]: <https://doc.trackmania.com/nadeo-importer/04-how-to-create-the-meshparams-xml-file>
-[How to create the Item xml file]: <https://doc.trackmania.com/nadeo-importer/05-how-to-create-the-item-xml-file>
-[How to add an icon to my item]: <https://doc.trackmania.com/nadeo-importer/06-how-to-add-an-icon-to-my-item>
+[Download and install]: ../01-download-and-install/
+[How to create the fbx file]: ../03-how-to-create-the-fbx-file/
+[How to create the MeshParams xml file]: ../04-how-to-create-the-meshparams-xml-file/
+[How to create the Item xml file]: ../05-how-to-create-the-item-xml-file/
+[How to add an icon to my item]: ../06-how-to-add-an-icon-to-my-item/

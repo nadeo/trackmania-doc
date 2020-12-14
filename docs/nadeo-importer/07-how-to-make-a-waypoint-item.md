@@ -8,4 +8,4 @@ You can make items which will be considered by the game as "waypoints": a start 
 
 3) If your item is a "Checkpoint", "Finish" or "StartFinish" waypoint, then the .fbx file must contain at least one object with prefix `_trigger_`. These objects will not be visible but the game will detect when the car goes through its faces and trigger the checkpoint / finish event when it happens.
 
-[How to create the Item xml file]: <https://doc.trackmania.com/nadeo-importer/05-how-to-create-the-item-xml-file>
+[How to create the Item xml file]: ../05-how-to-create-the-item-xml-file/

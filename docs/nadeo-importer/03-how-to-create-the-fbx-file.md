@@ -12,5 +12,5 @@ The name of the objects contained in the .fbx file are ignored, except if they s
   - If the object name starts with `_notcollidable_` (for example `_notcollidable_C`), its mesh will be visible but not collidable, the player will be able to go through it.
   - If the object name starts with `_skip_`, its mesh will be completely ignored during the import process (might be useful to have landmarks in your 3d software that will not have any effect on the resulting .Item.Gbx).
 
-[How to create the MeshParams xml file]: <https://doc.trackmania.com/nadeo-importer/04-how-to-create-the-meshparams-xml-file>
-[How to make a waypoint item]: <https://doc.trackmania.com/nadeo-importer/07-how-to-make-a-waypoint-item>
+[How to create the MeshParams xml file]: ../04-how-to-create-the-meshparams-xml-file/
+[How to make a waypoint item]: ../07-how-to-make-a-waypoint-item/

@@ -68,4 +68,4 @@ In these modes, all the placement parameters of the current item are ignored and
 The difference between "Free ground item mode" and "Free item mode" is that "Free item mode" also has a tiny `Fly Step` (instead of 0) and `Ghost Mode`.
 
 
-[How to create the Item xml file]: <https://doc.trackmania.com/nadeo-importer/05-how-to-create-the-item-xml-file>
+[How to create the Item xml file]: ../05-how-to-create-the-item-xml-file/

@@ -10,6 +10,6 @@ It allows you to turn .fbx files (made with your favorite 3d software, such as B
 
 See section [Download and install] to get started.
 
-[Download and install]: <https://doc.trackmania.com/nadeo-importer/01-download-and-install>
-[About Mesh Shape and Mat gbx files]: <https://doc.trackmania.com/nadeo-importer/09-about-mesh-shape-and-mat-gbx-files>
+[Download and install]: 01-download-and-install/
+[About Mesh Shape and Mat gbx files]: 09-about-mesh-shape-and-mat-gbx-files/
 

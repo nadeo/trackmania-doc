@@ -67,5 +67,5 @@ You should get something like this:
 </Item>
 ```
 
-[How to make a waypoint item]: <https://doc.trackmania.com/nadeo-importer/07-how-to-make-a-waypoint-item>
-[Pivots and placement parameters]: <https://doc.trackmania.com/nadeo-importer/08-pivots-and-placement-parameters>
+[How to make a waypoint item]: ../07-how-to-make-a-waypoint-item/
+[Pivots and placement parameters]: ../08-pivots-and-placement-parameters/

@@ -40,4 +40,4 @@ You should get something like this:
 </MeshParams>
 ```
 
-[Download and install]: <https://doc.trackmania.com/nadeo-importer/01-download-and-install>
+[Download and install]: ../01-download-and-install/

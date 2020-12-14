@@ -20,4 +20,4 @@ This will create the folder `{Trackmania_user_dir}\Work\Items\Samples` and fill 
 **Sample zip**: <http://files.v04.maniaplanet.com/tools/NadeoImporter_Samples.zip>
 
 
-[How to import an item]: <https://doc.trackmania.com/nadeo-importer/02-how-to-import-an-item>
+[How to import an item]: ../02-how-to-import-an-item/
