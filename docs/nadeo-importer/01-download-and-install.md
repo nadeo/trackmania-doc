@@ -17,9 +17,9 @@ This will create the folder `{Trackmania_user_dir}\Work\Items\Samples` and fill 
 
 ## Current release
 
-**Importer zip**: <https://nadeo-prod-download.s3-eu-west-1.amazonaws.com/trackmania/NadeoImporter.zip>
+**Importer zip**: <https://nadeo-download.cdn.ubi.com/trackmania/NadeoImporter_2020_12_15.zip>
 
-**Sample zip**: <https://nadeo-prod-download.s3-eu-west-1.amazonaws.com/trackmania/NadeoImporter_Samples.zip>
+**Sample zip**: <https://nadeo-download.cdn.ubi.com/trackmania/NadeoImporterSamples_2020_12_15.zip>
 
 
 [How to import an item]: ../02-how-to-import-an-item/
