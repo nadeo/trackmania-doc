@@ -54,7 +54,7 @@ Three of them are far more useful than all the others: `Fly Step`, `Grid Horizon
 
 - `Not On Object`: If activated, the item cannot be placed on another item, it can only be placed on blocks (or in the air, if `Fly Step` is greater than 0). It is recommended to leave it deactivated.
 
-- `Auto Rotation`: If activated, the Map Editor will try to automatically rotate the item you are about to place according to the direction of the surface you are aiming at with the mouse pointer. It can be useful for items which are supposed to stay perpendicular to the ground for example.
+- `Auto Rotation`: If activated, the Map Editor will try to automatically rotate the item you are about to place according to the direction of the surface you are aiming at with the mouse pointer. It can be useful for items which are supposed to stay perpendicular to the ground for example. **Note:** this will not work if there is any grid snapping, so both `Grid Horizontal Size` and `Grid Vertical Size` must be set to 0.
 
 - `Pivot Snap Distance`: When you are about to place a new item on another item (in other words the mouse pointer is aiming at an item already placed on the map), the editor might try to snap the new item so that its current pivot would be placed exactly at the same spot as one of the pivots of the other item, as if the pivots of the already placed item were magnets that attract the pivot of the new item. If you do not want this feature for your item, set the value to 0. Otherwise, choose a positive value which will be the distance of this attraction (in meters), or use the special value -1 to let the editor choose an automatic distance.
 
