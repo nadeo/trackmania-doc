@@ -2,8 +2,40 @@
 
 You can export .fbx files from external 3d editors such as Blender or 3ds Max.
 
+
+## Materials
+
 The file must contain meshes with materials.
+
 You can name your materials however you want, but you must remember those names because you will have to bind them to actual Trackmania material names in the .MeshParams.xml file (see section [How to create the MeshParams xml file]).
+
+
+## UVs
+
+Uvs : for most of the static mesh materials, you will need 2 UV layers:
+
+- a layer named `BaseMaterial` : base layer of the material, typically mapping your Diffuse texture.
+
+- a layer named `Lightmap` : mandatory, needed for lightmap computation in Map Editor.
+
+> For the `Lightmap` layer, the UV must not overlap, otherwise it will cause invalid lightmaps !
+
+> Some materials will need only one of those two layers, as you can see in the file `{Trackmania_exe_dir}\NadeoImporterMaterialLib.txt`
+
+In Blender, it's easy to name your layers.
+
+In 3dsMax (which is classicaly index-based for layers), you have two options:
+
+- use the `Channel Info` utility to name your layers (comes with 3dsmax, available in panel `Utility > More > Channel info`)
+
+- or add the following information to the `User Defined Properties` (this is what `Channel Info` would do anyway):
+```
+MapChannel:1 = BaseMaterial
+MapChannel:2 = LightMap
+```
+
+
+## Special object prefixes
 
 The name of the objects contained in the .fbx file are ignored, except if they start with one of the following special prefixes:
 
