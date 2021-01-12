@@ -7,8 +7,8 @@ Open this file in your favorite text editor (for example: Notepad++), and copy-p
 ```xml
 <MeshParams MeshType="Static" Collection="Stadium" Scale="1" FbxFile="ItemName.fbx">
 	<Materials>
-		<Material Name="A" Link="Name1FromTheMaterialLib" />
-		<Material Name="B" Link="Name2FromTheMaterialLib" />
+		<Material Name="A" Link="Name1FromTheMaterialLib" Color="F00" PhysicsId="Name1FromThePhysicsIdLib" GameplayId="Name1FromTheGameplayIdLib" />
+		<Material Name="B" Link="Name2FromTheMaterialLib" Color="F00" PhysicsId="Name2FromThePhysicsIdLib" GameplayId="Name2FromTheGameplayIdLib" />
 	</Materials>
 </MeshParams>
 ```
@@ -29,6 +29,8 @@ Then adapt it to your situation, according to the following explanations:
 						- `Name`: the name of the material in the fbx file, that you have chosen when making your model in the 3d software you have used (Blender, 3ds Max...)
 						- `Link`: the name of a material of Trackmania material library. **The list of library materials can be found in `{Trackmania_exe_dir}\NadeoImporterMaterialLib.txt`**, which was placed next to `NadeoImporter.exe` when you unzipped the importer files (see section [Download and install])
 						- `Color`: facultative. If the linked material is a colorizable one, you can specify the color you want with a 3-digit or 6-digit hexadecimal color code (RGB or RRGGBB). For instance: F00 or FF0000 for red, 0F0 or 00FF00 for green, 00F or 0000FF for blue, FF0 or FFFF00 for yellow, etc.
+						- `PhysicsId`: facultative (and not recommended). Overrides the way the cars will interact physically with the surface. You should not overuse this feature because it is usually a bad idea (for gameplay and fun) to have a surface looking like grass but behaving like dirt. You can find the list of possible values in the `PhysicsId library` below.
+						- `GameplayId`: facultative. Setting a value different than `None` will add a special gameplay effect to the surface, like activating free wheeling or slow motion modes. Some of those gameplay effects such as `Turbo` or `ReactorBoost` are "oriented": the direction of this effect is automatically the local z-axis of the item. You can find the list of possible values in the `GameplayId library` below.
 
 You should get something like this:
 
@@ -41,5 +43,58 @@ You should get something like this:
 	</Materials>
 </MeshParams>
 ```
+
+
+# PhysicsId library
+
+Here is the list of all `PhysicsId` in the game.
+
+Each one has a different effect on car grip and speed (it also affects sound and skid marks).
+
+Each material has a default `PhysicsId` that you can see in `{Trackmania_exe_dir}\NadeoImporterMaterialLib.txt`, next to `NadeoImporter.exe` (see section [Download and install]).
+
+You can override this default behavior with the `PhysicsId` attribute of the `Material` tag, but it is not recommended (see the description of this attribute above).
+
+- `Concrete`: "base" material, but not used for base roads in TM !
+- `Pavement`: used in the colorable CustomBricks material
+- `Grass`: used in the default grass of the stadium (not to be mistaken with Green surfaces) and as a speed penalty surface
+- `Ice`: used in the colorable CustomIce material
+- `Metal`: used in Nadeo blocks with black surface
+- `Sand`: used as a speed penalty surface in dirt platform blocks
+- `Dirt`: used in dirt blocks
+- `Rubber`: used on the sides of the roads, gives speed penalty when hit
+- `Rock`: used in colorable CustomRock material
+- `Wood`: used in colorable CustomRoughWood material
+- `Asphalt`: the actual base material of TrackMania, used on every normal road and platforms
+- `Snow`: used in colorable CustomSnow material and as a speed penalty surface
+- `ResonantMetal`: also used in blocks with black surface, usually makes a noise on collision
+- `NotCollidable`: used for decals, to... not be collidable
+- `MetalTrans`: mostly used on screens
+- `TechMagnetic`: not used in any game material, makes the car attracted to that surface
+- `TechSuperMagnetic`: not used in any game material, makes the car attracted strongly to that surface
+- `TechMagneticAccel`: not used in any game material, makes the car attracted to that surface and gives it a better acceleration while on it
+- `RoadIce`: used in "bobsleigh" ice blocks
+- `RoadSynthetic`: used in bump roads
+- `Green`: used in synthetic grass platforms (not to be mistaken with Grass surfaces)
+
+
+# GameplayId library
+
+Here are the values you can use for the `GameplayId` attribute of the `Material` tag:
+
+- `None`
+- `Turbo`: "yellow turbo" blocks, normal sudden burst of acceleration (direction of Turbo is North / along Z-axis)
+- `Turbo2`: "red turbo" blocks, strong sudden burst of acceleration (direction of Turbo2 is North / along the Z-axis)
+- `FreeWheeling`: entirely stops the engine until next Reset block or next checkpoint
+- `NoGrip`: comparable to ice, but way less handling and no drift mechanic until next Reset block or next checkpoint
+- `NoSteering`: disables steering until next Reset block or next checkpoint
+- `ForceAcceleration`: disables breaking until next Reset block or next checkpoint
+- `Reset`: disables any previous gameplay effects
+- `SlowMotion`: slows down the behaviour of the car (but not the timer) for some time or until next Reset block
+- `Bumper`: makes the car bump a bit
+- `Bumper2`: makes the car bump a lot
+- `ReactorBoost`: gives the car flames from the sides of the wheels that change the behaviour of the car for some time or until next Reset block (direction of ReactorBoost is along Z-axis: towards positive Z is ReactorBoost Up and towards negative ReactorBoost Down)
+- `Fragile`: makes the car sensitive to hard bumps and crashes, making it harder to handle and accelerate the more damages it takes. Only gets back to normal with a Reset Block
+- `ReactorBoost2`: gives the car stronger flames from the sides of the wheels that change the behaviour of the car for some time or until next Reset block (direction of ReactorBoost2 is along Z-axis: towards positive Z is ReactorBoost2 Up and towards negative ReactorBoost2 Down)
 
 [Download and install]: ../01-download-and-install/
