@@ -17,9 +17,28 @@ This will create the folder `{Trackmania_user_dir}\Work\Items\Samples` and fill 
 
 ## Current release
 
-**Importer zip**: <https://nadeo-download.cdn.ubi.com/trackmania/NadeoImporter_2020_12_15.zip>
+**Importer zip**: <https://nadeo-download.cdn.ubi.com/trackmania/NadeoImporter_2021_01_19.zip>
 
-**Sample zip**: <https://nadeo-download.cdn.ubi.com/trackmania/NadeoImporterSamples_2020_12_15.zip>
+**Sample zip**: <https://nadeo-download.cdn.ubi.com/trackmania/NadeoImporterSamples_2021_01_19.zip>
+
+
+## Changelog
+
+- 15/12/2020: Initial release
+- 19/01/2021: Added support for GameplayId (Turbo, Slow motion, etc.), and also PhysicsId.
+
+
+## All releases
+
+**Importer zip**:
+
+- <https://nadeo-download.cdn.ubi.com/trackmania/NadeoImporter_2020_12_15.zip>
+- <https://nadeo-download.cdn.ubi.com/trackmania/NadeoImporter_2021_01_19.zip>
+
+**Sample zip**:
+
+- <https://nadeo-download.cdn.ubi.com/trackmania/NadeoImporterSamples_2020_12_15.zip>
+- <https://nadeo-download.cdn.ubi.com/trackmania/NadeoImporterSamples_2021_01_19.zip>
 
 
 [How to import an item]: ../02-how-to-import-an-item/
