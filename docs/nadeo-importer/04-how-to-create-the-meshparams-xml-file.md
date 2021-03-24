@@ -45,7 +45,7 @@ You should get something like this:
 ```
 
 
-# PhysicsId library
+## PhysicsId library
 
 Here is the list of all `PhysicsId` in the game.
 
@@ -78,7 +78,7 @@ You can override this default behavior with the `PhysicsId` attribute of the `Ma
 - `Wood`: used in colorable CustomRoughWood material
 
 
-# GameplayId library
+## GameplayId library
 
 Here are the values you can use for the `GameplayId` attribute of the `Material` tag:
 
