@@ -17,17 +17,18 @@ This will create the folder `{Trackmania_user_dir}\Work\Items\Samples` and fill 
 
 ## Current release
 
-**Importer zip**: <https://nadeo-download.cdn.ubi.com/trackmania/NadeoImporter_2021_04_23.zip>
+**Importer zip**: <https://nadeo-download.cdn.ubi.com/trackmania/NadeoImporter_2021_07_07.zip>
 
 **Sample zip**: <https://nadeo-download.cdn.ubi.com/trackmania/NadeoImporterSamples_2021_01_19.zip>
 
 
 ## Changelog
 
-- 15/12/2020: Initial release
-- 19/01/2021: Added support for GameplayId (Turbo, Slow motion, etc.), and also PhysicsId.
-- 24/03/2021: Fixed crashes linked to wrong UV mappings imported via Nadeo Importer, and detects the issue when importing
-- 23/04/2021: Added CustomMetalPaint in the MatLib
+- 2020/12/15: Initial release
+- 2021/01/19: Added support for GameplayId (Turbo, Slow motion, etc.), and also PhysicsId.
+- 2021/03/24: Fixed crashes linked to wrong UV mappings imported via Nadeo Importer, and detects the issue when importing
+- 2021/04/23: Added CustomMetalPaint in the MatLib
+- 2021/07/07: Update MaterialLib, PhysicsIds and GameplayIds with new materials from the June 2021 update
 
 ## All releases
 
@@ -37,6 +38,7 @@ This will create the folder `{Trackmania_user_dir}\Work\Items\Samples` and fill 
 - <https://nadeo-download.cdn.ubi.com/trackmania/NadeoImporter_2021_01_19.zip>
 - <https://nadeo-download.cdn.ubi.com/trackmania/NadeoImporter_2021_03_24.zip>
 - <https://nadeo-download.cdn.ubi.com/trackmania/NadeoImporter_2021_04_23.zip>
+- <https://nadeo-download.cdn.ubi.com/trackmania/NadeoImporter_2021_07_07.zip>
 
 **Sample zip**:
 

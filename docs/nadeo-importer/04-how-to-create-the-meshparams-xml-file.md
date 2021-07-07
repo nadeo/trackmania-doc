@@ -30,7 +30,7 @@ Then adapt it to your situation, according to the following explanations:
 						- `Link`: the name of a material of Trackmania material library. **The list of library materials can be found in `{Trackmania_exe_dir}\NadeoImporterMaterialLib.txt`**, which was placed next to `NadeoImporter.exe` when you unzipped the importer files (see section [Download and install])
 						- `Color`: facultative. If the linked material is a colorizable one, you can specify the color you want with a 3-digit or 6-digit hexadecimal color code (RGB or RRGGBB). For instance: F00 or FF0000 for red, 0F0 or 00FF00 for green, 00F or 0000FF for blue, FF0 or FFFF00 for yellow, etc.
 						- `PhysicsId`: facultative (and not recommended). Overrides the way the cars will interact physically with the surface. You should not overuse this feature because it is usually a bad idea (for gameplay and fun) to have a surface looking like grass but behaving like dirt. You can find the list of possible values in the `PhysicsId library` below.
-						- `GameplayId`: facultative. Setting a value different than `None` will add a special gameplay effect to the surface, like activating free wheeling or slow motion modes. Some of those gameplay effects such as `Turbo` or `ReactorBoost` are "oriented": the direction of this effect is automatically the local z-axis of the item. You can find the list of possible values in the `GameplayId library` below.
+						- `GameplayId`: facultative. Setting a value different than `None` will add a special gameplay effect to the surface, like activating free wheeling or slow motion modes. Some of those gameplay effects such as `Turbo` or `ReactorBoost` are "oriented": the direction of this effect is automatically the local z-axis of the item. You can find the list of possible values in the `GameplayId library` below. **This option is available only for specific values of the `Link` attribute**: see `Materials compatible with GameplayId` below.
 
 You should get something like this:
 
@@ -65,6 +65,7 @@ You can override this default behavior with the `PhysicsId` attribute of the `Ma
 - `MetalTrans`: mostly used on screens
 - `NotCollidable`: used for decals, to... not be collidable. But instead of using this PhysicsId, you should rather use the `_notcollidable_` prefix in your fbx objects, as described in section [How to create the fbx file].
 - `Pavement`: used in the colorable CustomBricks material
+- `Plastic`: used in inflatable items introduced in June 2021 update
 - `ResonantMetal`: also used in black platform blocks, usually makes a noise on collision
 - `RoadIce`: used in "bobsleigh" ice blocks
 - `RoadSynthetic`: used in bump roads
@@ -84,9 +85,11 @@ Here are the values you can use for the `GameplayId` attribute of the `Material`
 
 - `Bumper`: makes the car bump a bit
 - `Bumper2`: makes the car bump a lot
+- `Cruise`: makes the car maintain its speed
 - `ForceAcceleration`: disables breaking until next Reset block or next checkpoint
 - `Fragile`: makes the car sensitive to hard bumps and crashes, making it harder to handle and accelerate the more damages it takes. Only gets back to normal with a Reset Block
 - `FreeWheeling`: entirely stops the engine until next Reset block or next checkpoint
+- `NoBrakes`: disables the car brakes
 - `NoGrip`: comparable to ice, but way less handling and no drift mechanic until next Reset block or next checkpoint
 - `None`: no gameplay effect (this is the default value for all game materials)
 - `NoSteering`: disables steering until next Reset block or next checkpoint
@@ -96,6 +99,20 @@ Here are the values you can use for the `GameplayId` attribute of the `Material`
 - `SlowMotion`: slows down the behaviour of the car (but not the timer) for some time or until next Reset block
 - `Turbo`: "yellow turbo" blocks, sudden burst of acceleration (direction of Turbo is North / along Z-axis)
 - `Turbo2`: "red turbo" blocks, stronger burst of acceleration (direction of Turbo2 is North / along the Z-axis)
+
+
+## Materials compatible with GameplayId
+
+Here are the values of attribute `Link` that enable the use of attribute `GameplayId`:
+
+- `PlatformDirt_PlatformTech`
+- `PlatformGrass_PlatformTech`
+- `PlatformIce_PlatformTech`
+- `PlatformTech`
+- `RoadBump`
+- `RoadDirt`
+- `RoadIce`
+- `RoadTech`
 
 [Download and install]: ../01-download-and-install/
 [How to create the fbx file]: ../03-how-to-create-the-fbx-file/
