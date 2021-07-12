@@ -1,0 +1,670 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.2">
+    
+    
+      
+        <title>How to create the MeshParams xml file - Trackmania documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.19190aaf.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.24b84193.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+      
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#how-to-create-the-meshparams-xml-file" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../.." title="Trackmania documentation" class="md-header-nav__button md-logo" aria-label="Trackmania documentation">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            Trackmania documentation
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              How to create the MeshParams xml file
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Trackmania documentation" class="md-nav__button md-logo" aria-label="Trackmania documentation">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Trackmania documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." class="md-nav__link">
+      Trackmania documentation
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    
+    <label class="md-nav__link" for="nav-2">
+      Nadeo importer
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Nadeo importer" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon"></span>
+        Nadeo importer
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../" class="md-nav__link">
+      Nadeo importer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../01-download-and-install/" class="md-nav__link">
+      Download and install
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../02-how-to-import-an-item/" class="md-nav__link">
+      How to import an item
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../03-how-to-create-the-fbx-file/" class="md-nav__link">
+      How to create the fbx file
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        How to create the MeshParams xml file
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" class="md-nav__link md-nav__link--active">
+      How to create the MeshParams xml file
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#physicsid-library" class="md-nav__link">
+    PhysicsId library
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gameplayid-library" class="md-nav__link">
+    GameplayId library
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#materials-compatible-with-gameplayid" class="md-nav__link">
+    Materials compatible with GameplayId
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../05-how-to-create-the-item-xml-file/" class="md-nav__link">
+      How to create the Item xml file
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../06-how-to-add-an-icon-to-my-item/" class="md-nav__link">
+      How to add an icon to my Item
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../07-how-to-make-a-waypoint-item/" class="md-nav__link">
+      How to make a waypoint item
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../08-pivots-and-placement-parameters/" class="md-nav__link">
+      Pivots and placement parameters
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../09-about-mesh-shape-and-mat-gbx-files/" class="md-nav__link">
+      About Mesh, Shape and Mat Gbx files
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Web services
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Web services" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon"></span>
+        Web services
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../web-services/" class="md-nav__link">
+      Web services
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../web-services/auth/" class="md-nav__link">
+      Auth
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#physicsid-library" class="md-nav__link">
+    PhysicsId library
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gameplayid-library" class="md-nav__link">
+    GameplayId library
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#materials-compatible-with-gameplayid" class="md-nav__link">
+    Materials compatible with GameplayId
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="how-to-create-the-meshparams-xml-file">How to create the MeshParams xml file</h1>
+<p>Just create an empty text file (which has the extension ".txt" by default) and change its extension by renaming it <code>{ItemName}.MeshParams.xml</code> (for example: <code>Slope_Base.MeshParams.xml</code>).</p>
+<p>Open this file in your favorite text editor (for example: Notepad++), and copy-paste the following template:</p>
+<pre><code class="language-xml">&lt;MeshParams MeshType=&quot;Static&quot; Collection=&quot;Stadium&quot; Scale=&quot;1&quot; FbxFile=&quot;ItemName.fbx&quot;&gt;
+    &lt;Materials&gt;
+        &lt;Material Name=&quot;A&quot; Link=&quot;Name1FromTheMaterialLib&quot; Color=&quot;F00&quot; PhysicsId=&quot;Name1FromThePhysicsIdLib&quot; GameplayId=&quot;Name1FromTheGameplayIdLib&quot; /&gt;
+        &lt;Material Name=&quot;B&quot; Link=&quot;Name2FromTheMaterialLib&quot; Color=&quot;F00&quot; PhysicsId=&quot;Name2FromThePhysicsIdLib&quot; GameplayId=&quot;Name2FromTheGameplayIdLib&quot; /&gt;
+    &lt;/Materials&gt;
+&lt;/MeshParams&gt;
+</code></pre>
+<p>Then adapt it to your situation, according to the following explanations:</p>
+<ul>
+<li><code>MeshParams</code> tag is mandatory<ul>
+<li>attributes:<ul>
+<li><code>MeshType</code> is mandatory and should not be changed ("Static")</li>
+<li><code>Collection</code> is mandatory and should not be changed ("Stadium")</li>
+<li><code>Scale</code> is facultative. You can set a value greater than 1 to make your item bigger, or less than 1 to make it smaller. But you should not set it to 0 or a negative value.</li>
+<li><code>FbxFile</code> is facultative. <strong>If this attribute is omitted, then the fbx file is supposed to be next to this xml file, with the same name</strong> (but a different extension: .fbx). If the fbx file has a different name or is in a different folder though, you have to put its relative path in this attribute.</li>
+</ul>
+</li>
+<li>sub-tags:<ul>
+<li><code>Materials</code> tag is mandatory, because your mesh is supposed to have materials, that we have to link to the game material library at some point<ul>
+<li>sub-tags:<ul>
+<li><code>Material</code>: You should put one Material tag for each material contained in your fbx file<ul>
+<li>attributes:<ul>
+<li><code>Name</code>: the name of the material in the fbx file, that you have chosen when making your model in the 3d software you have used (Blender, 3ds Max...)</li>
+<li><code>Link</code>: the name of a material of Trackmania material library. <strong>The list of library materials can be found in <code>{Trackmania_exe_dir}\NadeoImporterMaterialLib.txt</code></strong>, which was placed next to <code>NadeoImporter.exe</code> when you unzipped the importer files (see section <a href="../01-download-and-install/">Download and install</a>)</li>
+<li><code>Color</code>: facultative. If the linked material is a colorizable one, you can specify the color you want with a 3-digit or 6-digit hexadecimal color code (RGB or RRGGBB). For instance: F00 or FF0000 for red, 0F0 or 00FF00 for green, 00F or 0000FF for blue, FF0 or FFFF00 for yellow, etc.</li>
+<li><code>PhysicsId</code>: facultative (and not recommended). Overrides the way the cars will interact physically with the surface. You should not overuse this feature because it is usually a bad idea (for gameplay and fun) to have a surface looking like grass but behaving like dirt. You can find the list of possible values in the <code>PhysicsId library</code> below.</li>
+<li><code>GameplayId</code>: facultative. Setting a value different than <code>None</code> will add a special gameplay effect to the surface, like activating free wheeling or slow motion modes. Some of those gameplay effects such as <code>Turbo</code> or <code>ReactorBoost</code> are "oriented": the direction of this effect is automatically the local z-axis of the item. You can find the list of possible values in the <code>GameplayId library</code> below. <strong>This option is available only for specific values of the <code>Link</code> attribute</strong>: see <code>Materials compatible with GameplayId</code> below.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>You should get something like this:</p>
+<pre><code class="language-xml">&lt;MeshParams MeshType=&quot;Static&quot; Collection=&quot;Stadium&quot;&gt;
+    &lt;Materials&gt;
+        &lt;Material Name=&quot;Road1&quot; Link=&quot;RoadDirt&quot; /&gt;
+        &lt;Material Name=&quot;Road2&quot; Link=&quot;RoadBump&quot; /&gt;
+        &lt;Material Name=&quot;Wall&quot; Link=&quot;TrackWall&quot; /&gt;
+    &lt;/Materials&gt;
+&lt;/MeshParams&gt;
+</code></pre>
+<h2 id="physicsid-library">PhysicsId library</h2>
+<p>Here is the list of all <code>PhysicsId</code> in the game.</p>
+<p>Each one has a different effect on car grip and speed (it also affects sound and skid marks).</p>
+<p>Each material has a default <code>PhysicsId</code> that you can see in <code>{Trackmania_exe_dir}\NadeoImporterMaterialLib.txt</code>, next to <code>NadeoImporter.exe</code> (see section <a href="../01-download-and-install/">Download and install</a>).</p>
+<p>You can override this default behavior with the <code>PhysicsId</code> attribute of the <code>Material</code> tag, but it is not recommended (see the description of this attribute above).</p>
+<ul>
+<li><code>Asphalt</code>: the actual base material of TrackMania, used on every normal road and platforms</li>
+<li><code>Concrete</code>: "base" material, but not used for base roads in TM !</li>
+<li><code>Dirt</code>: used in dirt blocks</li>
+<li><code>Grass</code>: used in the default grass of the stadium (not to be mistaken with Green surfaces) and as a speed penalty surface</li>
+<li><code>Green</code>: used in synthetic grass platforms (not to be mistaken with Grass surfaces)</li>
+<li><code>Ice</code>: used in the colorable CustomIce material</li>
+<li><code>Metal</code>: used in black platform blocks</li>
+<li><code>MetalTrans</code>: mostly used on screens</li>
+<li><code>NotCollidable</code>: used for decals, to... not be collidable. But instead of using this PhysicsId, you should rather use the <code>_notcollidable_</code> prefix in your fbx objects, as described in section <a href="../03-how-to-create-the-fbx-file/">How to create the fbx file</a>.</li>
+<li><code>Pavement</code>: used in the colorable CustomBricks material</li>
+<li><code>Plastic</code>: used in inflatable items introduced in June 2021 update</li>
+<li><code>ResonantMetal</code>: also used in black platform blocks, usually makes a noise on collision</li>
+<li><code>RoadIce</code>: used in "bobsleigh" ice blocks</li>
+<li><code>RoadSynthetic</code>: used in bump roads</li>
+<li><code>Rock</code>: used in colorable CustomRock material</li>
+<li><code>Rubber</code>: used on the sides of the roads, gives speed penalty when hit</li>
+<li><code>Sand</code>: used as a speed penalty surface in dirt platform blocks</li>
+<li><code>Snow</code>: used in colorable CustomSnow material and as a speed penalty surface</li>
+<li><code>TechMagnetic</code>: not used in any game material, makes the car attracted to that surface</li>
+<li><code>TechMagneticAccel</code>: not used in any game material, makes the car attracted to that surface and gives it a better acceleration while on it</li>
+<li><code>TechSuperMagnetic</code>: not used in any game material, makes the car attracted strongly to that surface</li>
+<li><code>Wood</code>: used in colorable CustomRoughWood material</li>
+</ul>
+<h2 id="gameplayid-library">GameplayId library</h2>
+<p>Here are the values you can use for the <code>GameplayId</code> attribute of the <code>Material</code> tag:</p>
+<ul>
+<li><code>Bumper</code>: makes the car bump a bit</li>
+<li><code>Bumper2</code>: makes the car bump a lot</li>
+<li><code>Cruise</code>: makes the car maintain its speed</li>
+<li><code>ForceAcceleration</code>: disables breaking until next Reset block or next checkpoint</li>
+<li><code>Fragile</code>: makes the car sensitive to hard bumps and crashes, making it harder to handle and accelerate the more damages it takes. Only gets back to normal with a Reset Block</li>
+<li><code>FreeWheeling</code>: entirely stops the engine until next Reset block or next checkpoint</li>
+<li><code>NoBrakes</code>: disables the car brakes</li>
+<li><code>NoGrip</code>: comparable to ice, but way less handling and no drift mechanic until next Reset block or next checkpoint</li>
+<li><code>None</code>: no gameplay effect (this is the default value for all game materials)</li>
+<li><code>NoSteering</code>: disables steering until next Reset block or next checkpoint</li>
+<li><code>ReactorBoost</code>: activates flames at the sides of the wheels that push the car upwards or downwards for some time or until next Reset block (direction of ReactorBoost is along Z-axis: towards positive Z is ReactorBoost Up and towards negative is ReactorBoost Down)</li>
+<li><code>ReactorBoost2</code>: same effect as <code>ReactorBoost</code>, but stronger</li>
+<li><code>Reset</code>: disables any ongoing gameplay effects</li>
+<li><code>SlowMotion</code>: slows down the behaviour of the car (but not the timer) for some time or until next Reset block</li>
+<li><code>Turbo</code>: "yellow turbo" blocks, sudden burst of acceleration (direction of Turbo is North / along Z-axis)</li>
+<li><code>Turbo2</code>: "red turbo" blocks, stronger burst of acceleration (direction of Turbo2 is North / along the Z-axis)</li>
+</ul>
+<h2 id="materials-compatible-with-gameplayid">Materials compatible with GameplayId</h2>
+<p>Here are the values of attribute <code>Link</code> that enable the use of attribute <code>GameplayId</code>:</p>
+<ul>
+<li><code>PlatformDirt_PlatformTech</code></li>
+<li><code>PlatformGrass_PlatformTech</code></li>
+<li><code>PlatformIce_PlatformTech</code></li>
+<li><code>PlatformTech</code></li>
+<li><code>RoadBump</code></li>
+<li><code>RoadDirt</code></li>
+<li><code>RoadIce</code></li>
+<li><code>RoadTech</code></li>
+</ul>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../03-how-to-create-the-fbx-file/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                How to create the fbx file
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../05-how-to-create-the-item-xml-file/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                How to create the Item xml file
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.7e0ee788.min.js"></script>
+      <script src="../../assets/javascripts/bundle.c1ccee15.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: [],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.4ac00218.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,657 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.2">
+    
+    
+      
+        <title>Pivots and placement parameters - Trackmania documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.19190aaf.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.24b84193.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+      
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#pivots-and-placement-parameters" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../.." title="Trackmania documentation" class="md-header-nav__button md-logo" aria-label="Trackmania documentation">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            Trackmania documentation
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Pivots and placement parameters
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Trackmania documentation" class="md-nav__button md-logo" aria-label="Trackmania documentation">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Trackmania documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." class="md-nav__link">
+      Trackmania documentation
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    
+    <label class="md-nav__link" for="nav-2">
+      Nadeo importer
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Nadeo importer" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon"></span>
+        Nadeo importer
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../" class="md-nav__link">
+      Nadeo importer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../01-download-and-install/" class="md-nav__link">
+      Download and install
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../02-how-to-import-an-item/" class="md-nav__link">
+      How to import an item
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../03-how-to-create-the-fbx-file/" class="md-nav__link">
+      How to create the fbx file
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../04-how-to-create-the-meshparams-xml-file/" class="md-nav__link">
+      How to create the MeshParams xml file
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../05-how-to-create-the-item-xml-file/" class="md-nav__link">
+      How to create the Item xml file
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../06-how-to-add-an-icon-to-my-item/" class="md-nav__link">
+      How to add an icon to my Item
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../07-how-to-make-a-waypoint-item/" class="md-nav__link">
+      How to make a waypoint item
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Pivots and placement parameters
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" class="md-nav__link md-nav__link--active">
+      Pivots and placement parameters
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pivots" class="md-nav__link">
+    Pivots
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#placement-parameters" class="md-nav__link">
+    Placement parameters
+  </a>
+  
+    <nav class="md-nav" aria-label="Placement parameters">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#main-placement-parameters" class="md-nav__link">
+    Main placement parameters
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-placement-parameters" class="md-nav__link">
+    Advanced placement parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#about-free-ground-item-and-free-item-modes" class="md-nav__link">
+    About Free ground item and Free item modes
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../09-about-mesh-shape-and-mat-gbx-files/" class="md-nav__link">
+      About Mesh, Shape and Mat Gbx files
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Web services
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Web services" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon"></span>
+        Web services
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../web-services/" class="md-nav__link">
+      Web services
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../web-services/auth/" class="md-nav__link">
+      Auth
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pivots" class="md-nav__link">
+    Pivots
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#placement-parameters" class="md-nav__link">
+    Placement parameters
+  </a>
+  
+    <nav class="md-nav" aria-label="Placement parameters">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#main-placement-parameters" class="md-nav__link">
+    Main placement parameters
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-placement-parameters" class="md-nav__link">
+    Advanced placement parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#about-free-ground-item-and-free-item-modes" class="md-nav__link">
+    About Free ground item and Free item modes
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="pivots-and-placement-parameters">Pivots and placement parameters</h1>
+<p>Items made with NadeoImporter can be placed in maps with the Advanced Map Editor, in Item mode.</p>
+<p>This article explains the influence of pivots and placement parameters on how the item is placed in the map.</p>
+<p>You can set pivots and placement parameters in the .Item.xml file: see section <a href="../05-how-to-create-the-item-xml-file/">How to create the Item xml file</a> for more information.</p>
+<h2 id="pivots">Pivots</h2>
+<p>When you place an item in the map, the mouse cursor is aiming at a particular point in the map. But how should the item be placed compared to this point? If your item is a cube, should the editor place the item so that the cursor point is at the center of the cube ? Or the center of the bottom face? Or one corner of the cube?</p>
+<p>Pivots are here to answer that question: a pivot is a point of the item that will coincide with the point of the map that is aimed by the cursor.</p>
+<p>An item can have multiple pivots. In that case, the Map Editor might choose automatically one pivot according to the context, or you might be able to press the <code>Q</code> key (<code>A</code> with azerty keyboards) to cycle through the pivots of the current item: see the placement parameter <code>Switch pivot manually</code> for more information.</p>
+<p>If an item has no pivot, the Map Editor will consider that it has one pivot at the coordinate (0,0,0).</p>
+<p>Pivots can also be used as magnets to help align items when you place them on each other: see <code>Pivot Snap Distance</code> for more information.</p>
+<h2 id="placement-parameters">Placement parameters</h2>
+<p>These are advanced parameters to help mappers place the item in the map.</p>
+<p>They are numerous and sometimes a bit difficult to understand. Just leave the default values, unless you have a specific need for your item.</p>
+<p>Three of them are far more useful than all the others: <code>Fly Step</code>, <code>Grid Horizontal Size</code> and <code>Ghost mode</code>. You can read the explanations of these three and ignore all the others!</p>
+<h3 id="main-placement-parameters">Main placement parameters</h3>
+<ul>
+<li>
+<p><code>Fly Step</code>: If 0, the item will always be placed "on something": on the ground, on a wall, on another item, etc. whatever is aimed by the cursor. If greater than 0, the item can fly above the ground: each time you scroll with the mouse wheel (or press the <code>PgUp</code>/<code>PgDown</code> keys), the item will be offseted vertically by this step (in meters).</p>
+</li>
+<li>
+<p><code>Grid Horizontal Size</code>: If greater than 0, the item will be snapped to the intersections of an invisible horizontal grid, and the distance between the parallel lines of this grid will be this <code>Grid Horizontal Size</code> (in meters). If 0, there will be no horizontal snapping, you can place the item exactly where you want (but it will be difficult to align several items or align items with blocks).</p>
+</li>
+<li>
+<p><code>Ghost mode</code>: If activated, the item will never be placed "on anything", it will completely ignore surrounding blocks and items, going through them if necessary.</p>
+</li>
+</ul>
+<h3 id="advanced-placement-parameters">Advanced placement parameters</h3>
+<ul>
+<li>
+<p><code>Switch pivot manually</code>: If activated, the only way to change the pivot to use will be the <code>Q</code> key (<code>A</code> with azerty keyboard). If deactivated, the Map Editor will automatically change the pivot according to the direction of the surface you are aiming with the cursor (for example it may select the lowest pivot if you are aiming at the floor, and the highest pivot if you are aiming at a ceiling). If the editor selects several pivot candidates, you can cycle through them with the <code>Q</code> key (<code>A</code> with azerty keyboard).</p>
+</li>
+<li>
+<p><code>Fly Offset</code>: Offsets vertically the invisible horizontal planes on which the cursor moves when it is in the air. For example, if the <code>Fly Step</code> parameter is 4 meters and the the <code>Fly Offset</code> is 0 meter, when you scroll with the mouse wheel, the cursor will move to the coordinates y = 0, 4, 8, 12, 16... m. But if you set the Fly Offset to 1 meter, then the cursor will be placed at y = 1, 5, 9, 13, 17... m. This parameter has no effect if <code>Fly Step</code> is 0.</p>
+</li>
+<li>
+<p><code>Grid Horizontal Offset</code>: It is recommended to leave this parameter to 0, unless you really know what you are doing. It offsets the horizontal grid by this amount of meters, in both horizontal axis (x and z). The only value that might be useful sometimes would be half of <code>Grid Horizontal Size</code>, but even in that case it is probably a better idea to divide <code>Grid Horizontal Size</code> by 2 instead.</p>
+</li>
+<li>
+<p><code>Grid Vertical Size</code>: If greater than 0, the item will be snapped on the vertical axis, and the value is the step of this snapping in meters. In other words, it sets the snapping along the y axis, just as the <code>Grid Horizontal Size</code> sets the snapping along the x and z axis. The difference with <code>Fly Step</code> is subtle: unlike <code>Fly Step</code>, <code>Grid Vertical Size</code> does not enable the item to fly. For instance, it can be used for an item which is meant to be placed on walls, to limit the available heights and then make it easy to align them. But if your item's <code>Fly Step</code> and <code>Grid Vertical Size</code> are both greater than 0, it is recommended to set the same value on both parameters.</p>
+</li>
+<li>
+<p><code>Grid Vertical Offset</code>: No effect if <code>Grid Vertical Size</code> equals 0. Otherwise, it offsets the available heights by this value in meters. For example, if <code>Grid Vertical Size</code> is 8 and <code>Grid Vertical Offset</code> is 2, the available heights are y = 2, 10, 18, 26, 34... m. If the item's <code>Fly Offset</code> is different from zero, it is recommended to put the same value in <code>Grid Vertical Offset</code>.</p>
+</li>
+<li>
+<p><code>Yaw Only</code>: If activated, the item can be rotated around the vertical axis only (y), by 90° with the right mouse button, or by 15° with the <code>Numpad+</code> or <code>Numpad-</code> keys. If deactivated, it can also be rotated in other directions using the arrow keys.</p>
+</li>
+<li>
+<p><code>Not On Object</code>: If activated, the item cannot be placed on another item, it can only be placed on blocks (or in the air, if <code>Fly Step</code> is greater than 0). It is recommended to leave it deactivated.</p>
+</li>
+<li>
+<p><code>Auto Rotation</code>: If activated, the Map Editor will try to automatically rotate the item you are about to place according to the direction of the surface you are aiming at with the mouse pointer. It can be useful for items which are supposed to stay perpendicular to the ground for example. <strong>Note:</strong> this will not work if there is any grid snapping, so both <code>Grid Horizontal Size</code> and <code>Grid Vertical Size</code> must be set to 0.</p>
+</li>
+<li>
+<p><code>Pivot Snap Distance</code>: When you are about to place a new item on another item (in other words the mouse pointer is aiming at an item already placed on the map), the editor might try to snap the new item so that its current pivot would be placed exactly at the same spot as one of the pivots of the other item, as if the pivots of the already placed item were magnets that attract the pivot of the new item. If you do not want this feature for your item, set the value to 0. Otherwise, choose a positive value which will be the distance of this attraction (in meters), or use the special value -1 to let the editor choose an automatic distance.</p>
+</li>
+</ul>
+<h2 id="about-free-ground-item-and-free-item-modes">About Free ground item and Free item modes</h2>
+<p>When you are already in Item mode in the Map Editor, you can activate the "Free ground item mode" or "Free item mode" by clicking several times on the tree-shaped Item mode icon (the shape of the item mode icon changes).</p>
+<p>In these modes, all the placement parameters of the current item are ignored and replaced by some default parameters with tiny <code>Grid Horizontal Size</code>.</p>
+<p>The difference between "Free ground item mode" and "Free item mode" is that "Free item mode" also has a tiny <code>Fly Step</code> (instead of 0) and <code>Ghost Mode</code>.</p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../07-how-to-make-a-waypoint-item/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                How to make a waypoint item
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../09-about-mesh-shape-and-mat-gbx-files/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                About Mesh, Shape and Mat Gbx files
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.7e0ee788.min.js"></script>
+      <script src="../../assets/javascripts/bundle.c1ccee15.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: [],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.4ac00218.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
