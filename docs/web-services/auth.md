@@ -56,4 +56,6 @@ As it's no longer a good practice, implicit grant won't be available.
 
 ## Scopes
 
-For now, only an empty scope is supported.
+There are several available scopes for some specific user-related endpoints. If you're using the [client credentials flow](#client-credentials), these scopes will have no effect since the token won't be associated with a user.
+
+To see the required scopes for each endpoint, please refer to the [route documentation](https://api.trackmania.com/doc).
