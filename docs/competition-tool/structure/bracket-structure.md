@@ -1,11 +1,5 @@
-# Spot structure
-
-To create a new competition in the admin website you can import an existing spot structure <br>
-or create a new one. <br>
-
-## Examples
-
-#### Bracket simple - 2 round - 3 matches - 4 players/match - with qualifier
+# Bracket simple
+### 2 round - 3 matches - 4 players/match - with qualifier
 
 ```json
 {
