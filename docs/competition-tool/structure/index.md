@@ -1,7 +1,7 @@
 # Structure
 
-To create a new competition in the admin website you can import an existing structure <br>
-or create a new one. <br>
+To create a new competition in the admin website you can import an existing structure
+or create a new one.
 
 A structure (spot structure) defines composition of your competition. Without a
 structure it is not possible to generate matches of a round.
