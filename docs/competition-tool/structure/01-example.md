@@ -1,4 +1,22 @@
-##Example
+# Example
+
++ Round 1 - participants are added from the qualifier which is attached to this round
+  + Match 1
+    + Participant of qualifier at rank 1
+    + Participant of qualifier at rank 6
+  + Match 2
+    + Participant of qualifier at rank 2
+    + Participant of qualifier at rank 5
+  + Match 2
+    + Participant of qualifier at rank 3
+    + Participant of qualifier at rank 4
+
+
++ Round 2 - participants are added from the previous round (round 1)
+  + Match 1
+    + Participant of the round 1 and match 1 at rank 1
+    + Participant of the round 1 and match 2 at rank 1
+    + Participant of the round 1 and match 3 at rank 1
 
 ```json
 {
@@ -87,21 +105,3 @@
   ]
 }
 ```
-
-+ Round 1 - participants are added from the qualifier which is attached to this round
-  + Match 1
-    + Participant of qualifier at rank 1 
-    + Participant of qualifier at rank 6 
-  + Match 2
-    + Participant of qualifier at rank 2
-    + Participant of qualifier at rank 5
-  + Match 2
-    + Participant of qualifier at rank 3
-    + Participant of qualifier at rank 4
-
-
-+ Round 2 - participants are added from the previous round (round 1)
-  + Match 1
-    + Participant of the round 1 and match 1 at rank 1
-    + Participant of the round 1 and match 2 at rank 1
-    + Participant of the round 1 and match 3 at rank 1
