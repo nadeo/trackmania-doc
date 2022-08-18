@@ -1,19 +1,11 @@
 #Competition plugin settings
 
-## Admin commands
-A set of chat commands available to the admins of the server/match.
-
-| Setting name   | Default value  | Description        |
-|:---------------|:---------------|:-------------------|
-| S_UseAdmin     | True           | Enable the plugin  |
-
 ## Ads
 Display a carousel of images
 
-| Setting name   | Default value  | Description                        |
-|:---------------|:---------------|:-----------------------------------|
-| S_UseAdsPlugin | False          | Enable the plugin                  |
- | S_AdImageUrls  | ""             | Urls separated by a pipe character |
+| Setting name   | Default value  | Description                                                            |
+|:---------------|:---------------|:-----------------------------------------------------------------------|
+ | S_AdImageUrls  | ""             | Urls separated by a pipe character. <br/> Add a value to enable plugin |
 
 ## Challenge
 Automatically available for all challenges.
@@ -49,13 +41,12 @@ Automatically enabled for all matches
 ## Message timer
 Send a message in the chat every 75 seconds
 
-| Setting name            | Default value  | Description         |
-|:------------------------|:---------------|:--------------------|
-| S_UseMessageTimerPlugin | False          | Enable the plugin   |
-| S_MessageTimer          | ""             | The message to send |
+| Setting name            | Default value  | Description                                            |
+|:------------------------|:---------------|:-------------------------------------------------------|
+| S_MessageTimer          | ""             | The message to send. <br/> Add value to enable plugin. |
 
 ## Minimum rank
-Display a pop up to inform the players about the minimum rank to reach
+Display a popup to inform the players about the minimum rank to reach
 
 | Setting name                 |  Default value  | Description                        |
 |:-----------------------------|:---------------:|:-----------------------------------|
@@ -74,10 +65,11 @@ The limit is based on the player’s first connection to the server.
 
 ## Trackmania UI
 
-| Setting name                | Default value   | Description               |
-|:----------------------------|:----------------|:--------------------------|
-| S_UseTrackmaniaUIProperties | False           | Enable the plugin         |
-| S_TrackmaniaUIProperties    | ""              | The UI properties to hide |
+| Setting name                | Default value   | Description                                                  |
+|:----------------------------|:----------------|:-------------------------------------------------------------|
+| S_TrackmaniaUIProperties    | ""              | The UI properties to hide. <br/> Add value to enable plugin. |
 
 Example of a valid S_TrackmaniaUIProperties value : <br>
-"<ui_properties><round_scores visible='false'/></ui_properties>"
+```
+<ui_properties><round_scores visible='false'/></ui_properties>
+```
