@@ -1,5 +1,5 @@
-# Bracket simple
-### 2 round - 3 matches - 4 players/match - with qualifier
+# Bracket
+###Bracket 2 round - 3 matches - 4 players/match - with qualifier
 
 ```json
 {
@@ -103,7 +103,7 @@
 }
 ```
 
-#### Bracket simple - 2 round - 3 matches - 4 players/match - without qualifier
+#### Bracket - 2 round - 3 matches - 4 players/match - without qualifier
 ```json
 {
   "version": 1,
