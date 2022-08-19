@@ -1,6 +1,6 @@
 # World
 
-List of availability zones.
+List of available zones.
 
 ## World
 ```
