@@ -36,13 +36,13 @@ This will create the folder `{Trackmania_user_dir}\Work\Items\Samples` and fill 
 
 **Importer zip**:
 
-- <https://nadeo-download.cdn.ubi.com/trackmania/NadeoImporter_2021_10_15.zip>
 - <https://nadeo-download.cdn.ubi.com/trackmania/NadeoImporter_2020_12_15.zip>
 - <https://nadeo-download.cdn.ubi.com/trackmania/NadeoImporter_2021_01_19.zip>
 - <https://nadeo-download.cdn.ubi.com/trackmania/NadeoImporter_2021_03_24.zip>
 - <https://nadeo-download.cdn.ubi.com/trackmania/NadeoImporter_2021_04_23.zip>
 - <https://nadeo-download.cdn.ubi.com/trackmania/NadeoImporter_2021_07_07.zip>
 - <https://nadeo-download.cdn.ubi.com/trackmania/NadeoImporter_2021_10_15.zip>
+- <https://nadeo-download.cdn.ubi.com/trackmania/NadeoImporter_2022_07_12.zip>
 
 **Sample zip**:
 
