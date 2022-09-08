@@ -17,7 +17,7 @@ This will create the folder `{Trackmania_user_dir}\Work\Items\Samples` and fill 
 
 ## Current release
 
-**Importer zip**: <https://nadeo-download.cdn.ubi.com/trackmania/NadeoImporter_2021_10_15.zip>
+**Importer zip**: <https://nadeo-download.cdn.ubi.com/trackmania/NadeoImporter_2022_07_12.zip>
 
 **Sample zip**: <https://nadeo-download.cdn.ubi.com/trackmania/NadeoImporterSamples_2021_01_19.zip>
 
@@ -30,11 +30,13 @@ This will create the folder `{Trackmania_user_dir}\Work\Items\Samples` and fill 
 - 2021/04/23: Add CustomMetalPaint in the MatLib
 - 2021/07/07: Update MaterialLib, PhysicsIds and GameplayIds with new materials from the June 2021 update
 - 2021/10/15: Fix MaterialLib (BaseMaterial UVs were used for Lightmap in CustomXyz materials), fix bugs (wrong return code + omitted FbxFile attribute in MeshParams.xml was not handled correctly)
+- 2022/07/12: GlassWaterWall is no longer invisible, added materials ("CustomModAddSelfIllum", "CustomModSelfIllumSimple", Chrono materials, "PlatformDirt_DecoHill2", "PlatformIce_DecoHill2"), fixed blur issues on the "CustomModSelfIllum" material, added second version of each "CustomMod..." material, fixed the behaviour when using both `_notvisible_` or `_notcollidable_` and Lods.
 
 ## All releases
 
 **Importer zip**:
 
+- <https://nadeo-download.cdn.ubi.com/trackmania/NadeoImporter_2021_10_15.zip>
 - <https://nadeo-download.cdn.ubi.com/trackmania/NadeoImporter_2020_12_15.zip>
 - <https://nadeo-download.cdn.ubi.com/trackmania/NadeoImporter_2021_01_19.zip>
 - <https://nadeo-download.cdn.ubi.com/trackmania/NadeoImporter_2021_03_24.zip>
