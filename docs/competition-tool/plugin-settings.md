@@ -5,7 +5,7 @@ Display a carousel of images
 
 | Setting name   | Default value  | Description                                                            |
 |:---------------|:---------------|:-----------------------------------------------------------------------|
- | S_AdImageUrls  | ""             | Urls separated by a pipe character. <br/> Add a value to enable plugin |
+ | S_AdImageUrls  | ""             | Urls separated by a pipe character `\|`. <br/> Add a value to enable plugin |
 
 ## Challenge
 Automatically available for all challenges.
