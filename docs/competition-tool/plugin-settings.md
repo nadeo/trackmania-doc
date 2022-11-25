@@ -27,16 +27,17 @@ Allow only the players registered to a competition to join a server
 ## Match management
 Automatically enabled for all matches
 
-| Setting name                       | Default value  | Description                                                                                                                                                                                         |
-|:-----------------------------------|:---------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| S_AutoStartMode                    | ""             | Possible values :<br/> “” : disabled <br/> **“delay”** : automatically start the match at start_date + delay <br/> **“light”** : the match starts automatically right away after the server starts  |
-| S_AutoStartDelay                   | 600            | Delay in seconds used by the "delay" mode                                                                                                                                                           |
-| S_PickBanStartAuto                 | False          | Automatically start a pick&ban phase 10 minutes before the match start date                                                                                                                         |
-| S_EnableReadyManager               | True           | Do not depends on players readiness to automatically start the match                                                                                                                                |
-| S_UseAutoReady                     | False          | A connected player is automatically considered ready                                                                                                                                                |
-| S_ReadyStartRatio                  | 1.0            | Minimum value the ratio “ready players”/“all players” must reach to start the match                                                                                                                 |
-| S_ReadyMinimumTeamSize             | 1              | The minimum number of members a team needs to be considered ready                                                                                                                                   |
-| S_DisableForceSpectatorOnComplete  | False          | Do not force all players in spectator mode when the match is over                                                                                                                                   |
+| Setting name                        | Default value | Description                                                                                                                                                                                         |
+|:------------------------------------|:--------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| S_AutoStartMode                     | ""            | Possible values :<br/> “” : disabled <br/> **“delay”** : automatically start the match at start_date + delay <br/> **“light”** : the match starts automatically right away after the server starts  |
+| S_AutoStartDelay                    | 600           | Delay in seconds used by the "delay" mode                                                                                                                                                           |
+| S_PickBanStartAuto                  | False         | Automatically start a pick&ban phase 10 minutes before the match start date                                                                                                                         |
+| S_PickBanOrder                      | ""            | Use "p" for pick, "b" for ban. Use player position, team position, or "r"(random) to choose which team or player will pick or ban a map. ex: "p:1,b:0,p:0,b:1,p:r"      
+| S_EnableReadyManager                | True          | Do not depends on players readiness to automatically start the match                                                                                                                                |
+| S_UseAutoReady                      | False         | A connected player is automatically considered ready                                                                                                                                                |
+| S_ReadyStartRatio                   | 1.0           | Minimum value the ratio “ready players”/“all players” must reach to start the match                                                                                                                 |
+| S_ReadyMinimumTeamSize              | 1             | The minimum number of members a team needs to be considered ready                                                                                                                                   |
+| S_DisableForceSpectatorOnComplete   | False         | Do not force all players in spectator mode when the match is over                                                                                                                                   |
 
 ## Message timer
 Send a message in the chat every 75 seconds
