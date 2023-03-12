@@ -96,4 +96,42 @@ Participant is added from X rank in the current competition leaderboard<br>
 ```
 _Participant is added from the current leaderboard at rank 5._
 
+### Teams
+For competition with teams, add the participating teams for each match.
+There are 3 options available.
+
+#### Team with a seed
+Set the seed for each team from the admin panel after the creation.<br>
+`seed` starts at 1.
+```json
+{
+  "spotType": "competition_team",
+  "seed": 4
+}
+```
+_Participant is added from the team with seed 4._
+
+#### Team name
+```json
+{
+  "competitionId": null,
+  "teamId": "Team Name",
+  "spotType": "competition_team_id"
+}
+```
+_Team "Team Name" is added to the participants list._
+
+#### Team from a previous round match
+First round and first match in a round are at position 0<br>
+`rank` starts at 1.
+```json
+{
+  "roundPosition": 0,
+  "matchPosition": 1,
+  "rank": 2,
+  "spotType": "team_match_participant"
+}
+```
+_Participant is added from the team in match 2 of round 1 at rank 2._
+
 ####See a complete example [here](01-example.md)
