@@ -1,3 +1,99 @@
 site_name: Trackmania documentation
+
+repo_url: https://github.com/nadeo/trackmania-doc
+
 theme:
     name: material
+    features:
+        - navigation.tabs
+        - navigation.footer
+    palette:
+      primary: green
+    logo: assets/tm-logo.png
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/trackmania
+    - icon: fontawesome/brands/facebook
+      link: https://facebook.com/Trackmania
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/ubisoft_trackmania
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCs98eSEpjDWhFZ-nj0RVKQg
+    - icon: fontawesome/brands/twitch
+      link: https://twitch.tv/trackmania
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/trackmania
+
+copyright: Copyright &copy; Ubisoft Entertainment
+
+markdown_extensions:
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
+
+nav:
+  - General:
+    - Home: general/index.md
+    - How to report a player?: general/how-to-report-player.md
+    - Crossplay & Crossprogression: general/crossplay-and-crossprogression.md
+    - Differences between the accesses: general/differences-between-the-accesses.md
+  - Play: 
+    - What is a Seasonal Campaign?: play/what-is-a-seasonal-campaign.md
+    - Play previous campaigns: play/play-previous-campaigns.md
+    - What is a Track Of The Day?: play/what-is-totd.md
+    - How to play Cup Of The Day?: play/how-to-play-cotd.md
+    - What is Royal?: play/what-is-royal.md
+    - What is the Ranked 3v3 Gamemode?: play/what-is-ranked-3v3.md
+    - How to play Ranked 3v3 with my friends?: play/how-to-play-ranked-3v3-friends.md
+    - What are the Arcade Channels?: play/what-are-arcade-channels.md
+    - Help expand this section: play/index.md
+  - Club:
+    - How to join a club?: club/how-to-join.md
+    - Create and manage an activity: club/create-manage-activity
+    - Activities:
+      - Campaign: club/activities/campaign.md
+      - Skin Uploads: club/activities/skin-uploads.md
+      - Track Uploads: club/activities/track-uploads.md
+      - Competition: 
+        - Overview: club/competition-tool/index.md
+        - Plugin settings: club/competition-tool/plugin-settings.md
+        - Create Competition: club/competition-tool/create-competition/index.md
+        - Structure: 
+          - Create a structure: club/competition-tool/structure/index.md
+          - Example: club/competition-tool/structure/01-example.md
+          - Bracket: club/competition-tool/structure/02-bracket-structure.md
+          - Championship: club/competition-tool/structure/03-championship-structure.md
+          - TMGL - 2022: club/competition-tool/structure/04-tmgl-structure.md
+        - Zones:
+          - World: club/competition-tool/zones/index.md
+          - Africa: club/competition-tool/zones/01-africa.md
+          - Asia: club/competition-tool/zones/02-asia.md
+          - Europe: club/competition-tool/zones/03-europe.md
+          - Middle East: club/competition-tool/zones/04-middle-east.md
+          - North America: club/competition-tool/zones/05-north-america.md
+          - Oceania: club/competition-tool/zones/06-oceania.md
+          - South America: club/competition-tool/zones/07-south-america.md
+  - Create: 
+    - Garage:
+      - Prestige Skins: create/garage/prestige-skins.md
+    - Map review:
+      - What is map review?: create/map-review/what-is-map-review.md
+      - Submit your map to map review: create/map-review/submit-your-map-to-map-review.md
+      - Play others' maps: create/map-review/play-others-maps.md
+    - Nadeo Importer:
+      - What is the Nadeo Importer: create/nadeo-importer/index.md
+      - Download and Install: create/nadeo-importer/01-download-and-install.md
+      - How to import an item: create/nadeo-importer/02-how-to-import-an-item.md
+      - How to create the fbx file: create/nadeo-importer/03-how-to-create-the-gbx-file.md
+      - How to create the MeshParams xml file: create/nadeo-importer/04-how-to-create-the-meshimporter-xml-file.md
+      - How to create the Item xml file: create/nadeo-importer/05-how-to-create-the-item-xml-file.md
+      - How to add an icon to my item: create/nadeo-importer/06-how-to-add-an-icon-to-my-item.md
+      - How to make a waypoint item: create/nadeo-importer/07-how-to-make-a-waypoint-item.md
+      - Pivots and placement parameters: create/nadeo-importer/08-pivots-and-placement-parameters.md
+      - About Mesh, Shape and Mat Gbx files: create/nadeo-importer/09-about-mesh-shape-and-mat-gbx-files.md
+    - How to make Parallax signs: create/parallax-signs/index.md
+  - Web: 
+    - Web Services: web/web-services/index.md
+    - Auth: web/web-services/auth.md
