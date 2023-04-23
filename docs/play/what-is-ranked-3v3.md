@@ -65,7 +65,13 @@ The amount of bonus MVP points depends on the skill bracket the player is in and
 | Silver and above | +40 |
 
 
-At the end of a matchmaking season (which runs in parallel to the campaign seasons)
+At the end of a matchmaking season (which runs in parallel to the campaign seasons), matchmaking ranks and ratings will be soft-reset to prevent the ratings at the top from becoming stale.
+See below for an example of how ranks might be adjusted.
+
+!!! note "Actual formula required"
+    
+    This section is not quite correct yet, the adjustments were less severe in the most recent Winter 2023 -> Spring 2023 transition.
+
 Trackmaster + Master 3 -> 1600 points
 Master 2 -> 1300 points
 Master 1 -> 1150 points
@@ -76,7 +82,7 @@ Silver 3 -> 450 points
 Silver 2 -> 300 points
 Silver 1 + Bronze 3 & 2 -> 150 points
 Bronze 1 -> 0 points
-3 months inactivity -> 0 points*
+3 months inactivity -> 0 points
 
 <hr>
 Author: Chris92
