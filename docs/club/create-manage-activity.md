@@ -13,16 +13,16 @@ To create an activity in the club you need to press the *'+'* button to the righ
 
 After pressing the *'+'* button you will be presented with the following list of activities you can add to the club:
 
-- [Campaign](17_Campaign.md)
-- [Room](18_Room.md)
-- [Skin uploads](19_Skin_uploads.md)
-- [Track uploads](20_Track_uploads.md)
-- [Track Review](21_Track_review.md)
-- [News](22_News.md)
-- [Competion](23_Competition.md)
-- [Rankings](24_Rankings.md)
-- [Item Collection](25_Item_Collection.md)
-- [Advertisement](26_Advertisement.md)
+- [Campaign](/club/activities/campaign)
+- [Room](/club/activities/campaign)
+- [Skin uploads](/club/activities/skin-uploads)
+- [Track uploads](/club/activities/track-uploads)
+- [Track Review](/club/activities/track-review)
+- [News](/club/activities/news)
+- [Competition](/club/activities/competition)
+- [Rankings](/club/activities/rankings)
+- [Item Collection](/club/activities/item-collection)
+- [Advertisement](/club/activities/advertisement)
 
 
 ## Managing activities
@@ -48,4 +48,4 @@ Activities can be deactivated so they will not show up in the club page anymore 
 Removes an activity from the club permanently.
 
 <hr>
-Author: Henkisme
+Author: [Henkisme](https://twitter.com/123Henkisme)

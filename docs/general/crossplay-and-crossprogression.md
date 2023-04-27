@@ -30,4 +30,4 @@ Some features of the game are however restricted to the platform they're being u
 - replay files
 
 <hr>
-Author: tooInfinite
+Author: [tooInfinite](https://twitter.com/davidbmaier)

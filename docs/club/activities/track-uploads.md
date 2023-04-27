@@ -1,4 +1,4 @@
-# What are Track Uploads
+# What are Track Uploads?
 
 The *Track Uploads* activity can be used to share tracks with either the public or members of the club.
 
@@ -16,7 +16,7 @@ After choosing a name and an optional image you can punlish the activity to the 
 ## Uploading tracks
 
 To add tracks to the *Track Uploads* activity simply select it from the homepage of the club and select the "Upload a Track" button.
-From here you can choose one or more tracks from the [Track Browser](17_Campaign.md#adding-maps).
+From here you can choose one or more tracks from the [Track Browser](club/activities/campaign#adding-maps).
 
 <hr>
-Author: Henkisme
+Author: [Henkisme](https://twitter.com/123Henkisme)

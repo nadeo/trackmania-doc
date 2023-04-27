@@ -22,4 +22,4 @@ In case you haven't disabled crossplay, you will be able to play with your frien
 Once your party is setup and ready to go, everyone in your party needs to press the Play button located in the bottom right of the screen. One thing to keep in mind though, to ensure fair matches, the maximum amount of gap in rating points between the best and the worst player in your party **must not** exceed 1000 points - the game will remind you of this in case you ever forget.
 
 <hr>
-Author: Chris92
+Author: [Chris92](https://twitter.com/Chris92_de)

@@ -26,7 +26,7 @@ What are you waiting for? Go dive in!
 
     This feature requires an active **Club Access** subscription.
 
-If you want to host your own Arcade room, we have prepared a guide [here](#link-to-create-a-club-room).
+If you want to host your own Arcade room, we have prepared a guide [here](/club/activities/room).
 
 <hr>
-Author: Chris92
+Author: [Chris92](https://twitter.com/Chris92_de)

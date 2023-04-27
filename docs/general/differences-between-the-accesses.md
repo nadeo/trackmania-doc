@@ -4,7 +4,9 @@
 
 For a detailed list of all features sorted by the access level that unlocks them, see [the official chart](https://www.trackmania.com/detailed-offers).
 
-**Note:** All content that you pay for will still be available after your subscription runs out (that includes all the campaign and TOTD tracks during your subscription).
+!!! info "About expired subscriptions"
+
+    All content that you pay for will still be available after your subscription runs out (that includes all the campaign and TOTD tracks during your subscription).
 
 If you already own *Standard* access and want to buy *Club* access on top, your remaining *Standard* time will be converted into *Club* by a ratio of 3:1 and stacked on top. So if you have a year of *Standard* remaining, that will get you 4 months of *Club* on top of your *Club* access purchase.
 
@@ -45,6 +47,7 @@ It's targeted towards committed players that want to create content in-game, exp
 It gives you full access to the game, including:
 - custom skins
 - leaderboard ghosts
+- participation in Trackmania World Tour events
 - all club features (e.g. hosting your own rooms, organizing events, creating your own campaigns, uploading skins, and much more)
 
 <hr>

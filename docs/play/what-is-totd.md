@@ -15,7 +15,7 @@ They're meant to highlight the following:
 - Unique, standout features in the map
 - Community projects and events
 
-The Track of the Day features various different track styles and it is being featured in the daily Knockout tournament called [Cup Of The Day](04_How_To_Play_Cup_Of_The_Day.md). Each Track Of The Day also features a brand new records leaderboard where players have 24 hours to set the best time and be crowned the Track Of The Day winner.
+The Track of the Day features various different track styles and it is being featured in the daily Knockout tournament called [Cup Of The Day](play/how-to-play-cotd). Each Track Of The Day also features a brand new records leaderboard where players have 24 hours to set the best time and be crowned the Track Of The Day winner.
 
 ## How to get your map selected as Track of the Day
 
@@ -38,4 +38,4 @@ When the leaderboard for a Track of the Day closes, you will earn [Trophy points
 | Top 1000 | 1x Trophy 5 | 10,000 |
 
 <hr>
-Author: Chris92
+Author: [Chris92](https://twitter.com/Chris92_de)

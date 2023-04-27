@@ -29,4 +29,4 @@ Lastly, you will have the option choose from either the **TRACK OF THE DAY** or 
 The aim of these servers is to provide an honest rating of the maps displayed on their functionality in **Cup of the Day** or **Super Royal** features of Trackmania and/or offer advice to mappers in order to help improve a map's quality overall.
 
 <hr>
-Author: XLRB
+Author: [XLRB](https://twitter.com/XLRB_)

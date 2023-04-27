@@ -85,4 +85,4 @@ Bronze 1 -> 0 points
 3 months inactivity -> 0 points
 
 <hr>
-Author: Chris92
+Author: [Chris92](https://twitter.com/Chris92_de)

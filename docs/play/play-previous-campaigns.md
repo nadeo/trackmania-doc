@@ -12,4 +12,4 @@ To play previous seasonal campaigns, head on over to the `Play -> Solo` menu and
 In case you previously had _Standard Access_ or _Club Access_, only the current seasonal campaign and all campaigns released by the time your subscription ran out will be available for you to play.
 
 <hr>
-Author: Chris92
+Author: [Chris92](https://twitter.com/Chris92_de)

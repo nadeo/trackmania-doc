@@ -1,9 +1,4 @@
----
-title: What is a seasonal campaign?
-authors:
-    - Chris92
-date: 2023-04-23
----
+# What is a seasonal campaign?
 
 ## Seasonal Campaigns explained
 Trackmania's seasonal campaigns consist of 25 maps of varying styles which are split into 5 increasing difficulties: White, Green, Blue, Red, and Black.
@@ -69,4 +64,4 @@ At the end of a season, you will earn [Trophy points](/trophy-points) based on y
 | All White Maps| 1x Trophy 1 | 1 |
 
 <hr>
-Author: Chris92
+Author: [Chris92](https://twitter.com/Chris92_de)

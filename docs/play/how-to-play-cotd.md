@@ -6,7 +6,7 @@
 
 ## What is the Cup of the Day?
 
-Cup of the Day is a daily competition that is being played in the Knockout game mode on the current [Track Of The Day](03_What_Is_A_Track_Of_The_Day.md).
+Cup of the Day is a daily competition that is being played in the Knockout game mode on the current [Track Of The Day](play/what-is-totd).
 COTD happens three times a day, once at [19:00 CE(S)T](https://time.is/compare/1900_in_CET), at the same time as the new Track of the Day releases, and then again at [03:00 CE(S)T](https://time.is/compare/0300_in_CET) and [11:00 CE(S)T](https://time.is/compare/1100_in_CET).
 
 To participate in the Cup of the Day, you need to play on the Track Of The Day Arcade Room by the time it starts.
@@ -79,4 +79,4 @@ First of all, don't be upset!
 Getting knocked out in Cup Of The Day happens even to the best players most of the time. You can now either choose to leave the server or you may spectate the rest of your division's match until a winner has been crowned.
 
 <hr>
-Author: Chris92
+Author: [Chris92](https://twitter.com/Chris92_de)

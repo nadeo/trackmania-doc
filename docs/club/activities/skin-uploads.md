@@ -1,4 +1,8 @@
-# What are Skin Uploads
+# What are Skin Uploads?
+
+!!! info "Uploading only available on PC"
+
+    Uploading Car Skins to the Skin Upload activity can only be done on the PC version of Trackmania.
 
 The *Skin Uploads* activity can be used to share custom skins with either the public or members of the club.
 
@@ -19,4 +23,4 @@ To add skins to the *Skin Uploads* activity simply select it from the homepage o
 From here you can choose skins to upload located in *Documents\Trackmania\Skins\Models\CarSport*
 
 <hr>
-Author: Henkisme
+Author: [Henkisme](https://twitter.com/123Henkisme)

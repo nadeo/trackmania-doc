@@ -1,4 +1,4 @@
-# What is a Campaign
+# What is a Campaign?
 
 A *campaign* is a collection of up to 25 tracks with it's own leaderboard.
 
@@ -24,4 +24,4 @@ Choosing to add maps to the campaign will open the *Track Browser*.
 From here you can select maps from your *My Tracks*, *Favorites*, *Official* (maps from the official campaigns and track of the day) and *Clubs* (maps from campaigns of clubs you've joined).
 
 <hr>
-Author: Henkisme
+Author: [Henkisme](https://twitter.com/123Henkisme)
