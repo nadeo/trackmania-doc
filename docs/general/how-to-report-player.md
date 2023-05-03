@@ -41,4 +41,4 @@ Using these settings, you'll also be able to attach screenshots and other files 
 Note that selecting *Report a player* will initiate a live chat with a support agent, while *Learn the Rules* just requires you to send a report.
 
 <hr>
-Author: tooInfinite
+Author: [tooInfinite](https://twitter.com/davidbmaier)
