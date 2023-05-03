@@ -31,6 +31,7 @@ This subscription costs **10€/year** or your regional equivalent.
 It's well-suited for most players that want to experience the full range of maps and online rooms, or would like to compete at a higher level.
 
 It gives you additional access to:
+
 - playing custom maps
 - playing current as well as previous Tracks of the Day and official campaigns
 - public servers
@@ -45,6 +46,7 @@ This subscription costs **30€/year** or your regional equivalent. It can also 
 It's targeted towards committed players that want to create content in-game, express themselves with custom skins, or compete with the best.
 
 It gives you full access to the game, including:
+
 - custom skins
 - leaderboard ghosts
 - participation in Trackmania World Tour events
