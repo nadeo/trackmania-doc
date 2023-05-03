@@ -40,7 +40,7 @@ No access to custom skins, leaderboard ghosts or club features (e.g. hosting you
 
 ## Club Access
 
-This subscription costs **30€/year** or your regional equivalent. It can also be purchased for three years, which costs 60€/year or your regional equivalent.
+This subscription costs **30€/year** or your regional equivalent. It can also be purchased for three years, which costs 60€ or your regional equivalent.
 
 It's targeted towards committed players that want to create content in-game, express themselves with custom skins, or compete with the best.
 
@@ -51,4 +51,4 @@ It gives you full access to the game, including:
 - all club features (e.g. hosting your own rooms, organizing events, creating your own campaigns, uploading skins, and much more)
 
 <hr>
-Author: tooInfinite
+Author: [tooInfinite](https://twitter.com/davidbmaier)
