@@ -3,13 +3,28 @@ site_name: Trackmania documentation
 repo_url: https://github.com/nadeo/trackmania-doc
 
 theme:
-    name: material
-    features:
-        - navigation.tabs
-        - navigation.footer
-    palette:
+  # favicon: assets/tm-icon.png
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.footer
+  logo: assets/tm-logo.png
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       primary: green
-    logo: assets/tm-logo.png
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
 
 extra:
   social:
