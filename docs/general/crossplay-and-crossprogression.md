@@ -17,6 +17,7 @@ If you'd like to disable that, you can uncheck the *Cross Platform Play* setting
 It's possible to play Trackmania (2020) on different platforms using the same Ubisoft account - by doing that, you keep most of your account's progression in sync and don't have to start from scratch.
 
 Here's a non-exhaustive list of things that are covered by Trackmania's cross-progression:
+
 - trophies and account statistics
 - uploaded map records
 - uploaded maps
@@ -25,6 +26,7 @@ Here's a non-exhaustive list of things that are covered by Trackmania's cross-pr
 - your selected custom skin, club tag and pinned club
 
 Some features of the game are however restricted to the platform they're being used on:
+
 - locally saved (but not uploaded) maps
 - locally saved (but not uploaded) skins
 - replay files
