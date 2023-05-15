@@ -1,4 +1,9 @@
 # Europe
+
+!!! warning
+
+    This section contains the list of available zones to be used [for creating competitions](../create-competition/index.md#registrations). It may be incomplete.
+
 ```
 World|Europe|Albania
 World|Europe|Andorra
@@ -47,7 +52,8 @@ World|Europe|Ukraine
 World|Europe|United Kingdom
 ```
 
-##Austria
+## Austria
+
 ```
 World|Europe|Austria|Burgenland
 World|Europe|Austria|Carinthia
@@ -60,7 +66,8 @@ World|Europe|Austria|Vienna
 World|Europe|Austria|Vorarlberg
 ```
 
-##Belgium
+## Belgium
+
 ```
 World|Europe|Belgium|Antwerpen
 World|Europe|Belgium|Brabant Wallon
@@ -75,7 +82,8 @@ World|Europe|Belgium|Vlaams-Brabant
 World|Europe|Belgium|West-Vlaanderen
 ```
 
-##Czechia
+## Czechia
+
 ```
 World|Europe|Czechia|Jihoceský kraj
 World|Europe|Czechia|Jihomoravský kraj
@@ -93,7 +101,8 @@ World|Europe|Czechia|Ustecký kraj
 World|Europe|Czechia|Zlínský kraj
 ```
 
-##France
+## France
+
 ```
 World|Europe|France|Auvergne-Rhône-Alpes
 World|Europe|France|Bourgogne-Franche-Comté
@@ -110,7 +119,9 @@ World|Europe|France|Pays-de-la-Loire
 World|Europe|France|Provence-Alpes-Côte d'Azur
 World|Europe|France|Île-de-France
 ```
-####Auvergne-Rhône-Alpes
+
+#### Auvergne-Rhône-Alpes
+
 ````
 World|Europe|France|Auvergne-Rhône-Alpes|Ain
 World|Europe|France|Auvergne-Rhône-Alpes|Allier
@@ -125,7 +136,9 @@ World|Europe|France|Auvergne-Rhône-Alpes|Puy-de-Dôme
 World|Europe|France|Auvergne-Rhône-Alpes|Rhône
 World|Europe|France|Auvergne-Rhône-Alpes|Savoie
 ````
-####Bourgogne-Franche-Comté
+
+#### Bourgogne-Franche-Comté
+
 ````
 World|Europe|France|Bourgogne-Franche-Comté|Côte-d'Or
 World|Europe|France|Bourgogne-Franche-Comté|Doubs
@@ -136,7 +149,9 @@ World|Europe|France|Bourgogne-Franche-Comté|Saône-et-Loire
 World|Europe|France|Bourgogne-Franche-Comté|Territoire de Belfort
 World|Europe|France|Bourgogne-Franche-Comté|Yonne
 ````
-####Bretagne
+
+#### Bretagne
+
 ````
 World|Europe|France|Bretagne|Côtes-d'Armor
 World|Europe|France|Bretagne|Finistère
@@ -144,6 +159,7 @@ World|Europe|France|Bretagne|Ille-et-Vilaine
 World|Europe|France|Bretagne|Morbihan
 ````
 #### Centre-Val de Loire
+
 ````
 World|Europe|France|Centre-Val de Loire|Cher
 World|Europe|France|Centre-Val de Loire|Eure-et-Loir
@@ -153,12 +169,15 @@ World|Europe|France|Centre-Val de Loire|Loir-et-Cher
 World|Europe|France|Centre-Val de Loire|Loiret
 ````
 
-####Corsica
+#### Corsica
+
 ````
 World|Europe|France|Corsica|Corse-du-Sud
 World|Europe|France|Corsica|Haute-Corse
 ````
-####Grand Est
+
+#### Grand Est
+
 ````
 World|Europe|France|Grand Est|Ardennes
 World|Europe|France|Grand Est|Aube
@@ -171,7 +190,9 @@ World|Europe|France|Grand Est|Meuse
 World|Europe|France|Grand Est|Moselle
 World|Europe|France|Grand Est|Vosges
 ````
-####Hauts-de-France
+
+#### Hauts-de-France
+
 ````
 World|Europe|France|Hauts-de-France|Aisne
 World|Europe|France|Hauts-de-France|Nord
@@ -179,7 +200,9 @@ World|Europe|France|Hauts-de-France|Oise
 World|Europe|France|Hauts-de-France|Pas-de-Calais
 World|Europe|France|Hauts-de-France|Somme
 ````
-####Normandie
+
+#### Normandie
+
 ````
 World|Europe|France|Normandie|Calvados
 World|Europe|France|Normandie|Eure
@@ -187,7 +210,9 @@ World|Europe|France|Normandie|Manche
 World|Europe|France|Normandie|Orne
 World|Europe|France|Normandie|Seine-Maritime
 ````
-####Nouvelle-Aquitaine
+
+#### Nouvelle-Aquitaine
+
 ````
 World|Europe|France|Nouvelle-Aquitaine|Charente
 World|Europe|France|Nouvelle-Aquitaine|Charente-Maritime
@@ -202,7 +227,9 @@ World|Europe|France|Nouvelle-Aquitaine|Lot-et-Garonne
 World|Europe|France|Nouvelle-Aquitaine|Pyrénées-Atlantiques
 World|Europe|France|Nouvelle-Aquitaine|Vienne
 ````
-####Occitanie
+
+#### Occitanie
+
 ````
 World|Europe|France|Occitanie|Ariège
 World|Europe|France|Occitanie|Aude
@@ -218,7 +245,9 @@ World|Europe|France|Occitanie|Pyrénées-Orientales
 World|Europe|France|Occitanie|Tarn
 World|Europe|France|Occitanie|Tarn-et-Garonne
 ````
-####Outre-mer
+
+#### Outre-mer
+
 ````
 World|Europe|France|Outre-mer|Guadeloupe
 World|Europe|France|Outre-mer|Guyane
@@ -232,7 +261,9 @@ World|Europe|France|Outre-mer|Saint-Martin
 World|Europe|France|Outre-mer|Saint-Pierre-et-Miquelon
 World|Europe|France|Outre-mer|Wallis-et-Futuna
 ````
-####Pays-de-la-Loire
+
+#### Pays-de-la-Loire
+
 ````
 World|Europe|France|Pays-de-la-Loire|Loire-Atlantique
 World|Europe|France|Pays-de-la-Loire|Maine-et-Loire
@@ -240,7 +271,9 @@ World|Europe|France|Pays-de-la-Loire|Mayenne
 World|Europe|France|Pays-de-la-Loire|Sarthe
 World|Europe|France|Pays-de-la-Loire|Vendée
 ````
-####Provence-Alpes-Côte d'Azur
+
+#### Provence-Alpes-Côte d'Azur
+
 ````
 World|Europe|France|Provence-Alpes-Côte d'Azur|Alpes-Maritimes
 World|Europe|France|Provence-Alpes-Côte d'Azur|Alpes-de-Haute-Provence
@@ -249,7 +282,9 @@ World|Europe|France|Provence-Alpes-Côte d'Azur|Hautes-Alpes
 World|Europe|France|Provence-Alpes-Côte d'Azur|Var
 World|Europe|France|Provence-Alpes-Côte d'Azur|Vaucluse
 ````
-####Île-de-France
+
+#### Île-de-France
+
 ````
 World|Europe|France|Île-de-France|Essonne
 World|Europe|France|Île-de-France|Hauts-de-Seine
@@ -260,7 +295,9 @@ World|Europe|France|Île-de-France|Val-d'Oise
 World|Europe|France|Île-de-France|Val-de-Marne
 World|Europe|France|Île-de-France|Yvelines
 ````
-##Germany
+
+## Germany
+
 ```
 World|Europe|Germany|Baden-Württemberg
 World|Europe|Germany|Bayern
@@ -279,14 +316,18 @@ World|Europe|Germany|Sachsen-Anhalt
 World|Europe|Germany|Schleswig-Holstein
 World|Europe|Germany|Thüringen
 ```
-####Baden-Württemberg
+
+#### Baden-Württemberg
+
 ```
 World|Europe|Germany|Baden-Württemberg|Heidelberg
 World|Europe|Germany|Baden-Württemberg|Karlsruhe
 World|Europe|Germany|Baden-Württemberg|Mannheim
 World|Europe|Germany|Baden-Württemberg|Stuttgart
 ```
-####Bayern
+
+#### Bayern
+
 ```
 World|Europe|Germany|Bayern|Augsburg
 World|Europe|Germany|Bayern|Bad Tölz
@@ -295,11 +336,15 @@ World|Europe|Germany|Bayern|Nürnberg
 World|Europe|Germany|Bayern|Passau
 World|Europe|Germany|Bayern|Regensburg
 ```
-####Brandenburg
+
+#### Brandenburg
+
 ```
 World|Europe|Germany|Brandenburg|Potsdam
 ```
-####Hessen
+
+#### Hessen
+
 ```
 World|Europe|Germany|Hessen|Darmstadt
 World|Europe|Germany|Hessen|Frankfurt
@@ -308,12 +353,16 @@ World|Europe|Germany|Hessen|Kassel
 World|Europe|Germany|Hessen|Offenbach
 World|Europe|Germany|Hessen|Wiesbaden
 ```
-####Mecklenburg-Vorpommern
+
+#### Mecklenburg-Vorpommern
+
 ```
 World|Europe|Germany|Mecklenburg-Vorpommern|Rostock
 World|Europe|Germany|Mecklenburg-Vorpommern|Schwerin
 ```
-####Niedersachsen
+
+#### Niedersachsen
+
 ```
 World|Europe|Germany|Niedersachsen|Braunschweig
 World|Europe|Germany|Niedersachsen|Hannover
@@ -321,7 +370,9 @@ World|Europe|Germany|Niedersachsen|Oldenburg
 World|Europe|Germany|Niedersachsen|Osnabrück
 World|Europe|Germany|Niedersachsen|Wolfsburg
 ```
-####Nordrhein-Westfalen
+
+#### Nordrhein-Westfalen
+
 ```
 World|Europe|Germany|Nordrhein-Westfalen|Aachen
 World|Europe|Germany|Nordrhein-Westfalen|Bochum
@@ -333,42 +384,56 @@ World|Europe|Germany|Nordrhein-Westfalen|Essen
 World|Europe|Germany|Nordrhein-Westfalen|Köln
 World|Europe|Germany|Nordrhein-Westfalen|Wuppertal
 ```
-####Rheinland-Pfalz
+
+#### Rheinland-Pfalz
+
 ```
 World|Europe|Germany|Rheinland-Pfalz|Kaiserslautern
 World|Europe|Germany|Rheinland-Pfalz|Koblenz
 World|Europe|Germany|Rheinland-Pfalz|Mainz
 World|Europe|Germany|Rheinland-Pfalz|Trier
 ```
-####Saarland
+
+#### Saarland
+
 ```
 World|Europe|Germany|Saarland|Saarbrücken
 ```
-####Sachsen-Anhalt
+
+#### Sachsen-Anhalt
+
 ```
 World|Europe|Germany|Sachsen-Anhalt|Dessau
 World|Europe|Germany|Sachsen-Anhalt|Halle
 World|Europe|Germany|Sachsen-Anhalt|Magdeburg
 ```
-####Sachsen
+
+#### Sachsen
+
 ```
 World|Europe|Germany|Sachsen|Chemnitz
 World|Europe|Germany|Sachsen|Dresden
 World|Europe|Germany|Sachsen|Leipzig
 ```
-####Schleswig-Holstein
+
+#### Schleswig-Holstein
+
 ```
 World|Europe|Germany|Schleswig-Holstein|Kiel
 World|Europe|Germany|Schleswig-Holstein|Lübeck
 World|Europe|Germany|Schleswig-Holstein|Neumünster
 ```
-####Thüringen
+
+#### Thüringen
+
 ```
 World|Europe|Germany|Thüringen|Eisenach
 World|Europe|Germany|Thüringen|Erfurt
 World|Europe|Germany|Thüringen|Weimar
 ```
-##Hungary
+
+## Hungary
+
 ```
 World|Europe|Hungary|Baranya
 World|Europe|Hungary|Borsod-Abaúj-Zemplén
@@ -392,7 +457,8 @@ World|Europe|Hungary|Veszprém
 World|Europe|Hungary|Zala
 ```
 
-##Italy
+## Italy
+
 ```
 World|Europe|Italy|Abruzzo
 World|Europe|Italy|Basilicata
@@ -416,7 +482,8 @@ World|Europe|Italy|Valle D-Aosta
 World|Europe|Italy|Veneto
 ```
 
-##Netherlands
+## Netherlands
+
 ```
 World|Europe|Netherlands|Drenthe
 World|Europe|Netherlands|Flevoland
@@ -432,7 +499,8 @@ World|Europe|Netherlands|Zeeland
 World|Europe|Netherlands|Zuid-Holland
 ```
 
-##Poland
+## Poland
+
 ```
 World|Europe|Poland|Dolnośląskie
 World|Europe|Poland|Kujawsko-Pomorskie
@@ -452,7 +520,8 @@ World|Europe|Poland|Śląskie
 World|Europe|Poland|Świętokrzyskie
 ```
 
-##Portugal
+## Portugal
+
 ```
 World|Europe|Portugal|Alentejo
 World|Europe|Portugal|Algarve
@@ -463,7 +532,8 @@ World|Europe|Portugal|Madeira
 World|Europe|Portugal|Norte
 ```
 
-##Russia
+## Russia
+
 ```
 World|Europe|Russia|Дальневосточный федеральный округ
 World|Europe|Russia|Приволжский федеральный округ
@@ -474,7 +544,9 @@ World|Europe|Russia|Уральский федеральный округ
 World|Europe|Russia|Центральный федеральный округ
 World|Europe|Russia|Южный федеральный округ
 ```
-####Дальневосточный федеральный округ
+
+#### Дальневосточный федеральный округ
+
 ```
 World|Europe|Russia|Дальневосточный федеральный округ|Амурская область
 World|Europe|Russia|Дальневосточный федеральный округ|Еврейская автономная область
@@ -488,7 +560,9 @@ World|Europe|Russia|Дальневосточный федеральный окр
 World|Europe|Russia|Дальневосточный федеральный округ|Хабаровский край
 World|Europe|Russia|Дальневосточный федеральный округ|Чукотский автономный округ
 ```
-####Приволжский федеральный округ
+
+#### Приволжский федеральный округ
+
 ```
 World|Europe|Russia|Приволжский федеральный округ|Кировская область
 World|Europe|Russia|Приволжский федеральный округ|Нижегородская область
@@ -505,7 +579,9 @@ World|Europe|Russia|Приволжский федеральный округ|У�
 World|Europe|Russia|Приволжский федеральный округ|Ульяновская область
 World|Europe|Russia|Приволжский федеральный округ|Чувашская Республика — Чувашия
 ```
-####Северо-Западный федеральный округ
+
+#### Северо-Западный федеральный округ
+
 ```
 World|Europe|Russia|Северо-Западный федеральный округ|Архангельская область
 World|Europe|Russia|Северо-Западный федеральный округ|Вологодская область
@@ -519,7 +595,9 @@ World|Europe|Russia|Северо-Западный федеральный окр�
 World|Europe|Russia|Северо-Западный федеральный округ|Республика Коми
 World|Europe|Russia|Северо-Западный федеральный округ|Санкт-Петербург
 ```
-####Северо-Кавказский федеральный округ
+
+#### Северо-Кавказский федеральный округ
+
 ```
 World|Europe|Russia|Северо-Кавказский федеральный округ|Кабардино-Балкарская Республика
 World|Europe|Russia|Северо-Кавказский федеральный округ|Карачаево-Черкесская Республика
@@ -529,7 +607,9 @@ World|Europe|Russia|Северо-Кавказский федеральный о�
 World|Europe|Russia|Северо-Кавказский федеральный округ|Ставропольский край
 World|Europe|Russia|Северо-Кавказский федеральный округ|Чеченская Республика
 ```
-####Сибирский федеральный округ
+
+#### Сибирский федеральный округ
+
 ```
 World|Europe|Russia|Сибирский федеральный округ|Алтайский край
 World|Europe|Russia|Сибирский федеральный округ|Иркутская область
@@ -548,7 +628,9 @@ World|Europe|Russia|Уральский федеральный округ|Хан�
 World|Europe|Russia|Уральский федеральный округ|Челябинская область
 World|Europe|Russia|Уральский федеральный округ|Ямало-Ненецкий автономный округ
 ```
-####Центральный федеральный округ
+
+#### Центральный федеральный округ
+
 ```
 World|Europe|Russia|Центральный федеральный округ|Белгородская область
 World|Europe|Russia|Центральный федеральный округ|Брянская область
@@ -569,7 +651,9 @@ World|Europe|Russia|Центральный федеральный округ|Т�
 World|Europe|Russia|Центральный федеральный округ|Тульская область
 World|Europe|Russia|Центральный федеральный округ|Ярославская область
 ```
-####Южный федеральный округ
+
+#### Южный федеральный округ
+
 ```
 World|Europe|Russia|Южный федеральный округ|Астраханская область
 World|Europe|Russia|Южный федеральный округ|Волгоградская область
@@ -580,7 +664,9 @@ World|Europe|Russia|Южный федеральный округ|Республ�
 World|Europe|Russia|Южный федеральный округ|Ростовская область
 World|Europe|Russia|Южный федеральный округ|Севастополь
 ```
-##Serbia
+
+## Serbia
+
 ```
 World|Europe|Serbia|Beograd
 World|Europe|Serbia|Kruševac
@@ -588,7 +674,8 @@ World|Europe|Serbia|Niš
 World|Europe|Serbia|Novi Sad
 ```
 
-##Slovenia
+## Slovenia
+
 ```
 World|Europe|Slovenia|Dolenjska
 World|Europe|Slovenia|Gorenjska
@@ -599,7 +686,8 @@ World|Europe|Slovenia|Primorska
 World|Europe|Slovenia|Štajerska
 ```
 
-##Spain
+## Spain
+
 ````
 World|Europe|Spain|Andalucía
 World|Europe|Spain|Aragón
@@ -620,7 +708,8 @@ World|Europe|Spain|Navarra
 World|Europe|Spain|Región de Murcia
 ````
 
-##Switzerland
+## Switzerland
+
 ````
 World|Europe|Switzerland|Aargau
 World|Europe|Switzerland|Appenzell-Ausserrhoden
@@ -650,7 +739,8 @@ World|Europe|Switzerland|Zug
 World|Europe|Switzerland|Zürich
 ````
 
-##United Kingdom
+## United Kingdom
+
 ````
 World|Europe|United Kingdom|England
 World|Europe|United Kingdom|Northern Ireland
@@ -658,7 +748,8 @@ World|Europe|United Kingdom|Scotland
 World|Europe|United Kingdom|Wales
 ````
 
-####England
+### England
+
 ```
 World|Europe|United Kingdom|England|East Midlands
 World|Europe|United Kingdom|England|East of England

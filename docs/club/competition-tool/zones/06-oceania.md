@@ -1,4 +1,9 @@
 # Oceania
+
+!!! warning
+
+    This section contains the list of available zones to be used [for creating competitions](../create-competition/index.md#registrations). It may be incomplete.
+
 ```
 World|Oceania|Australia
 World|Oceania|Fiji
@@ -15,7 +20,8 @@ World|Oceania|Tuvalu
 World|Oceania|Vanuatu
 ```
 
-##Australia
+## Australia
+
 ```
 World|Oceania|Australia|Australian Capital Territory
 World|Oceania|Australia|New South Wales

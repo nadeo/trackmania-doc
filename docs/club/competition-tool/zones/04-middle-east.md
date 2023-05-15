@@ -1,4 +1,9 @@
 # Middle East
+
+!!! warning
+
+    This section contains the list of available zones to be used [for creating competitions](../create-competition/index.md#registrations). It may be incomplete.
+
 ```
 World|Middle East|Bahrain
 World|Middle East|Egypt
