@@ -1,4 +1,9 @@
 # South America
+
+!!! warning
+
+    This section contains the list of available zones to be used [for creating competitions](../create-competition/index.md#registrations). It may be incomplete.
+
 ```
 World|South America|Argentina
 World|South America|Bolivia
@@ -15,7 +20,9 @@ World|South America|Suriname
 World|South America|Uruguay
 World|South America|Venezuela
 ```
-##Brazil
+
+## Brazil
+
 ```
 World|South America|Brazil|Acre
 World|South America|Brazil|Alagoas
@@ -45,7 +52,9 @@ World|South America|Brazil|Sergipe
 World|South America|Brazil|São Paulo
 World|South America|Brazil|Tocantins
 ```
-##Chile
+
+## Chile
+
 ```
 World|South America|Chile|Aisen
 World|South America|Chile|Antofagasta

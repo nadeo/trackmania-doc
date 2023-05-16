@@ -1,8 +1,11 @@
-# World
+# Zones
 
-List of available zones.
+!!! warning
+
+    This section contains the list of available zones to be used [for creating competitions](../create-competition/index.md#registrations). It may be incomplete.
 
 ## World
+
 ```
 World
 World|Africa

@@ -1,14 +1,13 @@
-# Structure
+# Structure object
 
-To create a new competition in the admin website you can import an existing structure or create a new one.
+To add rounds in the Competition tool you can import a preset structure object to allow reuse of the same rounds format in other competitions. You can read more importing a structure to your Competition [in this page](../create-competition/structure-importer.md).
 
-A structure (spot structure) defines composition of your competition.
+A **structure object** is a JSON containing rounds, matches, and player spot allocations in a Competition. The following page contains a reference of all the properties available.
 
-## Create your own structure
+## Rounds
 
-### Rounds
-Round is an object which contains an array of matches. 
-Each round is composed of at least one match which contains an array of participants.
+A **round** is an object which contains an array of matches. Each round is composed of at least one match which contains an array of participants.
+
 ```json
 {
   "version": 1,
@@ -41,97 +40,186 @@ Each round is composed of at least one match which contains an array of particip
   ]
 }
 ```
-In this example, there are two matches in round 1 and one match in round 2.
 
-### Players
-Add participants in each match.
-There are 4 options to add one.
+### Properties
 
-####Participant from a qualifier <br>
-A qualifier need to be attached to a round.<br>
-First round is at position 0 and `rank` starts at 1.
+- `name`: The name of the round (e.g. "Semifinal").
+- `matchGeneratorType`: Is always `spot_filler`.
+- `matchGeneratorData`:
+    - `matches`: An array of [Matches](#matches) in a round. A round can have one or more matches.
 
-```json
-{
-  "spotType": "round_challenge_participant",
-  "roundPosition": 0,
-  "rank": 1
-}
-```
-_Participant is added from the qualifier of the round 1 at rank 1._
+## Matches
 
-####Participant from a previous round match<br>
-First round and first match in a round are at position 0<br>
-`rank` starts at 1.
+Each round will always have one or more matches. A **match** object is where you determine player placements for a specific match in a round.
 
 ```json
 {
-  "spotType": "match_participant",
-  "roundPosition": 0,
-  "matchPosition": 3,
-  "rank": 2
+  "matches": [
+    {
+      "spots": [],
+      "settings": {}
+    }
+  ]
 }
 ```
-_Participant is added from match 4 of round 1 at rank 2._
 
-####Participant with a seed<br>
-Set the seed for each participant from the admin panel after the creation.<br>
-`seed` starts at 1.
-```json
-{
-  "spotType": "competition_participant",
-  "seed": 10
-}
-```
-_Participant is added from the competition participants at seed 10._
+### Properties
 
-####Participant from leaderboard<br>
-Participant is added from X rank in the current competition leaderboard<br>
-`rank` starts at 1.
-```json
-{
-  "spotType": "competition_leaderboard",
-  "rank": 5
-}
-```
-_Participant is added from the current leaderboard at rank 5._
+- `spots`: An array of [Spots](#spots) to allocate players participating in the competition into the match.
+- `settings`: Additional script settings. If certain matches contains a different script settings from the ones set in [Round settings](../create-competition/rounds.md#settings), here you can script settings for that specific match.
 
-### Teams
-For competition with teams, add the participating teams for each match.
-There are 3 options available.
+## Spots
+
+A **spot** is an object which determines which player is allocated to that specific spot in a match. It contains different properties depending on which `spotType` is set for that specific
+
+### Properties
+
+The following properties are available for all types of spot objects.
+
+- `spotType`: determines a **spot type** (i.e. how a player is placed in a match) for that particular spot in a match.
+
+### Solo competitions
+
+The following spot types are available for Solo competitions.
+
+#### Qualifier
+
+Add a player from the qualifier leaderboard. To enable this spot type, a qualifier needs to be attached to a round.
+
+- `spotType`: `round_challenge_participant`
+- `roundPosition`: An index position (starting at `0`) of the qualifier round.
+- `rank`: The rank of the player (starting at `1`).
+
+!!! example "Example"
+
+    ```json
+    {
+      "spotType": "round_challenge_participant",
+      "roundPosition": 0,
+      "rank": 4
+    }
+    ```
+
+    _The player in 4th position in the qualifier leaderboard is added to the match._
+
+#### Previous round
+
+Add a player based on their placement in the previous round.
+
+- `spotType`: `match_participant`
+- `roundPosition`: The index position of the round to add the player from (starting at `0`)
+- `matchPosition`: The index position of the match to add the player from (starting at `0`)
+- `rank`: The rank of the player (starting at `1`).
+
+!!! example "Example"
+
+    ```json
+    {
+      "spotType": "match_participant",
+      "roundPosition": 0,
+      "matchPosition": 3,
+      "rank": 2
+    }
+    ```
+
+    _The 2nd place finisher of the fourth match of the first round is added to the match._
+
+#### Player with a seed
+
+Add a player based on the seed allocated to them. You will have to manually set the seed for each player from the Players page after creating your competition.
+
+- `spotType`: `competition_participant`
+- `seed`: The seed given to the player (starting at `1`).
+
+!!! example "Example"
+
+    ```json
+    {
+      "spotType": "competition_participant",
+      "seed": 10
+    }
+    ```
+
+    _The player with seed 10 is added to the match._
+
+#### Leaderboard
+
+Add a player based on their current placement in the competition leaderboard.
+
+- `spotType`: `competition_participant`
+- `rank`: The player's current position in the competition leaderboard (starting at `1`).
+
+!!! example "Example"
+
+    ```json
+    {
+      "spotType": "competition_leaderboard",
+      "rank": 5
+    }
+    ```
+
+    _The player at 5th position in the current competition leaderboard is added to the match._
+
+### Team competitions
+
+The following spot types are available for Team competitions.
 
 #### Team with a seed
-Set the seed for each team from the admin panel after the creation.<br>
-`seed` starts at 1.
-```json
-{
-  "spotType": "competition_team",
-  "seed": 4
-}
-```
-_Participant is added from the team with seed 4._
+
+Add a team based on the seed allocated to them. You will have to manually set the seed for each team from the Teams page after creating your competition.
+
+- `spotType`: `competition_team`
+- `seed`: The seed given to the team (starting at `1`).
+
+!!! example "Example"
+
+    ```json
+    {
+      "spotType": "competition_team",
+      "seed": 4
+    }
+    ```
+
+    _The team with seed 4 is added to the match._
 
 #### Team name
-```json
-{
-  "competitionId": null,
-  "teamId": "Team Name",
-  "spotType": "competition_team_id"
-}
-```
-_Team "Team Name" is added to the participants list._
 
-#### Team from a previous round match
-First round and first match in a round are at position 0<br>
-`rank` starts at 1.
-```json
-{
-  "roundPosition": 0,
-  "matchPosition": 1,
-  "rank": 2,
-  "spotType": "team_match_participant"
-}
-```
-_Participant is added from the team in match 2 of round 1 at rank 2._
+Add a specific team into the match.
 
-####See a complete example [here](01-example.md)
+- `spotType`: `competition_team_id`
+- `competitionId`: Is always `null`.
+- `teamId`: The name of the team (must be as exactly set in the Teams page).
+
+!!! example "Example"
+
+    ```json
+    {
+      "spotType": "competition_team_id",
+      "competitionId": null,
+      "teamId": "Team Name"
+    }
+    ```
+
+    _Team "Team Name" is added to the match._
+
+#### Previous round
+
+Add a team based on their placement in the previous round.
+
+- `spotType`: `team_match_participant`
+- `roundPosition`: The index position of the round to add the team from (starting at `0`)
+- `matchPosition`: The index position of the match to add the team from (starting at `0`)
+- `rank`: The rank of the team (starting at `1`).
+
+!!! example "Example"
+
+    ```json
+    {
+      "spotType": "team_match_participant",
+      "roundPosition": 0,
+      "matchPosition": 1,
+      "rank": 2
+    }
+    ```
+
+    _The 2nd place team of the second match of the first round is added to the match._
