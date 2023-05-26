@@ -19,6 +19,12 @@ In-game, visit the player's profile (e.g. by clicking their name in a room's lea
 
 Then just follow the on-screen instructions to send your report.
 
+### Reporting records
+
+You can also report a player's record in-game (for example if it was cheated or is otherwise invalid).
+
+Open the pause menu and select *Show records* - you now have additional options when going through the leaderboard records on the left side of the screen. Having the record in question highlighted and pressing the mentioned button to get to the player's profile will give an additional *Record* option when using the *Report* button on the profile.
+
 ## Trackmania website
 
 Visit the [official Trackmania website](https://www.trackmania.com), log in and find the offending player.
