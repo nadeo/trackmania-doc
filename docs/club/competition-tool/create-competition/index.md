@@ -1,46 +1,69 @@
-#Help
+# Creating a competition
 
-##Add a qualifier
-###Leaderboard score
-####Skillpoints
-Skillpoints are based on rank.
+!!! info "Club permissions"
 
-Ranks between **1** and **16** win theses following points.
+    In order to create and manage Competitions for a club you must either have the **Creator**, **Admin** or **Content Creator** role for that club.
 
-1. 40000 points.
-2. 28000 points.
-3. 24000 points.
-4. 20000 points.
-5. 18000 points.
-6. 16000 points.
-7. 14000 points.
-8. 12000 points.
-9. 10000 points.
-10. 10000 points.
-11. 8000 points.
-12. 8000 points.
-13. 6000 points.
-14. 6000 points.
-15. 4000 points.
-16. 4000 points.
+To create a Competition activity, you need to visit the [Competition Tool website](https://admin.trackmania.nadeo.club/). To get started, log in to the Competition Tool using your Ubisoft account, and then click on "Create Competition."
 
+## Basic Information
 
-If ranks are between **17** and **100**, points are given by: <br>
-**20 000 / rank + 1800**
+When you click on "Create Competition," you will be taken to a form where you can enter the basic information about your competition. This is the first step in the competition creation process.
 
-ex: Rank 20 wins 2800 points and rank 80 wins 2050 points.
+![Screenshot of the Create Competition page](../../../img/competition-tool-create-competition.png)
 
-If ranks are between **101** and **1000**, points are given by: <br>
-**100 000 / rank + 900**
+The form will include the following fields:
 
-ex: Rank 101 wins 1890 points and rank 999 wins 1000 points.
+- **Name:** Enter the name of your competition in this field.
+- **Club:** A competition *must* be associated with a club. Use the dropdown list to select the club you want to link the competition to.
+- **Description:** This is an optional field. If you want, you can provide a description for your competition that will appear on the Event page in-game. This field supports [Trackmania's custom text formatting](https://wiki.trackmania.io/en/content-creation/text-styling).
+- **Rules:** If your competition has a rulebook, you can link to it in this field. If you include a rulebook, players will need to tick a checkbox indicating that they agree to the competition rules before they can register.
 
-If ranks are between **1001** and **10 000**, points are given by: <br>
-**500 000 / rank + 450**
+!!! info "Club competitions and Events menu"
 
-ex: Rank 1001 wins 949 points and rank 9999 wins 500 points.
+    To make your Competition visible through the **Play > Live > Events** menu by default, the Club linked to the competition must have a "Verified" status. You can request verification for your Club by visiting the Club's Admin page. To view a list of the clubs you own or are a member of, click on [this link](https://www.trackmania.com/player/clubs).
 
-If ranks are between **10 001** and **100 000**, points are given by: <br>
-**2 500 000 / rank + 225**
+    However, if the Club tied to the competition is not verified, you can still find the competition by using the search box and manually looking for the event.
 
-ex: Rank 10 001 wins 474 points and rank 100 000 wins 250 points.
+### Team competitions
+
+To create a Team competition, you can tick the "Competition with teams" checkbox. This will set the upcoming steps of the competition creation process to accomodate Team competitions.
+
+## Registrations
+
+On the next step, you will input regisration details, should you want to open registrations for your event. If you would like to manually register players into your event, uncheck the "Enable registrations" toggle switch and follow [this guide](../administration/players-teams.md) to manually add players.
+
+!!! warning "Registrations unavailable for Team competitions"
+
+    Registrations are handled manually on Team competitions, as there is no in-game registration for Team competitions. You will have to manually add teams and players using the [Teams menu](../administration/players-teams.md).
+
+    To handle registrations for Team competitions, you can use third-party tools like [Challonge](https://challonge.com/) or [Toornament](https://www.toornament.com/).
+
+![Screenshot of the Registration step Create Competition page](../../../img/competition-tool-registration.png)
+
+This section of the form includes the following fields:
+
+- **Start date:** Enter the date when registration starts in your *local time*.
+- **End date:** Enter the date when registration ends in your *local time*.
+- **Maximum players registered:** If your competition has an upper limit for number of players registered, change this option. If not, then leave this setting as it is.
+- **Allowed zones:** This is used to limit registrations of the competitions to certain regions (see examples below). List all the [zone strings](../zones/index.md) allowed to register for the event, separated by commas. Leaving it blank will open registrations to players around the world.
+
+You can change registration times any time after your competition has been created.
+
+!!! example "Examples for allowed zones"
+
+    To limit registration to the entire Asia and Oceania continent:
+
+    ```
+    World|Asia, World|Oceania
+    ```
+
+    To limit registrations to France, Belgium, Monaco, and Switzerland:
+
+    ```
+    World|Europe|France, World|Europe|Belgium, World|Europe|Monaco, World|Europe|Switzerland
+    ```
+
+## What's next
+
+In the next section, you will learn how to add qualifiers and rounds to your competition.

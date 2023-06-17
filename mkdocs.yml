@@ -3,13 +3,28 @@ site_name: Trackmania documentation
 repo_url: https://github.com/nadeo/trackmania-doc
 
 theme:
-    name: material
-    features:
-        - navigation.tabs
-        - navigation.footer
-    palette:
+  # favicon: assets/tm-icon.png
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.footer
+  logo: assets/tm-logo.png
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       primary: green
-    logo: assets/tm-logo.png
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
 
 extra:
   social:
@@ -59,25 +74,33 @@ nav:
     - Activities:
       - Campaign: club/activities/campaign.md
       - Competition: club/activities/competition.md
-      - Competition Tool: 
-        - Overview: club/competition-tool/index.md
-        - Plugin settings: club/competition-tool/plugin-settings.md
-        - Create Competition: club/competition-tool/create-competition/index.md
-        - Structure: 
-          - Create a structure: club/competition-tool/structure/index.md
-          - Example: club/competition-tool/structure/01-example.md
-          - Bracket: club/competition-tool/structure/02-bracket-structure.md
-          - Championship: club/competition-tool/structure/03-championship-structure.md
-          - TMGL - 2022: club/competition-tool/structure/04-tmgl-structure.md
-        - Zones:
-          - World: club/competition-tool/zones/index.md
-          - Africa: club/competition-tool/zones/01-africa.md
-          - Asia: club/competition-tool/zones/02-asia.md
-          - Europe: club/competition-tool/zones/03-europe.md
-          - Middle East: club/competition-tool/zones/04-middle-east.md
-          - North America: club/competition-tool/zones/05-north-america.md
-          - Oceania: club/competition-tool/zones/06-oceania.md
-          - South America: club/competition-tool/zones/07-south-america.md
+      - Competition Tool:
+        - Competition tool: club/competition-tool/index.md
+        - Creating a competition:
+          - Creating a competition: club/competition-tool/create-competition/index.md
+          - Adding a qualifier: club/competition-tool/create-competition/qualifier.md
+          - Adding rounds: club/competition-tool/create-competition/rounds.md
+          - Structure importer: club/competition-tool/create-competition/structure-importer.md
+        - Administration:
+          - Administration: club/competition-tool/administration/index.md
+          - Server commands: club/competition-tool/administration/server-commands.md
+          - Adding players & teams: club/competition-tool/administration/players-teams.md
+          - Adding spectators: club/competition-tool/administration/spectators.md
+        - Reference:
+          - Structure:
+            - Structure object: club/competition-tool/structure/index.md
+            - Examples (Solo): club/competition-tool/structure/examples-solo.md
+            - Examples (Team): club/competition-tool/structure/examples-team.md
+          - Plugin settings: club/competition-tool/plugin-settings.md
+          - Zones:
+            - World: club/competition-tool/zones/index.md
+            - Africa: club/competition-tool/zones/01-africa.md
+            - Asia: club/competition-tool/zones/02-asia.md
+            - Europe: club/competition-tool/zones/03-europe.md
+            - Middle East: club/competition-tool/zones/04-middle-east.md
+            - North America: club/competition-tool/zones/05-north-america.md
+            - Oceania: club/competition-tool/zones/06-oceania.md
+            - South America: club/competition-tool/zones/07-south-america.md
       - News: club/activities/news.md
       - Rankings: club/activities/rankings.md
       - Room: club/activities/room.md

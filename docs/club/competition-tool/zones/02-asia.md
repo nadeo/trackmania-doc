@@ -1,4 +1,9 @@
 # Asia
+
+!!! warning
+
+    This section contains the list of available zones to be used [for creating competitions](../create-competition/index.md#registrations). It may be incomplete.
+
 ```
 World|Asia|Afghanistan
 World|Asia|Armenia
@@ -37,6 +42,7 @@ World|Asia|Vietnam
 ```
 
 ### China
+
 ```
 World|Asia|China|上海市
 World|Asia|China|云南省

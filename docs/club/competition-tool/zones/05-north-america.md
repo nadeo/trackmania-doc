@@ -1,4 +1,9 @@
 # North America
+
+!!! warning
+
+    This section contains the list of available zones to be used [for creating competitions](../create-competition/index.md#registrations). It may be incomplete.
+
 ```
 World|North America|Antigua and Barbuda
 World|North America|Bahamas
@@ -22,7 +27,9 @@ World|North America|Saint Vincent and the Grenadines
 World|North America|Trinidad and Tobago
 World|North America|United States
 ```
-##Canada
+
+## Canada
+
 ```
 World|North America|Canada|Alberta
 World|North America|Canada|British Columbia
@@ -38,7 +45,9 @@ World|North America|Canada|Quebec
 World|North America|Canada|Saskatchewan
 World|North America|Canada|Yukon
 ```
-##United States
+
+## United States
+
 ```
 World|North America|United States|Alabama
 World|North America|United States|Alaska

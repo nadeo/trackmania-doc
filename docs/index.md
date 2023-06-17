@@ -1,6 +1,6 @@
 # Trackmania documentation
 
-This is a work in progress website. 
+Welcome to the Trackmania documentation! Discover the different features and tools of the game sorted in different categories available in the top menu. 
 
 ## Contribute
 
