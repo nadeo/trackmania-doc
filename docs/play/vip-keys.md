@@ -21,7 +21,7 @@ In-game, you can find the VIPs in the leaderboard widget on the left of the scre
 |CarlJRtm|[https://www.twitch.tv/carljrtm](https://www.twitch.tv/carljrtm)|YTK7-T8NE-58BG-6G6H-RTNN|
 |Chroma|[https://www.twitch.tv/chroma](https://www.twitch.tv/chroma)|JJAR-3DF3-JC4N-JPM5-FRY5|
 |Ciremyxx|[https://www.twitch.tv/ciremyxx](https://www.twitch.tv/ciremyxx)|WYDR-4MF3-XFRX-RTN6-5JAK|
-|Cosmos24||XC3Y-434J-THP7-PHY3-NHFH|
+|Cosmos24|[https://www.twitch.tv/cosmos24tm](https://www.twitch.tv/cosmos24tm)|XC3Y-434J-THP7-PHY3-NHFH|
 |DamDam|[https://www.twitch.tv/damdamlive](https://www.twitch.tv/damdamlive)|X698-M4H3-86A6-3PHF-XHCN|
 |daregenn|[https://www.twitch.tv/daregenn](https://www.twitch.tv/daregenn)|FDAP-NBGA-R769-AJA5-ACTH|
 |DontCare|[https://www.twitch.tv/dontcare_tm](https://www.twitch.tv/dontcare_tm)|H53C-8XFK-5346-5A7K-XPNX|
