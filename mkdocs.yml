@@ -126,8 +126,14 @@ nav:
       - How to make a waypoint item: create/nadeo-importer/07-how-to-make-a-waypoint-item.md
       - Pivots and placement parameters: create/nadeo-importer/08-pivots-and-placement-parameters.md
       - About Mesh, Shape and Mat Gbx files: create/nadeo-importer/09-about-mesh-shape-and-mat-gbx-files.md
+    - Texture mods:
+      - Creating your own texture mods: create/texture-mods/mods.md
+      - Texture list: create/texture-mods/texture-list.md
+      - ModWork: create/texture-mods/modwork.md
+      - Mod hosting guide: create/texture-mods/hosting.md
+      - Mod troubleshooting: create/texture-mods/troubleshooting.md
     - How to make Parallax signs: create/parallax-signs/index.md
     - Help expand this section: create/index.md
-  - Web: 
+  - Web:
     - Web Services: web/web-services/index.md
     - Auth: web/web-services/auth.md
