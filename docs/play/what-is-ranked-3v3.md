@@ -40,12 +40,6 @@ The current map pool distribution is as follows:
 | Gold | Maps 1 - 20 |
 | Master | Maps 1 - 25 |
 
-!!! warning "Starter Access and Gold+ matchmaking" 
-
-    Currently there is no way for Starter Access players to practice the TMWT [E] maps.
-
-    Standard Access or Club Access are recommended for the best experience.
-
 ## Matchmaking rating
 
 Once a team has won 5 rounds, the match ends and players will earn or lose rating points depending on the amount of points they earned for their team and whether their team won or lost.
