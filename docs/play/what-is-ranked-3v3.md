@@ -26,7 +26,8 @@ In case a player disconnects from the match, the scoring changes a bit.
 Only the best two players from each team score points and in case of a draw in points, the team with the best time in the round wins.
 
 ## Ranked map pool
-Ranked 3v3 Matchmaking in Trackmania is played on the current Seasonal Campaign maps, or if you're in a high enough skill bracket, on the [E] versions of the current Trackmania World Tour maps.
+
+Ranked 3v3 Matchmaking in Trackmania is played on the current Seasonal Campaign maps.
 
 The map for your match will be randomly chosen out of the map pool based on the skill bracket of the lowest ranked player in the match.
 
@@ -35,8 +36,9 @@ The current map pool distribution is as follows:
 | Skill bracket | Map pool |
 |:---:|:---:|
 | Bronze | Maps 1 - 10 |
-| Silver | Maps 11 - 25 |
-| Gold+ | TMWT [E] maps |
+| Silver | Maps 1 - 15 |
+| Gold | Maps 1 - 20 |
+| Master | Maps 1 - 25 |
 
 !!! warning "Starter Access and Gold+ matchmaking" 
 
