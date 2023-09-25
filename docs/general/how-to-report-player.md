@@ -36,10 +36,10 @@ Note that using this website, you can also report individual maps and/or clubs -
 
 ## Ubisoft support
 
-Head over to the [official Ubisoft Support website](https://www.ubisoft.com/en-gb/help/contact).
+Head over to the [official Ubisoft Support website](https://www.ubisoft.com/en-gb/help/contact). Make sure you're logged in, otherwise the site won't let you submit a report.
 
-- **Platform**: Your platform of choice
 - **Game**: Trackmania
+- **Platform**: Your platform of choice
 - **Category**: Player Reports, Bans, and Sanctions
 - **Sub-Category**: Learn the Rules/Report a player
 
