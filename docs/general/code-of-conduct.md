@@ -111,8 +111,7 @@ Phishing / Scamming: Any attempt to fraud or mislead other players to gain perso
 ## DISPUTING ACCOUNT SANCTIONS
 
 If you have a question or wish to dispute an Account sanction that you have incurred, please 
-send a request to Customer Support
-. Please be sure to include all relevant information. We will reply to your questions as promptly as possible.
+send a request to Customer Support. Please be sure to include all relevant information. We will reply to your questions as promptly as possible.
 
 
 ## ACCOUNT SECURITY
