@@ -1,6 +1,5 @@
 # Trackmania - Code of Conduct
 
-January 18, 2022:
 
 This code of conduct is for Trackmania and game (the “Game”) and is supplemental to the [Ubisoft Terms of Use](https://www.ubisoft.com/en-us/help/trackmania/player-safety/article/code-of-conduct-for-trackmania/000081197), where applicable. Please refer to such terms for an in-depth breakdown of our conduct rules. Capitalized terms used in this Code of Conduct shall have the respective meanings specified in the Terms of Use.
 
