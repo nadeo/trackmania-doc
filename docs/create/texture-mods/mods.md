@@ -6,7 +6,7 @@ The limit is your imagination (and maybe the download speed of the player).
 
 ## Building Your Mod
 
-1. To get started, you'll want to download the [base game texture files](https://mega.nz/file/9CNSQDLA#b0W1Q3enG7ZAPv0XQGWArhk3sIPHV0S483Ly8annqw4) (maintained by **Zai**). Extract these textures to a folder you can easily access and **don't touch the files besides copying them**; you can copy/paste the files you need later, keeping the originally extracted textures as they are.
+1. To get started, you'll want to download the [base game texture files](https://drive.google.com/file/d/1oMFqTvNah2HNLiWf_5G2eC_2g3vlL6HL/view?usp=sharing) (maintained by **Zai**). Extract these textures to a folder you can easily access and **don't touch the files besides copying them**; you can copy/paste the files you need later, keeping the originally extracted textures as they are.
 2. [ModWork](/create/texture-mods/modwork) is an easy and fast way to see your mod locally as you work. Its biggest pro is that you don't have to restart your game every time you author a new texture. Just save the texture and alt-tab back into the game for instant updates!
 3. Trackmania textures are based on the [PBR workflow](https://en.wikipedia.org/wiki/Physically_based_rendering). The way the textures are comprised is very common in other recent video games.<br>
 For Trackmania mods, texture formats are stored as `.dds` files -  if you use Photoshop, the free tool [NVIDIA Texture Tools Exporter](https://developer.nvidia.com/nvidia-texture-tools-exporter) is perfect for authoring `.dds` textures; it also automatically creates [mipmaps](http://wiki.polycount.com/wiki/Mip_Mapping)!
