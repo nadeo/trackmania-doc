@@ -2,13 +2,11 @@
 
 You can export .fbx files from external 3d editors such as Blender or 3ds Max.
 
-
 ## Materials
 
 The file must contain meshes with materials.
 
 You can name your materials however you want, but you must remember those names because you will have to bind them to actual Trackmania material names in the .MeshParams.xml file (see section [How to create the MeshParams xml file]).
-
 
 ## UVs
 
@@ -29,11 +27,11 @@ In 3dsMax (which is classicaly index-based for layers), you have two options:
 - use the `Channel Info` utility to name your layers (comes with 3dsmax, available in panel `Utility > More > Channel info`)
 
 - or add the following information to the `User Defined Properties` (this is what `Channel Info` would do anyway):
+
 ```
 MapChannel:1 = BaseMaterial
 MapChannel:2 = LightMap
 ```
-
 
 ## Special object prefixes
 

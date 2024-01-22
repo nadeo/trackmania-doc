@@ -7,23 +7,23 @@ NadeoImporter and in-game editors usually produce .Item.gbx files which have no 
 
 However it is still possible to make .Mesh.Gbx, .Shape.Gbx or .Mat.Gbx files, but for very specific purposes. If you are curious, see the details below.
 
-
 ## Mesh and Shape files
 
 You can create .Mesh.Gbx and .Shape.Gbx files with the following command line:
-```sh
+
+```powershell
 .\NadeoImporter Mesh {fbxSourceFileNameRelativeToWorkFolder}
 ```
 
 For instance:
-```sh
+
+```powershell
 .\NadeoImporter Mesh Items\Samples\StaticObjects\Mesh\Slope_Base.fbx
 ```
 
 But you cannot use those files to build a .Item.Gbx files (there are no more `Phy` and `Vis` tags in the .Item.xml, where there used to be an explicit link to .Mesh.Gbx and .Shape.Gbx files).
 
 The only use of those files now is that you can import them in the Mesh Modeler (the in-game 3d mesh editor, that you can access through the Map Editor, by creating an item, and editing its mesh).
-
 
 ## Mat Gbx files
 

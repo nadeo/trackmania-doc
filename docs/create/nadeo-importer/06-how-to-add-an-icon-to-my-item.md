@@ -12,7 +12,6 @@ You can create .tga files with a lot of bitmap image edition softwares, such as 
 
 The resolution can be different than 64x64, but NadeoImporter will automatically transform it to a 64x64 image, embedded in the .Item.Gbx file.
 
-
 ## Link the image file to your item
 
 Unlike the reference to the .MeshParams.xml in the .Item.xml, or the reference to the .fbx in the .MeshParams.xml, the reference to the icon cannot be explicit, it is always implicit:
@@ -22,13 +21,12 @@ Unlike the reference to the .MeshParams.xml in the .Item.xml, or the reference t
 - The icon must be placed in a sub-folder called "Icon".
 
 For instance:
+
 > If you are trying to make an item from `{Trackmania_user_dir}\Work\Items\Samples\StaticObjects\Slope_Icon.Item.xml`
-> 
+>
 > then the program will look for this file: `{Trackmania_user_dir}\Work\Items\Samples\StaticObjects\Icon\Slope_Icon.tga`
 
-
 If the file is not provided, the item will not have any icon in the Map Editor.
-
 
 ## About file size
 
