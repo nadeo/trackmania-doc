@@ -1,8 +1,8 @@
 # Differences between the accesses
 
-**Trackmania (2020) has several levels of access**, each associated with a different subscription - see the details below for a general overview.
+**Trackmania (2020) has two levels of access**, Starter access for free, and Club access which offers the full Trackmania experience.
 
-For a detailed list of all features sorted by the access level that unlocks them, see [the official chart](https://www.trackmania.com/detailed-offers).
+For a detailed list of all features sorted by the access level that unlocks them, see [the official chart](https://www.trackmania.com/access).
 
 !!! info "About expired subscriptions"
 
