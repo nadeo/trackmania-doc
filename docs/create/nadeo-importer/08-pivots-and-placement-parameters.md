@@ -6,7 +6,6 @@ This article explains the influence of pivots and placement parameters on how th
 
 You can set pivots and placement parameters in the .Item.xml file: see section [How to create the Item xml file] for more information.
 
-
 ## Pivots
 
 When you place an item in the map, the mouse cursor is aiming at a particular point in the map. But how should the item be placed compared to this point? If your item is a cube, should the editor place the item so that the cursor point is at the center of the cube ? Or the center of the bottom face? Or one corner of the cube?
@@ -19,7 +18,6 @@ If an item has no pivot, the Map Editor will consider that it has one pivot at t
 
 Pivots can also be used as magnets to help align items when you place them on each other: see `Pivot Snap Distance` for more information.
 
-
 ## Placement parameters
 
 These are advanced parameters to help mappers place the item in the map.
@@ -28,7 +26,6 @@ They are numerous and sometimes a bit difficult to understand. Just leave the de
 
 Three of them are far more useful than all the others: `Fly Step`, `Grid Horizontal Size` and `Ghost mode`. You can read the explanations of these three and ignore all the others!
 
-
 ### Main placement parameters
 
 - `Fly Step`: If 0, the item will always be placed "on something": on the ground, on a wall, on another item, etc. whatever is aimed by the cursor. If greater than 0, the item can fly above the ground: each time you scroll with the mouse wheel (or press the `PgUp`/`PgDown` keys), the item will be offseted vertically by this step (in meters).
@@ -36,7 +33,6 @@ Three of them are far more useful than all the others: `Fly Step`, `Grid Horizon
 - `Grid Horizontal Size`: If greater than 0, the item will be snapped to the intersections of an invisible horizontal grid, and the distance between the parallel lines of this grid will be this `Grid Horizontal Size` (in meters). If 0, there will be no horizontal snapping, you can place the item exactly where you want (but it will be difficult to align several items or align items with blocks).
 
 - `Ghost mode`: If activated, the item will never be placed "on anything", it will completely ignore surrounding blocks and items, going through them if necessary.
-
 
 ### Advanced placement parameters
 
@@ -58,7 +54,6 @@ Three of them are far more useful than all the others: `Fly Step`, `Grid Horizon
 
 - `Pivot Snap Distance`: When you are about to place a new item on another item (in other words the mouse pointer is aiming at an item already placed on the map), the editor might try to snap the new item so that its current pivot would be placed exactly at the same spot as one of the pivots of the other item, as if the pivots of the already placed item were magnets that attract the pivot of the new item. If you do not want this feature for your item, set the value to 0. Otherwise, choose a positive value which will be the distance of this attraction (in meters), or use the special value -1 to let the editor choose an automatic distance.
 
-
 ## About Free ground item and Free item modes
 
 When you are already in Item mode in the Map Editor, you can activate the "Free ground item mode" or "Free item mode" by clicking several times on the tree-shaped Item mode icon (the shape of the item mode icon changes).
@@ -66,6 +61,5 @@ When you are already in Item mode in the Map Editor, you can activate the "Free 
 In these modes, all the placement parameters of the current item are ignored and replaced by some default parameters with tiny `Grid Horizontal Size`.
 
 The difference between "Free ground item mode" and "Free item mode" is that "Free item mode" also has a tiny `Fly Step` (instead of 0) and `Ghost Mode`.
-
 
 [How to create the Item xml file]: ../05-how-to-create-the-item-xml-file/
