@@ -13,10 +13,10 @@ Because the player will need to download the mod on the fly, you need to upload 
 
 Generally, you can host your mod anywhere you want as long as it's a direct link. Here are the most common choices:
 
-1. **Discord**: All files uploaded to Discord are publicly accessible - so you can just upload the mod in a private server and copy the file link (make sure you don't accidentally copy the message link instead!). Discord comes with a file size limit of 8MB by default and up to 500MB for Nitro users.
-2. [**ManiaCDN**](http://upload.maniacdn.net): This is a free hosting service for the Trackmania community. All uploads are manually approved, so your mod might not be available immediately. But it's a cool service, especially since it's free and supported by the community.
-3. [**Github**](https://github.com): Typically Github and other git hosts are meant for storing code and other technical assets, but you can also host generic files on there. Just make sure you can get a direct link to the file that's publicly accessible.
-4. **Dropbox, Google Drive and other cloud storage providers**: These mostly work fine, but some of them might limit downloads after a certain number of accesses. If your mod gets used in a competition and only the first 1000 players are able to download it, that might be a problem.
+1. [**ManiaCDN**](http://upload.maniacdn.net): This is a free hosting service for the Trackmania community. All uploads are manually approved, so your mod might not be available immediately. But it's a cool service, especially since it's free and supported by the community.
+2. [**DashMap**](https://dashmap.live): DashMap is a public community-hosted CDN to be used exclusively for assets used in maps for Trackmania/Shootmania games. It is intended as a modern alternative to ManiaCDN.
+3. [**ManiaPark**](https://maniapark.com): This is a free mod hosting and sharing service run by the [TMX](https://trackmania.exchange) crew. Automatically provides locator files and a public URL to use.
+4. Other cloud host/CDN services/your own web server - it's not recommended to use general-purpose file hosts or platforms like Discord as this CDN-like usage typically violates their terms of use.
 
 ## Reference your mod in your map
 
