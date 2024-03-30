@@ -38,9 +38,12 @@ These textures determine what is tintable and what isn't - they use the RGB chan
 | Ad2x1Screen | "Default" 2x1 Sign |
 | Ad4x1Screen | "Default" 4x1 Sign |
 | AdScreenOff | "Off" Sign |
+| Canopy | Canopy  | \_D |  |  |  | | \_N | | \_R |
+| CanopyGlass | Canopy Glass | \_D |  |  |  | | \_N | | \_R |
+| CanopyStructure |  | \_D | \_H | \_I | \_L | | \_N | | \_R |
 | Chrono |  | \_D | \_H | \_I | \_L | | \_N | | \_R |
-| ChronoCheckpoint |  | | | \_I |
-| ChronoFinish |  | | | \_I |
+| ChronoCheckpoint | Checkpoint Appearance | | | \_I |
+| ChronoFinish | Finish Appearance | | | \_I |
 | CustomBricks |  | \_D | | | | | \_N | | \_R |
 | CustomConcrete |  | \_D | | | | | \_N | | \_R | | \_X2 |
 | CustomDirt |  | \_D | | | | | \_N | | \_R |
@@ -97,16 +100,19 @@ These textures determine what is tintable and what isn't - they use the RGB chan
 | DecalSponsor4x1B |  | |  |  |  | \_M |
 | DecalSponsor4x1C |  | |  |  |  | \_M |
 | DecalSponsor4x1D |  | |  |  |  | \_M |
-| DecoHill |  | \_D | | | | | \_N | | \_R |
+| DecoCliffIcePxz | Snow Cliff  | \_D |  |  |  |  | \_N |  | \_R |
+| DecoCliffPxz | Grass Cliff | \_D |  |  |  |  | \_N | | \_R |
+| DecoHill | Grass Tiered Hills | \_D | | | | | \_N | | \_R |
 | DecoHill2 |  | \_D |
-| DecoHillDirt |  | \_D | | | | | \_N | | \_R |
+| DecoHillDirt | Dirt Tiered Hills | \_D | | | | | \_N | | \_R |
 | DecoHillDirt2 |  | \_D |
-| DecoHillDirtPy |  | \_D | | | | | \_N | | \_R |
-| DecoHillIce |  | \_D | | | | | \_N | | \_R |
+| DecoHillDirtPy | Penalty Dirt | \_D | | | | | \_N | | \_R |
+| DecoHillIce | Ice Tiered Hills | \_D | | | | | \_N | | \_R |
 | DecoHillIce2 |  | \_D |
-| DecoHillIcePy |  | \_D | | | | | \_N | | \_R |
-| DecoHillPy |  | \_D | | | | | \_N | | \_R |
-| DirtPy |  | \_D | | | | | \_N | | \_R | | \_X2 |
+| DecoHillIcePy | Penalty Snow | \_D | | | | | \_N | | \_R |
+| DecoHillPy | Penalty Grass | \_D | | | | | \_N | | \_R |
+| DecoTechnics |  | \_D | | | | | \_N | | \_R |
+| DirtPy | Dirt | \_D | | | | | \_N | | \_R | | \_X2 |
 | GlassWaterWall |  | | | | | | \_N | \_O | \_R | \_T |
 | Grass |  | \_D | | | | | \_N | | \_R | | \_X2 |
 | GrassFence |  | \_D |
