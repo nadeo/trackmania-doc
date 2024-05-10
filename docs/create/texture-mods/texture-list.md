@@ -47,15 +47,24 @@ These textures determine what is tintable and what isn't - they use the RGB chan
 | CustomBricks |  | \_D | | | | | \_N | | \_R |
 | CustomConcrete |  | \_D | | | | | \_N | | \_R | | \_X2 |
 | CustomDirt |  | \_D | | | | | \_N | | \_R |
-| CustomGrass |  | \_D | | | | | \_N | | \_R |
+| CustomGrass |  | \_D | | | | | \_N | | \_R | | \_X2 |
 | CustomIce |  | \_D | | | | | \_N | | \_R |
 | CustomMetal |  | \_D | | | | | \_N | | \_R |
 | CustomMetalPainted |  | \_D | | | | | \_N | | \_R |
+| CustomModAddSelfIllum |  | \_D | \_H | \_I | \_L | | \_N | | \_R |
+| CustomModAddSelfIllum2 |  | \_D | \_H | \_I | \_L | | \_N | | \_R |
 | CustomModColorize |  | \_D | | | | | \_N | | \_R | | | \_HueShiftMask |
+| CustomModColorize2 |  | \_D | | | | | \_N | | \_R | | | \_HueShiftMask |
 | CustomModDecal |  | \_D | | | | | \_N | | \_R |
+| CustomModDecal2 |  | \_D | | | | | \_N | | \_R |
 | CustomModOpaque |  | \_D | | | | | \_N | | \_R |
+| CustomModOpaque2 |  | \_D | | | | | \_N | | \_R |
+| CustomModSelfIllumSimple |  | \_D | \_H | \_I | \_L | | \_N | | \_R |
+| CustomModSelfIllumSimple2 |  | \_D | \_H | \_I | \_L | | \_N | | \_R |
 | CustomModSelfIllum |  | \_D | \_H | \_I | \_L | | \_N | | \_R |
+| CustomModSelfIllum2 |  | \_D | \_H | \_I | \_L | | \_N | | \_R |
 | CustomModTrans |  | \_D | | | | | \_N | | \_R |
+| CustomModTrans2 |  | \_D | | | | | \_N | | \_R |
 | CustomPlastic |  | \_D | | | | | \_N | | \_R |
 | CustomRock |  | \_D | | | | | \_N | | \_R |
 | CustomRockPxz |  | \_D | | | | | \_N | | \_R |
@@ -64,6 +73,7 @@ These textures determine what is tintable and what isn't - they use the RGB chan
 | CustomSand |  | \_D | | | | | \_N | | \_R |
 | CustomSnow |  | \_D | | | | | \_N | | \_R | | \_X2 |
 | DecalCurbs |  | \_D | | | | | \_N | | \_R |
+| DecalGateGameplay |  | \_D | | | | | \_N | | \_R |
 | DecalLogo4x1 |  | |  |  |  | \_M |
 | DecalLogo8x1 |  | |  |  |  | \_M |
 | DecalMarks |  | \_D | | | | | \_N | | \_R |
@@ -77,7 +87,7 @@ These textures determine what is tintable and what isn't - they use the RGB chan
 | DecalObstacleTurnstileRight |  | \_D |
 | DecalPaint |  | \_D | | | | | \_N | | \_R |
 | DecalPaint2 |  | \_D |
-| DecalPlatform |  | \_D | | | | | \_N ^1^ | | \_R |
+| DecalPlatform |  | \_D | | | | | \_N | | \_R |
 | DecalPlatformDirt |  | \_D |
 | DecalPlatformGrass |  | \_D |
 | DecalPlatformIce |  | \_D |
@@ -87,6 +97,7 @@ These textures determine what is tintable and what isn't - they use the RGB chan
 | DecalSpecialBoost2 |  | \_D |
 | DecalSpecialCruise |  | \_D |
 | DecalSpecialFragile |  | \_D |
+| DecalSpecialMarks |  | \_D | | | | | \_N | | \_R |
 | DecalSpecialNoBrake |  | \_D |
 | DecalSpecialNoEngine |  | \_D |
 | DecalSpecialNoSteering |  | \_D |
@@ -109,11 +120,14 @@ These textures determine what is tintable and what isn't - they use the RGB chan
 | DecoHillDirtPy | Penalty Dirt | \_D | | | | | \_N | | \_R |
 | DecoHillIce | Ice Tiered Hills | \_D | | | | | \_N | | \_R |
 | DecoHillIce2 |  | \_D |
-| DecoHillIcePy | Penalty Snow | \_D | | | | | \_N | | \_R |
-| DecoHillPy | Penalty Grass | \_D | | | | | \_N | | \_R |
+| DecoHillIcePy | Penalty Snow | \_D | | | | | \_N | | \_R | | \_X2 |
+| DecoHillPy | Penalty Grass | \_D | | | | | \_N | | \_R | | \_X2 |
 | DecoTechnics |  | \_D | | | | | \_N | | \_R |
 | DirtPy | Dirt | \_D | | | | | \_N | | \_R | | \_X2 |
+| FoggerSmoke |
+| GateGameplayScreen |
 | GlassWaterWall |  | | | | | | \_N | \_O | \_R | \_T |
+| GlossyFloor |  | \_D | | | | | \_N | | \_R |
 | Grass |  | \_D | | | | | \_N | | \_R | | \_X2 |
 | GrassFence |  | \_D |
 | IceMarks |  | | | | | \_M | \_N | | \_R |
@@ -133,6 +147,7 @@ These textures determine what is tintable and what isn't - they use the RGB chan
 | ItemFirBranch |  | \_D | | | | | \_N | | \_R |
 | ItemFirSnowBranch |  | \_D | | | | | \_N | | \_R |
 | ItemFlag |  | \_D | | | | | | | \_R |
+| ItemFrozenTreeBranch |  | \_D |
 | ItemInflatableFloor |  | \_D | | | | | \_N | | \_R |
 | ItemInflatableMat |  | \_D | | | | | \_N | | \_R |
 | ItemInflatableTube |  | \_D | | | | | \_N | | \_R |
@@ -235,6 +250,7 @@ Notes:
     - Red: `_Level2`
 - ItemTrackBarrier_D uses `_HueMask`. ItemTrackBarrierB_D and C_D use `_HueMask2`.
 - SpecialFXTurboRoulette_LightColor exists.
+- DecalGateGameplay has Rally.dds and Snow.dds variants for the snow and rally car respectively.
 
 <!-- TODO
 ## 📁 Moods
