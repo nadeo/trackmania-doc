@@ -40,10 +40,11 @@ These textures determine what is tintable and what isn't - they use the RGB chan
 | AdScreenOff | "Off" Sign |
 | Canopy | Canopy  | \_D |  |  |  | | \_N | | \_R |
 | CanopyGlass | Canopy Glass | \_D |  |  |  | | \_N | | \_R |
-| CanopyStructure |  | \_D | \_H | \_I | \_L | | \_N | | \_R |
-| Chrono |  | \_D | \_H | \_I | \_L | | \_N | | \_R |
-| ChronoCheckpoint | Checkpoint Appearance | | | \_I |
-| ChronoFinish | Finish Appearance | | | \_I |
+| CanopyStructure||_D|_H|_I|_L||_N||_R|||_D, _L  
+| Canopy||_D|||_N||_R|||_D  
+| Chrono||_D|_H|_I|_L||_N||_R||  
+| ChronoFinish|||_I||||  
+| ChronoCheckpoint|||_I||||  
 | CustomBricks |  | \_D | | | | | \_N | | \_R |
 | CustomConcrete |  | \_D | | | | | \_N | | \_R | | \_X2 |
 | CustomDirt |  | \_D | | | | | \_N | | \_R |
