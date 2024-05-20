@@ -34,10 +34,10 @@ These textures determine what is tintable and what isn't - they use the RGB chan
 
 | **Name** | **Used For** | **\_D** | **\_H** | **\_I** | **\_L** | **\_M** | **\_N** | **\_O** | **\_R** | **\_T** | **\_X2** | **\_HueShiftMask**
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|Ad1x1Screen||||||||||||
-|Ad2x1Screen||||||||||||
-|Ad4x1Screen||||||||||||
-|AdScreenOff||||||||||||
+|Ad1x1Screen|"Default" 1x1 Sign|||||||||||
+|Ad2x1Screen|"Default" 2x1 Sign|||||||||||
+|Ad4x1Screen|"Default" 4x1 Sign|||||||||||
+|AdScreenOff|"Off" Sign|||||||||||
 |Canopy||_D|||||_N||_R|||_D
 |CanopyGlass||_D|||||_N||_R|||_D
 |CanopyStructure||_D|_H|_I|_L||_N||_R|||_D, _L
@@ -294,7 +294,6 @@ These textures determine what is tintable and what isn't - they use the RGB chan
 
 Notes:
 
-- DecalPlatform has two `_N` textures, one `DDS` and one `TGA`.
 - Add a second suffix depending on type of obstacle:
     - Pink: `_DiscontinuousLevel0`
     - Violet: `_DiscontinuousLevel1`
@@ -302,6 +301,7 @@ Notes:
     - Yellow: `_Level0`
     - Orange: `_Level1`
     - Red: `_Level2`
+- In the case of `ItemObstacle_D`, `ItemObstaclePusher_D` and `ItemObstacleLight_I`, A second suffix exists
 - ItemTrackBarrier_D uses `_HueMask`. ItemTrackBarrierB_D and C_D use `_HueMask2`.
 - SpecialFXTurboRoulette_LightColor exists.
 - DecalGateGameplay has Rally.dds and Snow.dds variants for the snow and rally car respectively.
