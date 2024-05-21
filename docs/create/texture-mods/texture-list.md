@@ -38,9 +38,9 @@ These textures determine what is tintable and what isn't - they use the RGB chan
 |Ad2x1Screen|"Default" 2x1 Sign|||||||||||
 |Ad4x1Screen|"Default" 4x1 Sign|||||||||||
 |AdScreenOff|"Off" Sign|||||||||||
-|Canopy||_D|||||_N||_R|||_D
-|CanopyGlass||_D|||||_N||_R|||_D
-|CanopyStructure||_D|_H|_I|_L||_N||_R|||_D, _L
+|Canopy|Canopy Pattern|_D|||||_N||_R|||_D
+|CanopyGlass|Canopy Glass|_D|||||_N||_R|||_D
+|CanopyStructure|Canopy Pattern Edges|_D|_H|_I|_L||_N||_R|||_D, _L
 |Chrono||_D|_H|_I|_L||_N||_R|||
 |ChronoCheckpoint||||_I||||||||
 |ChronoFinish||||_I||||||||
