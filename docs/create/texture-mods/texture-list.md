@@ -112,13 +112,16 @@ These textures determine what is tintable and what isn't - they use the RGB chan
 |DecalSponsor4x1B||||||_M||||||
 |DecalSponsor4x1C||||||_M||||||
 |DecalSponsor4x1D||||||_M||||||
+|DecoCliffBase||_D|||||_N||_R|||_D|
+|DecoCliffBaseDirt||_D||||||||||
+|DecoCliffBaseIce||_D||||||||||
 |DecoCliffIcePxz||_D|||||_N||_R|||
 |DecoCliffPxz||_D|||||_N||_R|||
 |DecoHill||_D|||||_N||_R|||
 |DecoHill2||_D||||||||||
 |DecoHillDirt||_D|||||_N||_R|||
 |DecoHillDirt2||_D||||||||||
-|DecoHillDirtPy||_D|||||_N||_R|||
+|DecoHillDirtPy||_D|||||_N||_R||_X2||
 |DecoHillIce||_D|||||_N||_R|||
 |DecoHillIce2||_D||||||||||
 |DecoHillIcePy||_D|||||_N||_R||_X2|
@@ -304,7 +307,7 @@ Notes:
 - In the case of `ItemObstacle_D`, `ItemObstaclePusher_D` and `ItemObstacleLight_I`, A second suffix exists
 - ItemTrackBarrier_D uses `_HueMask`. ItemTrackBarrierB_D and C_D use `_HueMask2`.
 - SpecialFXTurboRoulette_LightColor exists.
-- DecalGateGameplay has Rally.dds and Snow.dds variants for the snow and rally car respectively.
+- DecalGateGameplay has Desert.dds, Rally.dds and Snow.dds variants for the snow and rally car respectively.
 
 <!-- TODO
 ## 📁 Moods
@@ -356,3 +359,5 @@ Notes:
 | WaterWake_N
 | WetWheelsMarks
 | WetWheelsMarks_RM
+
+Last updated on the 24th of May 2024 (Desert Update).
