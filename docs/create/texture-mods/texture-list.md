@@ -174,9 +174,9 @@ These textures determine what is tintable and what isn't - they use the RGB chan
 |ItemSupportTube||_D|||||_N||_R|||_D
 |ItemTorchFlame||||_I||||||||
 |ItemTrackBarrier||_D|||||_N||_R|||_D
-|ItemTrackBarrier2||_D||||||||||
-|ItemTrackBarrierB||_D||||||||||
-|ItemTrackBarrierC||_D||||||||||
+|ItemTrackBarrier2||_D||||||||||_D
+|ItemTrackBarrierB||_D||||||||||_D
+|ItemTrackBarrierC||_D||||||||||_D
 |ItemTreeTrunk||_D|||||_N||_R|||
 |LightCells|||||||_N||_R|||
 |LightCells2||_D|_H||_L||_N||_R|||
@@ -308,6 +308,7 @@ Notes:
 - ItemTrackBarrier_D uses `_HueMask`. ItemTrackBarrierB_D and C_D use `_HueMask2`.
 - SpecialFXTurboRoulette_LightColor exists.
 - DecalGateGameplay has Desert.dds, Rally.dds and Snow.dds variants for the snow and rally car respectively.
+- ItemSpringTreeBranch contains additional _N.tga and _R.tga textures
 
 <!-- TODO
 ## 📁 Moods
