@@ -192,7 +192,6 @@ These textures determine what is tintable and what isn't - they use the RGB chan
 |OpenGrassBorders||_D||||||||||
 |OpenIceBorders||_D||||||||||
 |OpenTechBorders||_D|||||_N||_R|||_D
-|output.csv||||||||||||
 |PlatformGrass||_D|||||_N||_R|||
 |PlatformIce||_D|_H|||||||||
 |PlatformTech||_D|||||_N||_R|||
@@ -260,6 +259,7 @@ These textures determine what is tintable and what isn't - they use the RGB chan
 |TechnicsStep||_D|||||_N||_R|||_D
 |TechnicsStepLow|||||||_N|||||
 |TechnicsTrims||_D|||||_N||_R|||
+|ThemeDesertBarrier||_D|||||_N||_R||||_D
 |ThemeRallyBarrier||_D|||||_N||_R|||
 |ThemeRallyCastleBorders||_D|||||_N||_R|||
 |ThemeRallyCastleRoof||_D|||||_N||_R|||_D
@@ -289,7 +289,7 @@ These textures determine what is tintable and what isn't - they use the RGB chan
 |TriggerFXTurbo2||||_I||||||||
 |TriggerFXTurboRoulette||||_I||||||||
 |Underwater||_D|||||_N||_R|||
-|Water||||||||||||
+|Water.tga||||||||||||
 |WaterBorders||_D|||||_N||_R|||
 |WaterFog.tga||||||||||||
 |Waterground||_D|||||_N||_R|||
@@ -297,6 +297,7 @@ These textures determine what is tintable and what isn't - they use the RGB chan
 
 Notes:
 
+- All files are .dds unless mentioned otherwise.
 - Add a second suffix depending on type of obstacle:
     - Pink: `_DiscontinuousLevel0`
     - Violet: `_DiscontinuousLevel1`
@@ -308,12 +309,16 @@ Notes:
 - ItemTrackBarrier_D uses `_HueMask`. ItemTrackBarrierB_D and C_D use `_HueMask2`.
 - SpecialFXTurboRoulette_LightColor exists.
 - DecalGateGameplay has Desert.dds, Rally.dds and Snow.dds variants for the snow and rally car respectively.
-- ItemSpringTreeBranch contains additional _N.tga and _R.tga textures
+- ItemSpringTreeBranch contains additional _N.tga and _R.tga textures.
+- LightTubeBig contains a _G.tga texture.
+- Structure contains a _D.tga HueMask.
+- Trackborders _I is a .tga file rather than a .dds file. 
 
 <!-- TODO
 ## 📁 Moods
 | **Name** | **Used For** |
 |:-:|:-:|
+
 -->
 
 ## Car Effects
@@ -361,4 +366,8 @@ Notes:
 | WetWheelsMarks
 | WetWheelsMarks_RM
 
+Note: 
+TBC
+
 Last updated on the 24th of May 2024 (Desert Update).
+Last edited by MarsyTM
