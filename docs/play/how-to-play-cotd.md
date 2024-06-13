@@ -2,7 +2,7 @@
 
 !!! info "Paid access required"
 
-    This feature requires an active **Standard Access** or **Club Access** subscription.
+    This feature requires an active **Club Access** subscription.
 
 ## What is the Cup of the Day?
 
