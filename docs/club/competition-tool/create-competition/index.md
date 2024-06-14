@@ -4,7 +4,7 @@
 
     In order to create and manage Competitions for a club you must either have the **Creator**, **Admin** or **Content Creator** role for that club.
 
-To create a Competition activity, you need to visit the [Competition Tool website](https://admin.trackmania.nadeo.club/). To get started, log in to the Competition Tool using your Ubisoft account, and then click on "Create Competition."
+To create a Competition activity, you need to visit the [Competition Tool website](https://www.trackmania.com/competition). To get started, log in to the Competition Tool using your Ubisoft account, and then click on "Create Competition."
 
 ## Basic Information
 
