@@ -48,6 +48,11 @@ markdown_extensions:
     - pymdownx.details
     - pymdownx.superfences
 
+plugins:
+  - mkdocs-video:
+      is_video: True
+      video_controls: True
+
 nav:
   - General:
     - Home: general/index.md
