@@ -48,6 +48,11 @@ markdown_extensions:
     - pymdownx.details
     - pymdownx.superfences
 
+plugins:
+  - mkdocs-video:
+      is_video: True
+      video_controls: True
+
 nav:
   - General:
     - Home: general/index.md
@@ -64,6 +69,7 @@ nav:
     - The Royal Map Pool: play/royal-mappool.md
     - What is the Ranked 3v3 Gamemode?: play/what-is-ranked-3v3.md
     - How to play Ranked 3v3 with my friends?: play/how-to-play-ranked-3v3-friends.md
+    - Stunt Mode Explained: play/stunt-mode-explained.md
     - What are the Arcade Channels?: play/what-are-arcade-channels.md
     - Watching Replays: play/watch-replays.md
     - VIP Keys: play/vip-keys.md
