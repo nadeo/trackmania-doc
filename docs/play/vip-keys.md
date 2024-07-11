@@ -53,7 +53,7 @@ In-game, you can find the VIPs in the leaderboard widget on the left of the scre
 |Majijej|[https://www.twitch.tv/majijej](https://www.twitch.tv/majijej)|X394-F99F-GT3G-8DPW-HWKX|
 |marty_vole|[https://www.twitch.tv/marty_vole](https://www.twitch.tv/marty_vole)|YHWG-354D-9983-XGGR-YCXH|
 |Massa|[https://www.twitch.tv/massa](https://www.twitch.tv/massa)|YMX7-MAER-AA8B-MDWD-G476|
-|MCYCShadow|[https://www.twitch.tv/mcycshadow](https://www.twitch.tv/mcycshadow)|T64M-KMPR-X436-8RJ9-GRP7|
+|MCYC|[https://www.twitch.tv/mcycguy](https://www.twitch.tv/mcycguy)|T64M-KMPR-X436-8RJ9-GRP7|
 |Micka_tm|[https://www.twitch.tv/micka_tm](https://www.twitch.tv/micka_tm)|7AN6-TKGY-9BDB-8A9W-J6FN|
 |Mime_|[https://www.twitch.tv/mime_](https://www.twitch.tv/mime_)|H37C-XX5A-AB5M-6XG9-XN4N|
 |Mudda_tm|[https://www.twitch.tv/mudda_tm](https://www.twitch.tv/mudda_tm)|H4TX-PK9Y-7A5G-78JH-C9WK|
