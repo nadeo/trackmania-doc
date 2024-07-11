@@ -118,11 +118,13 @@ Limit the duration a player can stay on a server.
 
 ## Trackmania UI
 
-| Setting name             | Type   | Default value | Description                                                |
-| :----------------------- | :----- | :------------ | :--------------------------------------------------------- |
-| S_TrackmaniaUIProperties | String | `""`          | The UI properties to hide. Add value to enable the plugin. |
+| Setting name             | Type   | Default value | Description                                                                |
+| :----------------------- | :----- | :------------ | :------------------------------------------------------------------------- |
+| S_TrackmaniaUIProperties | String | `""`          | **Deprecated.** The UI properties to hide. Add value to enable the plugin. |
 
 !!! example "Example of a valid S_TrackmaniaUIProperties value"
+
+    See all available options in [this page](https://github.com/maniaplanet/script-xmlrpc/blob/master/XmlRpcListing.md#trackmaniauiproperties).
 
     ```xml
     <ui_properties><round_scores visible='false'/></ui_properties>
