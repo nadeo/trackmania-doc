@@ -48,7 +48,7 @@ The current map pool distribution is as follows:
 
 Once a team has won 5 rounds, the match ends and players will earn or lose rating points depending on the amount of points they earned for their team and whether their team won or lost.
 
-In a regular match, where both teams are of equal skill, the point distribution is as follows:
+In an average match where both teams are of equal skill, the point distribution is as follows:
 
 | Overall player position | Points gained |
 |:---:|:---:|
@@ -60,6 +60,8 @@ In a regular match, where both teams are of equal skill, the point distribution 
 | 6th | -30 |
 
 Players of the winning team gain an additional `+10` points, players of the losing team lose an additional `-10` points.
+
+Note that imbalanced matches may yield a different amount of ranking points per player depending on the players' rankings.
 
 The player who scored the most points in the entire match, no matter whether they are on the winning or losing side, is the Match MVP and earns bonus rating points.
 The amount of bonus MVP points depends on the skill bracket the player is in and how evenly skilled the teams are. The values below assume evenly matched teams:
