@@ -50,11 +50,16 @@ Once a team has won 5 rounds, the match ends and players will earn or lose ratin
 
 In a regular match, where both teams are of equal skill, the point distribution is as follows:
 
-| Winning Team position | Points gained | Losing Team position | Points lost |
-| :-------------------: | :-----------: | :------------------: | :---------: |
-|          1st          |      +40      |         1st          |     -20     |
-|          2nd          |      +30      |         2nd          |     -30     |
-|          3rd          |      +20      |         3rd          |     -40     |
+| Overall player position | Points gained |
+|:---:|:---:|
+| 1st | +30 |
+| 2nd | +20 |
+| 3rd | +10 |
+| 4th | -10 |
+| 5th | -20 |
+| 6th | -30 |
+
+Players of the winning team gain an additional `+10` points, players of the losing team lose an additional `-10` points.
 
 The player who scored the most points in the entire match, no matter whether they are on the winning or losing side, is the Match MVP and earns bonus rating points.
 The amount of bonus MVP points depends on the skill bracket the player is in and how evenly skilled the teams are. The values below assume evenly matched teams:
