@@ -37,6 +37,7 @@ When the leaderboard for a Track of the Day closes, you will earn Trophy points 
 | Top 100       | 1x Trophy 6 | 100,000   |
 | Top 1000      | 1x Trophy 5 | 10,000    |
 | Top 10000     | 1x Trophy 4 | 1,000     |
+| Top 100000    | 1x Trophy 3 | 100       |
 
 <hr>
 Author: [Chris92](https://twitter.com/Chris92_de)
