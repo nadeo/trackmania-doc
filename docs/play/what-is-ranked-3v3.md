@@ -37,12 +37,18 @@ The map for your match will be randomly chosen out of the map pool based on the 
 
 The current map pool distribution is as follows:
 
-| Skill bracket |  Map pool   |
-| :-----------: | :---------: |
-|    Bronze     | Maps 1 - 10 |
-|    Silver     | Maps 1 - 15 |
-|     Gold      | Maps 1 - 20 |
-|    Master     | Maps 1 - 25 |
+|  Skill bracket |   Map pool   |
+|  :-----------: |  :---------: |
+|    Bronze 1    | Maps 1 - 10  |
+|    Bronze 2    | Maps 2 - 11  |
+|    Bronze 3    | Maps 4 - 13  |
+|    Silver 1    | Maps 6 - 15  |
+|    Silver 2    | Maps 7 - 16  |
+|    Silver 3    | Maps 9 - 18  |
+|     Gold 1     | Maps 11 - 20 |
+|     Gold 2     | Maps 12 - 21 |
+|     Gold 3     | Maps 14 - 23 |
+|     Master     | Maps 16 - 25 |
 
 ## Matchmaking rating
 
