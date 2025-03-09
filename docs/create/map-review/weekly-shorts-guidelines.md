@@ -14,27 +14,21 @@ With this, comes the unfortunate side effect that many experienced map creators 
 
 For this reason, we are introducing some new rules to Weekly Shorts more in line with what we envision for this game-mode, and have some guidelines that can help your submitted tracks be selected.
 
-We understand that this vision may not always match well with the expectation and also enjoyment of more expert players. Higher skilled players could find tracks not challenging enough, or get bored quickly if there is no unique strategy to find. For these players, we will
-always have the Track of the Day selections, later tracks in the Seasonal Campaigns, and of course many user generated tracks to discover in the game.
+We understand that this vision may not always match well with the expectation and also enjoyment of more expert players. Higher skilled players could find tracks not challenging enough, or get bored quickly if there is no unique strategy to find. For these players, we will always have the Track of the Day selections, later tracks in the Seasonal Campaigns, and of course many user generated tracks to discover in the game.
 
-For the Weekly Short tracks, we want to see tracks that are truly short, not intense, not confusing and easy to read for beginning players. We also want to introduce some new guidelines and “rules” to submission for tracks, so we can shape and theme each week with
-a somewhat similar structure.
+For the Weekly Short tracks, we want to see tracks that are truly short, not intense, not confusing and easy to read for beginning players. We also want to introduce some new guidelines and “rules” to submission for tracks, so we can shape and theme each week with a somewhat similar structure.
 
 Find below the guidelines and rules we will adapt going forward. Following these guidelines as a track creator well, will greatly improve the chance for selection.
 
 ## Short tracks must be short
 
-Previously, we have communicated that tracks will be considered anywhere from 10 seconds to as long as perhaps 35 seconds. This is something we are now revisiting, as we see that tracks longer than 20 seconds can already become a little much for the players we welcome
-in Trackmania. We now want to put a more defined restriction on the track length, so that tracks are clearly considered short tracks.
+Previously, we have communicated that tracks will be considered anywhere from 10 seconds to as long as perhaps 35 seconds. This is something we are now revisiting, as we see that tracks longer than 20 seconds can already become a little much for the players we welcome in Trackmania. We now want to put a more defined restriction on the track length, so that tracks are clearly considered short tracks.
 
 *Track length should not be longer than an Author Medal of __20 seconds__.*
 
 ## Short tracks must be readable for a beginner
 
-A submitted short track will only be considered if a player we welcome to Trackmania for the first time can find and follow the path well, and reach the finish without confusion or unreasonable obstacles. Signs and scenery must guide the player well, and there can not be
-any confusing jumps where you cannot see clearly where to jump to. It should also be understood that many first time players are not able to look at signs and drive at the same time. Tracks must be discoverable even when not seeing them - they should be additions,
-clarifications. It is the path ahead, and the scenery, that should already create the route for the player to follow. Tricks should not be required to finish the track, and track creators should try as much as possible to use default Checkpoints and Finish, without hiding them or
-making them hard to see.
+A submitted short track will only be considered if a player we welcome to Trackmania for the first time can find and follow the path well, and reach the finish without confusion or unreasonable obstacles. Signs and scenery must guide the player well, and there can not be any confusing jumps where you cannot see clearly where to jump to. It should also be understood that many first time players are not able to look at signs and drive at the same time. Tracks must be discoverable even when not seeing them - they should be additions, clarifications. It is the path ahead, and the scenery, that should already create the route for the player to follow. Tricks should not be required to finish the track, and track creators should try as much as possible to use default Checkpoints and Finish, without hiding them or making them hard to see.
 
 ## Tracks will have one of five Track Styles, and must fit one of these
 
@@ -58,8 +52,7 @@ In the case your track was made for and fits the theme for track 4 each week, wh
 
 There will be a transition period, where we will open many discussions with authors to allow them to rename their suitable tracks.
 
-We will also prefer if the track is described by the trackname. This is not mandatory, as we do not want to dictate too much how you name your tracks, but we have to be transparent and mention that the chance for selection (and review) increases if this is the case and your
-track will have a simple name that describes your track.
+We will also prefer if the track is described by the trackname. This is not mandatory, as we do not want to dictate too much how you name your tracks, but we have to be transparent and mention that the chance for selection (and review) increases if this is the case and your track will have a simple name that describes your track.
 
 For example, if your shorts track is a simple technical track with two drifting turns, then the Track Style is “Slow” and you could submit your track as, “2 - TwoTurns”.
 
@@ -77,8 +70,7 @@ Here is a brief explanation of these 5 Track Styles, and what we may be looking 
 
 __Experience gameplay with no frustration of collisions.__
 
-Tracks with a lot of space and visibility, most primarily by using Platform blocks to create more open and wide areas. These tracks are the most basic, and are very straight forward from start to finish. The player has a lot of space to drive, even if they might touch a lot of
-penalty surfaces. There are no sharp difficult turns or too narrow obstacles. These tracks should not be too “Fast”, they are typically a little slower.
+Tracks with a lot of space and visibility, most primarily by using Platform blocks to create more open and wide areas. These tracks are the most basic, and are very straight forward from start to finish. The player has a lot of space to drive, even if they might touch a lot of penalty surfaces. There are no sharp difficult turns or too narrow obstacles. These tracks should not be too “Fast”, they are typically a little slower.
 
 ### 2. Slow
 
@@ -122,8 +114,7 @@ Fullspeed, Nascar, Funspeed/Speedfun tracks. Tracks with boosters, adrenaline an
 
 __Enjoy creativity & fun of luck with no specific skill to win.__
 
-Historically the most popular Track Style, but also the most created style for Weekly Shorts so far. Fun, creative, wacky tracks - tracks with fun tricks. These tracks can not be difficult to complete, confusing or unreasonable with obstacles. They can contain some more difficult
-tricks as the 5th track each week, such as wet wood driving, but tracks must still be easy to complete.
+Historically the most popular Track Style, but also the most created style for Weekly Shorts so far. Fun, creative, wacky tracks - tracks with fun tricks. These tracks can not be difficult to complete, confusing or unreasonable with obstacles. They can contain some more difficult tricks as the 5th track each week, such as wet wood driving, but tracks must still be easy to complete.
 
 ## Introducing labels for Weekly Shorts for feedback from Nadeo
 
