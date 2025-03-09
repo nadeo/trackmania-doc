@@ -6,7 +6,7 @@
 
 The Weekly Shorts game-mode was designed and introduced as a way for beginner players and casual audiences to always have 5 weekly tracks available to play that are short, simple and not very intense.
 
-This game-mode is one that is played and tried as the first tracks to drive by many first time players, but also enjoyed by many longer time casual players and what we would like to refer to as “regular beginners”- which means players that continue to enjoy Trackmania but remain at relatively low skill level.
+This game-mode is one that is played and tried as the first tracks to drive by many first time players, but also enjoyed by many longer time casual players and what we would like to refer to as "regular beginners" - which means players that continue to enjoy Trackmania but remain at relatively low skill level.
 
 We quickly recognised in this mode that many expert players enjoy creative and more complex tracks. However, it has been too challenging to find readable, short and fun tracks for beginners while simultaneously offering an element of discovery and competition for competitive players.
 
@@ -16,7 +16,7 @@ For this reason, we are introducing some new rules to Weekly Shorts more in line
 
 We understand that this vision may not always match well with the expectation and also enjoyment of more expert players. Higher skilled players could find tracks not challenging enough, or get bored quickly if there is no unique strategy to find. For these players, we will always have the Track of the Day selections, later tracks in the Seasonal Campaigns, and of course many user generated tracks to discover in the game.
 
-For the Weekly Short tracks, we want to see tracks that are truly short, not intense, not confusing and easy to read for beginning players. We also want to introduce some new guidelines and “rules” to submission for tracks, so we can shape and theme each week with a somewhat similar structure.
+For the Weekly Short tracks, we want to see tracks that are truly short, not intense, not confusing and easy to read for beginning players. We also want to introduce some new guidelines and "rules" to submission for tracks, so we can shape and theme each week with a somewhat similar structure.
 
 Find below the guidelines and rules we will adapt going forward. Following these guidelines as a track creator well, will greatly improve the chance for selection.
 
@@ -28,19 +28,19 @@ Previously, we have communicated that tracks will be considered anywhere from 10
 
 ## Short tracks must be readable for a beginner
 
-A submitted short track will only be considered if a player we welcome to Trackmania for the first time can find and follow the path well, and reach the finish without confusion or unreasonable obstacles. Signs and scenery must guide the player well, and there can not be any confusing jumps where you cannot see clearly where to jump to. It should also be understood that many first time players are not able to look at signs and drive at the same time. Tracks must be discoverable even when not seeing them - they should be additions, clarifications. It is the path ahead, and the scenery, that should already create the route for the player to follow. Tricks should not be required to finish the track, and track creators should try as much as possible to use default Checkpoints and Finish, without hiding them or making them hard to see.
+A submitted short track will only be considered if a player we welcome to Trackmania for the first time can find and follow the path well, and reach the finish without confusion or unreasonable obstacles. Signs and scenery must guide the player well, and there cannot be any confusing jumps where you cannot see clearly where to jump to. It should also be understood that many first time players are not able to look at signs and drive at the same time. Tracks must be discoverable even when not seeing them - they should be additions, clarifications. It is the path ahead, and the scenery, that should already create the route for the player to follow. Tricks should not be required to finish the track, and track creators should try as much as possible to use default Checkpoints and Finish, without hiding them or making them hard to see.
 
 ## Tracks will have one of five Track Styles, and must fit one of these
 
 Going forward, we will structure and theme each week of Weekly Shorts with a clear style for each track. These will be:
 
-- 1st track each week: “Wide”
-- 2nd track each week: “Slow”
-- 3rd track each week: “Puzzle”
-- 4th track each week: “Fast”
-- 5th track each week: “LOL”
+- 1st track each week: "Wide"
+- 2nd track each week: "Slow"
+- 3rd track each week: "Puzzle"
+- 4th track each week: "Fast"
+- 5th track each week: "LOL"
 
-This way, each week, players can know what to expect from the tracks. If you really only enjoy puzzle tracks for instance, you may  immediately go and check out the newest track 3.
+This way, each week, players can know what to expect from the tracks. If you really only enjoy puzzle tracks for instance, you may immediately go and check out the newest track 3.
 
 We will introduce new Track Style labels on the Weekly Shorts map review for these 5 labels, which you can select on your player page on Trackmania.com in your TOTD Review page.
 
@@ -48,15 +48,15 @@ This is not mandatory per-se, but can help highlight your track correctly to Nad
 
 *__Tracks must include the number, for the slot you are submitting your track for.__*
 
-In the case your track was made for and fits the theme for track 4 each week, which is the “Fast” Track Style, the track must be named correctly: “4 - TrackName”. You will submit your track only for this selection slot by doing so.
+In the case your track was made for and fits the theme for track 4 each week, which is the "Fast" Track Style, the track must be named correctly: "4 - TrackName". You will submit your track only for this selection slot by doing so.
 
 There will be a transition period, where we will open many discussions with authors to allow them to rename their suitable tracks.
 
 We will also prefer if the track is described by the trackname. This is not mandatory, as we do not want to dictate too much how you name your tracks, but we have to be transparent and mention that the chance for selection (and review) increases if this is the case and your track will have a simple name that describes your track.
 
-For example, if your shorts track is a simple technical track with two drifting turns, then the Track Style is “Slow” and you could submit your track as, “2 - TwoTurns”.
+For example, if your shorts track is a simple technical track with two drifting turns, then the Track Style is "Slow" and you could submit your track as, "2 - TwoTurns".
 
-Similarly, if your shorts track has creative snowy hills with a few obstacles, then you could submit your track as “5 - SnowHills” for the “LOL” style.
+Similarly, if your shorts track has creative snowy hills with a few obstacles, then you could submit your track as "5 - SnowHills" for the "LOL" style.
 
 Here is a brief explanation of these 5 Track Styles, and what we may be looking for in these themes, as well as how we believe these impact our target audience:
 
@@ -70,7 +70,7 @@ Here is a brief explanation of these 5 Track Styles, and what we may be looking 
 
 __Experience gameplay with no frustration of collisions.__
 
-Tracks with a lot of space and visibility, most primarily by using Platform blocks to create more open and wide areas. These tracks are the most basic, and are very straight forward from start to finish. The player has a lot of space to drive, even if they might touch a lot of penalty surfaces. There are no sharp difficult turns or too narrow obstacles. These tracks should not be too “Fast”, they are typically a little slower.
+Tracks with a lot of space and visibility, most primarily by using Platform blocks to create more open and wide areas. These tracks are the most basic, and are very straight forward from start to finish. The player has a lot of space to drive, even if they might touch a lot of penalty surfaces. There are no sharp difficult turns or too narrow obstacles. These tracks should not be too "Fast", they are typically a little slower.
 
 ### 2. Slow
 
@@ -102,7 +102,7 @@ Tracks that contain intended alternate strategies and routes. Multi-route tracks
 
 __Enjoy the adrenaline with no complexity.__
 
-Fullspeed, Nascar, Funspeed/Speedfun tracks. Tracks with boosters, adrenaline and a lot of speed. Gear 4 and above tracks and mini speed tech tracks. If your track is faster than “Slow”, then it is probably “Fast”.
+Fullspeed, Nascar, Funspeed/Speedfun tracks. Tracks with boosters, adrenaline and a lot of speed. Gear 4 and above tracks and mini speed tech tracks. If your track is faster than "Slow", then it is probably "Fast".
 
 ### 5. LOL
 
@@ -114,7 +114,7 @@ Fullspeed, Nascar, Funspeed/Speedfun tracks. Tracks with boosters, adrenaline an
 
 __Enjoy creativity & fun of luck with no specific skill to win.__
 
-Historically the most popular Track Style, but also the most created style for Weekly Shorts so far. Fun, creative, wacky tracks - tracks with fun tricks. These tracks can not be difficult to complete, confusing or unreasonable with obstacles. They can contain some more difficult tricks as the 5th track each week, such as wet wood driving, but tracks must still be easy to complete.
+Historically the most popular Track Style, but also the most created style for Weekly Shorts so far. Fun, creative, wacky tracks - tracks with fun tricks. These tracks cannot be difficult to complete, confusing or unreasonable with obstacles. They can contain some more difficult tricks as the 5th track each week, such as wet wood driving, but tracks must still be easy to complete.
 
 ## Introducing labels for Weekly Shorts for feedback from Nadeo
 
@@ -141,7 +141,7 @@ If we labeled your track and have not opened a discussion, you will have informa
 ## In (Weekly) short
 
 - Tracks must fit the Track Style of either Wide, Slow, Puzzle, Fast or LOL.
-- Tracks must be named correctly with a number: 1 - Mapname, 2 - Mapname etc.
+- Tracks must be prefixed correctly with a number: 1 - Mapname, 2 - Mapname etc.
 - Tracks preferably are tagged with their Track Style correctly.
 - Tracks must have a maximum Author Time of around 20.000 seconds.
 - Tracks must be readable, easy to finish, suitable for players we welcome to Trackmania.
