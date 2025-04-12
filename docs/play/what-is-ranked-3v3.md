@@ -50,6 +50,8 @@ The current map pool distribution is as follows:
 |     Gold 3     | Maps 14 - 23 |
 |     Master     | Maps 16 - 25 |
 
+![Map pool for Ranked 3v3](../img/rankedMapPool.png)
+
 ## Matchmaking rating
 
 Once a team has won 5 rounds, the match ends and players will earn or lose rating points depending on the amount of points they earned for their team and whether their team won or lost.
