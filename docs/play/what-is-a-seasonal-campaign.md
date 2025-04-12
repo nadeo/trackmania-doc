@@ -12,6 +12,16 @@ By earning medals on the campaign tracks, you can also unlock the seasonal campa
 
 At the end of a season, you will earn Trophy points based on your overall rank in the campaign. The winner of the entire campaign earns the rare Trophy 9 in-game as well as a physical trophy.
 
+## Campaign rankings
+
+Campaign rankings are based on points assigned per map rank (which are added together for the overall ranking).
+
+The points distribution per map can be seen below. For an interactive experience, see [this unofficial calculator](https://geri43.github.io/TrackmaniaSeasonPointCalculator/).
+
+![Campaign points distribution](../img/campaignPoints.png)
+
+Note that these rankings are not updated in real time and may take a few hours to reflect the current standings.
+
 ## Trophy rewards
 
 ### End of Campaign rewards
