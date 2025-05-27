@@ -42,6 +42,7 @@ In-game, you can find the VIPs in the leaderboard widget on the left of the scre
 |Karlberg|[https://www.twitch.tv/karlberg](https://www.twitch.tv/karlberg)|99YH-KN8B-6FF3-84G5-W9RW|
 |keby|[https://www.twitch.tv/keby](https://www.twitch.tv/keby)|CYYE-RHM5-FBW6-EYHN-RFYK|
 |Kennystream|[https://www.twitch.tv/kennystream](https://www.twitch.tv/kennystream)|EC9N-BAA7-NMN8-A6NT-W86K|
+|Lars_tm|[https://www.twitch.tv/lars_tm](https://www.twitch.tv/lars_tm)|6MFN-5PBY-EY3H-A8Y5-P3BD|
 |lauranbk|[https://www.twitch.tv/lauranbk](https://www.twitch.tv/lauranbk)|W98G-Y9T8-EYK8-6WNM-H7B4|
 |LeachyLive|[https://www.twitch.tv/leachylive](https://www.twitch.tv/leachylive)|7JWR-96M5-HAWG-5E8E-6N8E|
 |Legion2k|[https://www.twitch.tv/Legion2k](https://www.twitch.tv/Legion2k)|5E33-K4W5-G8KC-HW5N-3KD5|
