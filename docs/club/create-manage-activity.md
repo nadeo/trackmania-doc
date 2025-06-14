@@ -13,7 +13,7 @@ To create an activity in the club you need to press the _'+'_ button to the righ
 After pressing the _'+'_ button you will be presented with the following list of activities you can add to the club:
 
 - [Campaign](/club/activities/campaign)
-- [Room](/club/activities/campaign)
+- [Room](/club/activities/room)
 - [Skin uploads](/club/activities/skin-uploads)
 - [Track uploads](/club/activities/track-uploads)
 - [Track Review](/club/activities/track-review)
