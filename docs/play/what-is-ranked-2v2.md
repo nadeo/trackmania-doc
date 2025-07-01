@@ -19,7 +19,8 @@ The scoring works as follows:
 |   Ace (1st/2nd) | 3 points |
 |   Win (1st/3rd) | 2 points |
 |   Draw (1st/4th or 2nd/3rd) | 1 point |
-|   Loss | 0 points |
+|   Loss (2nd/4th) | 1 points |
+|   Loss (3rd/4th) | 0 points |
 
 In case a player disconnects from the match, only the best player from each team scores points.
 
