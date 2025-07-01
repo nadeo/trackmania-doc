@@ -1,5 +1,6 @@
-# How to play Ranked 3v3 with my friends?
-To invite your friends to your 3v3 matchmaking session, head on over to the lobby screen that can be found under `Play -> Live -> Ranked`.
+# How to play Ranked 2v2 with my friends?
+
+To invite your friends to your 2v2 matchmaking session, head on over to the lobby screen that can be found under `Play -> Live -> Ranked`.
 
 In the top left corner, you will have the option to either invite your friends or accept one of their invites.
 
@@ -7,9 +8,10 @@ In the top left corner, you will have the option to either invite your friends o
 Depending on the platform you play on, the invite options might look a little bit different. Pictured is the Lobby screen from the Playstation version of Trackmania.
 
 ## Communication with your party/team members
+
 Trackmania features voice chat for communicating with your party and team mates in Ranked 3v3 matchmaking.
-By default, Voice Chat is enabled and set to voice activation. 
-You can adjust the settings in the `Main Menu -> Settings -> Sound` or while you're playing in the `Pause menu -> Advanced -> Settings`. 
+By default, Voice Chat is enabled and set to voice activation.
+You can adjust the settings in the `Main Menu -> Settings -> Sound` or while you're playing in the `Pause menu -> Advanced -> Settings`.
 A push-to-talk hotkey can be set in `Settings -> Inputs`.
 You can also disable Voice Chat in case you do not feel like  communicating with others or are in a call on an external platform.
 

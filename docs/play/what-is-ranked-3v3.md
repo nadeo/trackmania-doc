@@ -1,41 +1,35 @@
-# What is the Ranked 3v3 gamemode?
+# What is the Ranked 2v2 gamemode?
 
 Trackmania offers a skill-based Ranked matchmaking mode open to all players.
-Matches are played in a tweaked version of the Teams gamemode, with a points limit of 5.
+Matches are played in a tweaked version of the TM World Tour gamemode, with a points limit of 10.
 
-You can either queue solo or with up to two other players.
-When enabled, you can use voice chat to communicate with your teammates.
+You can either queue solo or with up to another player.
+When enabled, you can use voice chat to communicate with your teammate.
 
-## The Ranked 3v3 gamemode explained
+## The Ranked 2v2 gamemode explained
 
-When you queue up for a Ranked 3v3 match, you will be matched with and against players from similar matchmaking ranks.
-After a 30 second warmup period once all players are connected, the match will start.
+When you queue up for a Ranked 2v2 match, you will be matched with and against players from similar matchmaking ranks.
+After a short warmup period once all players are connected, the match will start.
 
-Every player starts at the same time and earns points for their team based on the position they finish. The team who gets the most points wins the round.
+Every player starts at the same time, and teams earn points for their members' finishing positions.
 The scoring works as follows:
 
-| Position |  Points  |
+| Outcome  |  Points  |
 | :------: | :------: |
-|   1st    | 6 points |
-|   2nd    | 5 points |
-|   3rd    | 4 points |
-|   4th    | 3 points |
-|   5th    | 2 points |
-|   6th    | 1 point  |
-|   DNF    | 0 points |
+|   Ace (1st/2nd) | 3 points |
+|   Win (1st/3rd) | 2 points |
+|   Draw (1st/4th or 2nd/3rd) | 1 point |
+|   Loss | 0 points |
 
-The minimum amount of points a team needs to win the round, should all players finish, is 11 points.
-
-In case a player disconnects from the match, the scoring changes a bit.
-Only the best two players from each team score points and in case of a draw in points, the team with the best time in the round wins.
+In case a player disconnects from the match, only the best player from each team scores points.
 
 ## Ranked map pool
 
-Ranked 3v3 Matchmaking in Trackmania is played on the current Seasonal Campaign maps.
+Ranked 2v2 Matchmaking in Trackmania is played on the current Seasonal Campaign maps as well as on Trackmania World Tour maps (see [below](#tmwt-maps) for more information).
 
 The map for your match will be randomly chosen out of the map pool based on the skill bracket of the lowest ranked player in the match.
 
-The current map pool distribution is as follows:
+The current campaign map pool distribution is as follows:
 
 |  Skill bracket |   Map pool   |
 |  :-----------: |  :---------: |
@@ -50,26 +44,23 @@ The current map pool distribution is as follows:
 |     Gold 3     | Maps 14 - 23 |
 |     Master     | Maps 16 - 25 |
 
-![Map pool for Ranked 3v3](../img/rankedMapPool.png)
+![Map pool for Ranked](../img/rankedMapPool.png)
+
+Note that maps 10, 15 and 25 are currently excluded from the 2v2 Matchmaking pool.
+
+### TMWT maps
+
+Three times a day (an hour after the daily COTD events happen), 2v2 Matchmaking uses the current Trackmania World Tour map pool instead of the Seasonal Campaign.
+
+Note that this is only available to Gold and Master players and lasts for an hour before switching back to Seasonal Campaign maps.
 
 ## Matchmaking rating
 
-Once a team has won 5 rounds, the match ends and players will earn or lose rating points depending on the amount of points they earned for their team and whether their team won or lost.
+!!! info "Information to be confirmed"
 
-In an average match where both teams are of equal skill, the point distribution is as follows:
+    The following section has yet to be confirmed by the developers following the switch to 2v2 Matchmaking. As such, its contents may be inaccurate or incomplete.
 
-| Overall player position | Points gained |
-|:---:|:---:|
-| 1st | +30 |
-| 2nd | +20 |
-| 3rd | +10 |
-| 4th | -10 |
-| 5th | -20 |
-| 6th | -30 |
-
-Players of the winning team gain an additional `+10` points, players of the losing team lose an additional `-10` points.
-
-Note that imbalanced matches may yield a different amount of ranking points per player depending on the players' rankings.
+When the match ends, players will earn or lose rating points depending on their team's performance.
 
 The player who scored the most points in the entire match, no matter whether they are on the winning or losing side, is the Match MVP and earns bonus rating points.
 The amount of bonus MVP points depends on the skill bracket the player is in and how evenly skilled the teams are. The values below assume evenly matched teams:
