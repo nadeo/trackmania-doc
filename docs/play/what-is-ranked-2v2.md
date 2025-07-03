@@ -59,9 +59,9 @@ Each round of a match will have three possible outcomes, and teams receive point
 
 ### Overtime
 
-Ideally, a Ranked 2v2 match ends and is won by the first team to reach 10 points. However, in case both teams has the same amount of points after reaching the 10 points threshold, the match will go into "Overtime".
+Ideally, a Ranked 2v2 match ends and is won by the first team to reach 10 points. However, in case both teams have the same amount of points after reaching the 10 points threshold, the match will go into overtime.
 
-In an Overtime, the match continues until a team is ahead in points (i.e. a Victory or Ace).
+In an overtime, the match continues until a team is ahead in points (i.e. a Victory or Ace).
 
 ## Ranked map pool
 
