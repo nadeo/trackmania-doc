@@ -22,7 +22,7 @@ From here you will see a different set of 4 options. Please select the option la
 
 ![Review Other Tracks](https://i.imgur.com/xV4DhO4.png)
 
-Lastly, you will have the option choose from either the **TRACK OF THE DAY**, **ROYAL** or **WEEKLY SHORTS** servers.
+Lastly, you will have the option to choose from either the **TRACK OF THE DAY** or **WEEKLY SHORTS** servers.
 
 The aim of these servers is to provide an honest rating of the maps displayed on their functionality in **Cup of the Day**/**Weekly Shorts** and/or offer advice to mappers in order to help improve a map's quality overall.
 
