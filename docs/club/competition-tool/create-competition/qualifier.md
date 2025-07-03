@@ -6,7 +6,7 @@
 
 A qualifier (also known as a round challenge) is the phase of a competition to determine the seeding of a player. The seeding will be determined based on the placements the players received during a qualifier.
 
-This can be used to determine if a player will qualify to the bracket phase of a competition.
+A qualifier round must be linked to an actual round. This can be used to determine if a player will qualify to the bracket phase of a competition.
 
 If your competition does not have a qualifier phase, you can skip this step.
 
@@ -14,11 +14,13 @@ If your competition does not have a qualifier phase, you can skip this step.
 
 In this section, we will create a qualifier using the manual structure editor in the competition tool. If you would like to use the structure importer, go to [this page](./structure-importer.md).
 
-![Manual structure selected in the Structure Format screen of the Competition tool](../../../img/competition-tool-structure-editor.png)
+After creating your competition and schedule, you will be taken to the **Structure Format** screen. This is where we will manually add rounds for a competition, as well as its respective qualifier rounds.
+
+![The Structure Format screen of the Competition tool](../../../img/competition-tool-structure-editor.png)
+
+Leave the "Import structure" box unchecked and click "Next" to continue creating your first round.
 
 Click on "Add qualifier" and you will be redirected to this screen.
-
-![Add qualifier screen](../../../img/competition-tool-new-qualifier-01.png)
 
 This is the first section of the Add qualifier screen. It contains the following fields:
 
