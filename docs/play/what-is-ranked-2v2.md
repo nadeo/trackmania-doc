@@ -14,9 +14,11 @@ After a short warmup period once all players are connected, the match will start
 Every player starts at the same time, and teams earn points for their members' finishing positions.
 In case a player disconnects from the match, only the best player from each team scores points.
 
-Each round of a match will have three possible outcomes; Ace, Victory, and.
+Each round of a match will have three possible outcomes, and teams receive points based on the outcome of the round.
 
-### Ace
+### Possible round outcomes
+
+#### Ace
 
 |  Pos  |   Team   |
 | :---: | :------: |
@@ -29,7 +31,7 @@ Each round of a match will have three possible outcomes; Ace, Victory, and.
 | :-----------: | :-----------: |
 |   3 points    |   0  points   |
 
-### Victory
+#### Victory
 
 |  Pos  |   Team   |
 | :---: | :------: |
@@ -42,7 +44,7 @@ Each round of a match will have three possible outcomes; Ace, Victory, and.
 | :-----------: | :-----------: |
 |   2 points    |   1  points   |
 
-### Draw
+#### Draw
 
 |  Pos  |   Team   |
 | :---: | :------: |
@@ -55,6 +57,11 @@ Each round of a match will have three possible outcomes; Ace, Victory, and.
 | :-----------: | :-----------: |
 |   3 points    |   0  points   |
 
+### Overtime
+
+Ideally, a Ranked 2v2 match ends and is won by the first team to reach 10 points. However, in case both teams has the same amount of points after reaching the 10 points threshold, the match will go into "Overtime".
+
+In an Overtime, the match continues until a team is ahead in points (i.e. a Victory or Ace).
 
 ## Ranked map pool
 
@@ -97,6 +104,10 @@ When the match ends, players will earn or lose rating points depending on their 
 | 2nd | +15 |
 | 3rd | -15 |
 | 4th | -30 |
+
+!!! info
+
+    Note that imbalanced matches may yield a different amount of ranking points per player depending on the players' rankings.
 
 The player who scored the most points in the entire match, no matter whether they are on the winning or losing side, is the Match MVP and earns **10** bonus rating points.
 Note that beginner players will experience a ranking boost in their first ten matches.
