@@ -22,10 +22,10 @@ Each round of a match will have three possible outcomes, and teams receive point
 
 |  Pos  |   Team   |
 | :---: | :------: |
-|  1st  |  A  |
-|  2nd  |  A  |
-|  3rd  |  B  |
-|  4th  |  B  |
+|  1st  |    A     |
+|  2nd  |    A     |
+|  3rd  |    B     |
+|  4th  |    B     |
 
 |  Team A gets  |  Team B gets  |
 | :-----------: | :-----------: |
@@ -35,10 +35,10 @@ Each round of a match will have three possible outcomes, and teams receive point
 
 |  Pos  |   Team   |
 | :---: | :------: |
-|  1st  |  A  |
-|  2nd  |  B  |
-|  3rd  |  A  |
-|  4th  |  B  |
+|  1st  |    A     |
+|  2nd  |    B     |
+|  3rd  |    A     |
+|  4th  |    B     |
 
 |  Team A gets  |  Team B gets  |
 | :-----------: | :-----------: |
@@ -48,10 +48,10 @@ Each round of a match will have three possible outcomes, and teams receive point
 
 |  Pos  |   Team   |
 | :---: | :------: |
-|  1st  |  A  |
-|  2nd  |  B  |
-|  3rd  |  B  |
-|  4th  |  A  |
+|  1st  |    A     |
+|  2nd  |    B     |
+|  3rd  |    B     |
+|  4th  |    A     |
 
 |  Team A gets  |  Team B gets  |
 | :-----------: | :-----------: |
