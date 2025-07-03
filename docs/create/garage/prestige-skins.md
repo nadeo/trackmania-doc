@@ -7,12 +7,6 @@ See the graphic and the explanations below for an overview of the different type
 
 ![Prestige skins](../../img/33_01_prestigeSkins.webp)
 
-## Royal skins
-
-To unlock Royal skins, place 4th/3rd/2nd/1st and you'll unlock the respective skin for your team and placement.
-
-To level up, get the same placement again with the same animal.
-
 ## Season skins
 
 To unlock Season skins, get 1 bronze/3 silver/5 gold/10 author medals (across the current seasonal campaign and all TOTDs of the season) to unlock its respective skin.

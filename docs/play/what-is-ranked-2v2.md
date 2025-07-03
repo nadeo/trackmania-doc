@@ -18,8 +18,7 @@ The scoring works as follows:
 | :------: | :------: |
 |   Ace (1st/2nd) | 3 points |
 |   Win (1st/3rd) | 2 points |
-|   Draw (1st/4th or 2nd/3rd) | 1 point |
-|   Loss (2nd/4th) | 1 points |
+|   Draw (1st/4th or 2nd/3rd) or Loss (2nd/4th) | 1 point |
 |   Loss (3rd/4th) | 0 points |
 
 In case a player disconnects from the match, only the best player from each team scores points.
@@ -57,19 +56,17 @@ Note that this is only available to Gold and Master players and lasts for an hou
 
 ## Matchmaking rating
 
-!!! info "Information to be confirmed"
+When the match ends, players will earn or lose rating points depending on their performance.
 
-    The following section has yet to be confirmed by the developers following the switch to 2v2 Matchmaking. As such, its contents may be inaccurate or incomplete.
+| Overall player position | Points gained |
+|:---:|:---:|
+| 1st | +30 |
+| 2nd | +15 |
+| 3rd | -15 |
+| 4th | -30 |
 
-When the match ends, players will earn or lose rating points depending on their team's performance.
-
-The player who scored the most points in the entire match, no matter whether they are on the winning or losing side, is the Match MVP and earns bonus rating points.
-The amount of bonus MVP points depends on the skill bracket the player is in and how evenly skilled the teams are. The values below assume evenly matched teams:
-
-|  Skill bracket   | MVP bonus points |
-| :--------------: | :--------------: |
-|      Bronze      |       +80        |
-| Silver and above |       +40        |
+The player who scored the most points in the entire match, no matter whether they are on the winning or losing side, is the Match MVP and earns **10** bonus rating points.
+Note that beginner players will experience a ranking boost in their first ten matches.
 
 At the end of a matchmaking season (which runs in parallel to the campaign seasons), matchmaking ranks and ratings will be soft-reset to prevent the ratings at the top from becoming stale.
 
