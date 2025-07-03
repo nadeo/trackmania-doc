@@ -1,7 +1,7 @@
 # What is the Ranked 2v2 gamemode?
 
 Trackmania offers a skill-based Ranked matchmaking mode open to all players.
-Matches are played in a tweaked version of the TM World Tour gamemode, with a points limit of 10.
+Matches are played in a tweaked version of the Trackmania World Tour gamemode, with a points limit of 10.
 
 You can either queue solo or with up to another player.
 When enabled, you can use voice chat to communicate with your teammate.
@@ -12,16 +12,49 @@ When you queue up for a Ranked 2v2 match, you will be matched with and against p
 After a short warmup period once all players are connected, the match will start.
 
 Every player starts at the same time, and teams earn points for their members' finishing positions.
-The scoring works as follows:
-
-| Outcome  |  Points  |
-| :------: | :------: |
-|   Ace (1st/2nd) | 3 points |
-|   Win (1st/3rd) | 2 points |
-|   Draw (1st/4th or 2nd/3rd) or Loss (2nd/4th) | 1 point |
-|   Loss (3rd/4th) | 0 points |
-
 In case a player disconnects from the match, only the best player from each team scores points.
+
+Each round of a match will have three possible outcomes; Ace, Victory, and.
+
+### Ace
+
+|  Pos  |   Team   |
+| :---: | :------: |
+|  1st  |  A  |
+|  2nd  |  A  |
+|  3rd  |  B  |
+|  4th  |  B  |
+
+|  Team A gets  |  Team B gets  |
+| :-----------: | :-----------: |
+|   3 points    |   0  points   |
+
+### Victory
+
+|  Pos  |   Team   |
+| :---: | :------: |
+|  1st  |  A  |
+|  2nd  |  B  |
+|  3rd  |  A  |
+|  4th  |  B  |
+
+|  Team A gets  |  Team B gets  |
+| :-----------: | :-----------: |
+|   2 points    |   1  points   |
+
+### Draw
+
+|  Pos  |   Team   |
+| :---: | :------: |
+|  1st  |  A  |
+|  2nd  |  B  |
+|  3rd  |  B  |
+|  4th  |  A  |
+
+|  Team A gets  |  Team B gets  |
+| :-----------: | :-----------: |
+|   3 points    |   0  points   |
+
 
 ## Ranked map pool
 
