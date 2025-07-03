@@ -42,7 +42,7 @@ Each round of a match will have three possible outcomes, and teams receive point
 
 |  Team A gets  |  Team B gets  |
 | :-----------: | :-----------: |
-|   2 points    |   1  points   |
+|   2 points    |   1  point   |
 
 #### Draw
 
@@ -55,7 +55,7 @@ Each round of a match will have three possible outcomes, and teams receive point
 
 |  Team A gets  |  Team B gets  |
 | :-----------: | :-----------: |
-|   3 points    |   0  points   |
+|   1 point    |   1  point   |
 
 ### Overtime
 
