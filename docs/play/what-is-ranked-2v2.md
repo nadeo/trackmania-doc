@@ -22,10 +22,10 @@ Each round of a match will have three possible outcomes, and teams receive point
 
 |  Pos  |   Team   |
 | :---: | :------: |
-|  1st  |  A  |
-|  2nd  |  A  |
-|  3rd  |  B  |
-|  4th  |  B  |
+|  1st  |    A     |
+|  2nd  |    A     |
+|  3rd  |    B     |
+|  4th  |    B     |
 
 |  Team A gets  |  Team B gets  |
 | :-----------: | :-----------: |
@@ -35,27 +35,27 @@ Each round of a match will have three possible outcomes, and teams receive point
 
 |  Pos  |   Team   |
 | :---: | :------: |
-|  1st  |  A  |
-|  2nd  |  B  |
-|  3rd  |  A  |
-|  4th  |  B  |
+|  1st  |    A     |
+|  2nd  |    B     |
+|  3rd  |    A     |
+|  4th  |    B     |
 
 |  Team A gets  |  Team B gets  |
 | :-----------: | :-----------: |
-|   2 points    |   1  point   |
+|   2 points    |   1  point    |
 
 #### Draw
 
 |  Pos  |   Team   |
 | :---: | :------: |
-|  1st  |  A  |
-|  2nd  |  B  |
-|  3rd  |  B  |
-|  4th  |  A  |
+|  1st  |    A     |
+|  2nd  |    B     |
+|  3rd  |    B     |
+|  4th  |    A     |
 
 |  Team A gets  |  Team B gets  |
 | :-----------: | :-----------: |
-|   1 point    |   1  point   |
+|   1 point     |   1  point    |
 
 ### Overtime
 
@@ -109,7 +109,7 @@ When the match ends, players will earn or lose rating points depending on their 
 
     Note that imbalanced matches may yield a different amount of ranking points per player depending on the players' rankings.
 
-The player who scored the most points in the entire match, no matter whether they are on the winning or losing side, is the Match MVP and earns **10** bonus rating points.
+The winning team's players are awarded an additional 10 ranking points.
 Note that beginner players will experience a ranking boost in their first ten matches.
 
 At the end of a matchmaking season (which runs in parallel to the campaign seasons), matchmaking ranks and ratings will be soft-reset to prevent the ratings at the top from becoming stale.
