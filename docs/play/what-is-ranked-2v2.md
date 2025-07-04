@@ -96,7 +96,7 @@ Note that this is only available to Gold and Master players and lasts for an hou
 
 ## Matchmaking rating
 
-When the match ends, players will earn or lose rating points depending on their performance.
+When the match ends, players will earn or lose rating points depending on their performance. In case of a tie between two players in a match, the player with the better PB will be ranked higher.
 
 | Overall player position | Points gained |
 |:---:|:---:|
