@@ -96,7 +96,7 @@ Note that this is only available to Gold and Master players and lasts for an hou
 
 ## Matchmaking rating
 
-When the match ends, players will earn or lose rating points depending on their performance.
+When the match ends, players will earn or lose rating points depending on their performance. In case of a tie between two players in a match, the player with the better PB will be ranked higher.
 
 | Overall player position | Points gained |
 |:---:|:---:|
@@ -109,8 +109,18 @@ When the match ends, players will earn or lose rating points depending on their 
 
     Note that imbalanced matches may yield a different amount of ranking points per player depending on the players' rankings.
 
-The winning team's players are awarded an additional 10 ranking points.
+The winning team's players are awarded an additional **10** ranking points.
 Note that beginner players will experience a ranking boost in their first ten matches.
+
+The player who scored the most points in the entire match, no matter whether they are on the winning or losing side, is the match MVP and earns bonus rating points.
+The amount of bonus MVP points depends on the skill bracket the player is in and how evenly skilled the teams are. The values below assume evenly matched teams:
+
+|  Skill bracket   | MVP bonus points |
+| :--------------: | :--------------: |
+|      Bronze      |       +80        |
+|      Silver      |       +40        |
+|       Gold       |       +30        |
+| Master and above |       +20        |
 
 At the end of a matchmaking season (which runs in parallel to the campaign seasons), matchmaking ranks and ratings will be soft-reset to prevent the ratings at the top from becoming stale.
 
