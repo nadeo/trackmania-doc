@@ -86,7 +86,7 @@ The current campaign map pool distribution is as follows:
 
 ![Map pool for Ranked](../img/rankedMapPool.png)
 
-Note that maps 10, 15 and 25 are currently excluded from the 2v2 Matchmaking pool.
+Note that maps 15, 20 and 25 are currently excluded from the 2v2 Matchmaking pool.
 
 ### TMWT maps
 
