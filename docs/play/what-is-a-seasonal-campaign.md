@@ -32,6 +32,7 @@ Note that these rankings are not updated in real time and may take a few hours t
 | Top 2         | 8x Trophy 8 | 80,000,000  |
 | Top 3         | 4x Trophy 8 | 40,000,000  |
 | Top 10        | 3x Trophy 8 | 30,000,000  |
+| Top 100       | 1x Trophy 8 | 10,000,000  |
 | Top 1000      | 1x Trophy 7 | 1,000,000   |
 | Top 10k       | 1x Trophy 6 | 100,000     |
 | Top 100k      | 1x Trophy 5 | 10,000      |
