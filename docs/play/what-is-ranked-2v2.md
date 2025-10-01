@@ -86,8 +86,6 @@ The current campaign map pool distribution is as follows:
 
 ![Map pool for Ranked](../img/rankedMapPool.png)
 
-Note that maps 15, 20 and 25 are currently excluded from the 2v2 Matchmaking pool.
-
 ### TMWT maps
 
 Three times a day (an hour after the daily COTD events happen), 2v2 Matchmaking uses the current Trackmania World Tour map pool instead of the Seasonal Campaign.
