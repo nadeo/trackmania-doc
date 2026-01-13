@@ -12,15 +12,15 @@ Map review is a valuable area for mappers to receive feedback and achieve a bett
 
 Upon launching the game and loading into the main menu, you will see several options to select from. In order to locate the map review server, first select the **CREATE** button.
 
-![Create](https://i.imgur.com/B5W1fXI.png)
+![Create](../../img/createMenu.png)
 
 After selecting **CREATE**, you will now see 4 options. Please select the option labeled **TRACK REVIEW**.
 
-![Track Review](https://i.imgur.com/sd8VK6o.png)
+![Create](../../img/trackReview.png)
 
 From here you will see a different set of 4 options. Please select the option labeled **REVIEW OTHER TRACKS**.
 
-![Review Other Tracks](https://i.imgur.com/xV4DhO4.png)
+![Review Other Tracks](../../img/reviewOtherTracks.png)
 
 Lastly, you will have the option to choose from either the **TRACK OF THE DAY** or **WEEKLY SHORTS** servers.
 
