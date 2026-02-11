@@ -129,3 +129,16 @@ Limit the duration a player can stay on a server.
     ```xml
     <ui_properties><round_scores visible='false'/></ui_properties>
     ```
+
+## Openplanet
+
+Limit how players may be using [Openplanet](https://openplanet.dev/) on a server.
+
+| Setting name              | Type      | Default value | Description |
+| :------------------------ | :-----    | :------------ | :------------------------------------------------------------------------- |
+| S_Openplanet_IsAllowed    | Boolean   | `True`        | Whether Openplanet may be enabled when playing on the server. Violating players will automatically be kicked from the server. |
+| S_Openplanet_Signature    | String    | `""`          | The [Openplanet signature mode](https://openplanet.dev/docs/tutorials/signature-modes) to be enforced (if `S_Openplanet_IsAllowed` is `true`). Violating players will automatically be kicked from the server. Add value to enable. |
+
+If a player has been determined to violate one of these settings they are shown a warning message and then kicked from the server.
+
+![Example error message when Openplanet is not allowed](../../img/openplanetPlugin.png)
