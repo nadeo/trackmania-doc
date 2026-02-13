@@ -58,7 +58,7 @@ Weekly Grands is not there to impress with creative interactions, odd physics or
 
 ## Introducing labels for Weekly Grands for feedback from Nadeo
 
-Nadeo have added new feedback labels specifically for Weeky Grands:
+Nadeo have added new feedback labels specifically for Weekly Grands:
 
 - **No Clones**: Your track does not have Clones enabled.
 - **Wrong Laps Amount**: Your track does not have the required 10 laps set.
