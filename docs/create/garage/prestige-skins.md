@@ -7,9 +7,9 @@ Getting prestige levels unlocks special skins with lights on the rims and around
 
 ![Seasonal prestige skins](../../img/seasonalPrestigeSkins.png)
 
-Seasonal prestige skin is based off the medals you earn.
+Seasonal prestige skin is based off the medals you earn in a season.
 
-You can progress your prestige by gaining medals in the current **seasonal campaign**. Medals gained in any **Track of the Days**, **Weekly Shorts** and **Weekly Grands** (track + lap thresholds) released during the current season also count towards the total.
+You can progress your prestige by gaining medals in the current **seasonal campaign**. Medals gained in any **Track of the Days**, **Weekly Shorts** and **Weekly Grands** (time on track + lap count) released during the current season also count towards the total.
 
 | Prestige | Max Level | Medals per level | Medals for max level |
 | -------- | --------- | ---------------- | -------------------- |
@@ -28,7 +28,7 @@ To obtain a prestige skin you must first reach the maximum level of the previous
 
 - The **Master skin** unlocks at level 11 of the Gold Prestige (77 gold medals) and level 1 of the Author Prestige (9 author medals)
 
-**All medals are accounted for** - if you reached a higher prestige level before unlocking the respective skin, you'll gain the prestige skin of that level once you satisfy the above mentioned requirements.
+**All medals are accounted for** - if you reached a higher prestige level before unlocking the respective skin, you'll gain the prestige skin of that level once you meet the above mentioned requirements.
 
 ## Ranked skins
 
