@@ -22,7 +22,7 @@ This should be keeping in mind the average player's skill level more than an exp
 
 While not as strict as the Weekly Shorts, Author Medal difficulties should still be reasonable. We will not allow very difficult medals - as many players consider this or the automatically calculated gold medals a prestigious goal at their skill level to aim for. For the Weekly Grands, we set a general guideline (with some variance allowed) of the AT being **roughly 11 laps worth of driving** on your track, excluding the first lap time.
 
-As an example, if the average lap on your track is 58 seconds, we would ask to ensure the Author Medal is obtained at approximately 10 minutes and 38 seconds. (11 x 58 = 638 seconds)
+As an example, if the average lap on your track is 58 seconds, we would ask to ensure the Author Medal is obtained at approximately 10 minutes and 38 seconds. (11 × 58 = 638 seconds)
 
 ## Submitting for review
 
