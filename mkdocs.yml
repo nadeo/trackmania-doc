@@ -148,7 +148,7 @@ nav:
       - Dashboard: web/tm-com/dashboard.md
       - Player page: web/tm-com/player-page.md
       - Map page: web/tm-com/map-page.md
-      - Map Review: web/tm-com/map-review.md
+      - Player tracks: web/tm-com/player-tracks.md
       - Club Management: web/tm-com/club-management.md
     - Web Services: web/web-services/index.md
     - Auth: web/web-services/auth.md
