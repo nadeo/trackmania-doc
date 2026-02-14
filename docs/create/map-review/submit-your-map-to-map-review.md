@@ -16,6 +16,8 @@ Navigate through your local files and choose the map you wish to upload - you'll
 
 Once you press the **SEND FOR REVIEW** button, you'll automatically join the Map Review server and your map will be queued. Leaving the server at any point will remove your map from the queue.
 
+![Map queued in server](../../img/mapReviewUpdate_Submit_Queue.png)
+
 ## Submit via the Track Editor
 
 The track editor allows you to immediately jump into Map Review. Once you save a **validated** map that has **computed shadows**, a screen will pop up with the **LIVE TEST** options that will join Map Review and send your map to the queue.
