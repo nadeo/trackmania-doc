@@ -4,7 +4,7 @@
 
     This feature requires an active **Club Access** subscription.
 
-You may submit your own **Race** type maps to Map Review to gain feedback and ratings from other players. Maps uploaded to Map Review may be chosen as **Tracks of the Day**, **Weekly Shorts** and **Weekly Grands**.
+You may submit your own **Race** type maps to Map Review to gain feedback and ratings from other players. Maps uploaded to Map Review may be chosen as **Tracks of the Day**, **Weekly Shorts** or **Weekly Grands**.
 
 ## Submit via the menu
 
