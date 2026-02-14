@@ -12,7 +12,7 @@ Information on the left part of the page depends on the tracks mode:
 
 - For Stunt type maps, this section will display the points required for all medals as well as the world record.
 
-The right side displays the users statistics on the map (Personal best, World/Continent/County/Region ranking) as well as buttons to add the map to Favorites, pin the map to the users profile, download the map and report the map.
+The right side displays the users statistics on the map (Personal best, World/Continent/Country/Region ranking) as well as buttons to add the map to Favorites, pin the map to the users profile, download the map and report the map.
 
 # Map author admin
 
