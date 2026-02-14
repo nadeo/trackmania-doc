@@ -4,11 +4,11 @@ The [main Trackmania website](https://trackmania.com) contains plenty of pages a
 
 # Campaign
 
-The **Campaign** page displays details about the campaigns as well as the players world/continent/county/region ranking and medal count.
+The **Campaign** page displays details about the campaigns as well as the users World/Continent/County/Region ranking and medal count.
 
 The banner changes depending on the season. The season can be changed by using the buttons on the left and right of the banner.
 
-Maps in the campaign are displayed below in a 5x5 grid. Each map contains information about the maps name, medals achieved by the player and their time.
+Maps in the campaign are displayed below in a 5x5 grid. Each map contains information about the maps name, medals achieved by the user and their time.
 
 Clicking a maps thumbnail will bring you to the respective track page.
 
@@ -18,7 +18,7 @@ On the **Track of the Day** page, you will find all maps that were picked as a T
 
 The banner contains the thumbnail of the most recently picked map as well as the amount of medals gained during the selected month. The month can be changed by using the buttons on the left and right on the banner.
 
-TOTDs will be displayed in a grid in a calendar like manner - each map is tagged with the day it was picked. The infobox displays the players medals as well as the map's name and author.
+TOTDs will be displayed in a grid in a calendar like manner - each map is tagged with the day it was picked. The infobox displays the users medals as well as the map's name and author.
 
 Clicking a maps thumbnail will bring you to the respective track page.
 
