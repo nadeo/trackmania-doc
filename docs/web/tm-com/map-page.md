@@ -1,5 +1,7 @@
 # Map Page
 
+## Map Info
+
 Checking the **Map page** will provide the user with a short overview of information about a map.
 
 ![Example TOTD map page](../../img/tmWebsite-mappage-totd.png)
@@ -18,13 +20,13 @@ The right side displays the users statistics on the map (Personal best, World/Co
 
 If the map is a TOTD, there will be another section at the bottom with the top 5 rankings + the users placement for each Cup of the Day.
 
-# Map author admin
+## Map author admin
 
 If you are the author of the track, there will be two more sections below the map information.
 
 ![Example map page with admin panel](../../img/tmWebsite-mappage-author.png)
 
-The map rating section displays a percentage of likes and dislikes given by players on your map (not to be confused with map ratings in [Map Review](/web/tm-com/map-review)).
+The map rating section displays a percentage of likes and dislikes given by players on your map (not to be confused with map ratings in [Map Review](/web/tm-com/player-tracks#map-review)).
 
 Using the top secret feature will allow you to hide records that are faster than a set time. The threshold has to be inputted in milliseconds (12500 -> 12.500s).
 

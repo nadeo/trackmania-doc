@@ -2,7 +2,7 @@
 
 The [main Trackmania website](https://trackmania.com) contains plenty of pages and tools that allow the user to check on as well as manage in-game content.
 
-# Campaign
+## Campaign
 
 The **Campaign** page displays details about the campaigns as well as the users World/Continent/Country/Region ranking and medal count.
 
@@ -12,7 +12,7 @@ Maps in the campaign are displayed below in a 5x5 grid. Each map contains inform
 
 Clicking a maps thumbnail will bring you to the respective track page.
 
-# Track of the Day
+## Track of the Day
 
 On the **Track of the Day** page, you will find all maps that were picked as a Track of the Day grouped by year and month. 
 
@@ -22,7 +22,7 @@ TOTDs will be displayed in a grid in a calendar like manner - each map is tagged
 
 Clicking a maps thumbnail will bring you to the respective track page.
 
-# Esports
+## Esports
 
 The **Esports** section contains information regarding the latest Trackmania Esports Circuit. 
 
@@ -30,7 +30,7 @@ This is the main resource for all pro play in Trackmania - you'll find the most 
 
 The news ticker shows all posts tagged as Esports - it can be either game updates, competition announcements or match recaps.
 
-# News
+## News
 
 All the news will be displayed on this page. The posts can be filtered with the following tags:
 
