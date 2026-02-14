@@ -6,7 +6,7 @@ By default all player pages are private. Only Club Access users may change their
 
 # Viewing player pages
 
-There isnt any way to search up players on the website. You can view the details of mappers by clicking their name on the map page. 
+There isn't any way to search up players on the website. You can view the details of mappers by clicking their name on the map page. 
 
 If you know an users account ID then you can put it in the URL to get their player page.
 
