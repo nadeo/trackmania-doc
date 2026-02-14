@@ -26,6 +26,6 @@ If you are the author of the track, there will be two more sections below the ma
 
 The map rating section displays a percentage of likes and dislikes given by players on your map (not to be confused with map ratings in [Map Review](/web/tm-com/map-review)).
 
-Using the top secret feature will allow you to hide records faster than a certain threshold. The threshold has to be inputted in miliseconds (12500 -> 12.500s).
+Using the top secret feature will allow you to hide records that are faster than a set time. The threshold has to be inputted in milliseconds (12500 -> 12.500s).
 
 Any records faster than the set threshold will turn secret - on the leaderboard the timer will display **SECRET** and the ghost will be unwatchable. By default, any officially accepted Weekly short maps have this feature set to the author time until the next Weekly Shorts rotation comes.
