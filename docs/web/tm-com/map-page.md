@@ -16,7 +16,7 @@ Information on the left part of the page depends on the track type:
 
 - For Stunt type maps, this section will display the points required for all medals as well as the world record.
 
-The right side displays the your statistics on the map (Personal best, World/Continent/Country/Region rankings) as well as buttons to add the map to your favorites, pin the map to the your profile, download the map and report the map.
+The right side displays your statistics on the map (Personal best, World/Continent/Country/Region rankings) as well as buttons to add the map to your favorites, pin the map to your profile, download the map and report the map.
 
 If the map is a TOTD, there will be another section at the bottom with the top 5 rankings and your placement for each Cup of the Day.
 

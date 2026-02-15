@@ -4,7 +4,7 @@ The [main Trackmania website](https://trackmania.com) contains plenty of pages a
 
 ## Campaign
 
-The **Campaign** page displays details about the campaigns as well as the your World/Continent/Country/Region rankings and medal count.
+The **Campaign** page displays details about the campaigns as well as your World/Continent/Country/Region rankings and medal count.
 
 The banner changes depending on the season. The season can be changed by using the buttons on the left and right of the banner.
 
