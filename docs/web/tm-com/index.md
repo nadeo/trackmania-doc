@@ -8,7 +8,7 @@ The **Campaign** page displays details about the campaigns as well as the your W
 
 The banner changes depending on the season. The season can be changed by using the buttons on the left and right of the banner.
 
-Maps in the campaign are displayed below in a 5x5 grid. Each map contains information about the maps name, your achieved medals and your time on the map.
+Maps in the campaign are displayed below in a 5x5 grid. Each map contains information about the maps name, your achieved medals and time on the map.
 
 Clicking a maps thumbnail will bring you to the respective map page.
 
@@ -18,7 +18,7 @@ On the **Track of the Day** page, you will find all maps that were picked as a T
 
 The banner contains the thumbnail of the most recently picked map as well as the amount of medals gained during the selected month. The month can be changed by using the buttons on the left and right on the banner.
 
-TOTDs will be displayed in a grid in a calendar like manner - each map is tagged with the day it was picked. Infobox under the maps display your medals as well as the map's name and author.
+TOTDs will be displayed in a grid in a calendar like manner - each map is tagged with the day it was picked. Infoboxes under the maps display your medals as well as the map's name and author.
 
 Clicking a maps thumbnail will bring you to the respective map page.
 
