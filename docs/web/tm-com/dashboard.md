@@ -6,7 +6,7 @@ Here you can check out:
 
 - Your official campaign medal count and leaderboard position
 
-- Current Track of the Day, top 5 ranking and timer for the next TOTD
+- Current Track of the Day, top 5 ranking and a countdown timer for the next TOTD
 
 - Your trophy amount and overall ranking
 

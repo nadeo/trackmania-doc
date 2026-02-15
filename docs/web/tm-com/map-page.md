@@ -18,7 +18,7 @@ Information on the left part of the page depends on the track type:
 
 The right side displays the your statistics on the map (Personal best, World/Continent/Country/Region rankings) as well as buttons to add the map to your favorites, pin the map to the your profile, download the map and report the map.
 
-If the map is a TOTD, there will be another section at the bottom with the top 5 rankings and the your placement for each Cup of the Day.
+If the map is a TOTD, there will be another section at the bottom with the top 5 rankings and your placement for each Cup of the Day.
 
 ## Map author admin
 
@@ -28,8 +28,8 @@ If you are the author of the track, there will be two more sections below the ma
 
 The **map rating** section displays a percentage of likes and dislikes given by players on your map (not to be confused with map ratings in [Map Review](/web/tm-com/player-tracks#map-review)).
 
-The **Top Secret** feature prevents viewing ghosts and times of records set on your map. The value in the **Threshold score** field will determine the cutoff at which records with a faster time will be considered secret (the threshold must be entered in milliseconds, for example 12500 -> 12.500s).
+The **Top Secret** feature prevents viewing ghosts and times of records set on your map. The value in the **Threshold score** field will determine the cutoff at which records will be considered secret (the threshold must be entered in milliseconds, for example 12500 -> 12.500s).
 
-Other players' records faster than the threshold will display **SECRET** as the score and the ghost will be unwatchable. The in-game leaderboard timer is not affected by this.
+Other players' records faster than the set time will display **SECRET** as the score and the ghost will be unwatchable. **Only the records tab is affected**, not the in-game leaderboard timer.
 
 Current **Weekly Shorts** will always have their Top Secret threshold score set as the map's Author Time. This restriction lasts until the next Weekly Shorts rotation.
