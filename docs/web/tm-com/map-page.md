@@ -2,7 +2,7 @@
 
 ## Map Info
 
-Checking the **Map page** will provide the user with a short overview of information about a map.
+Checking the **Map page** will provide you with a short overview of information about a map.
 
 ![Example TOTD map page](../../img/tmWebsite-mappage-totd.png)
 
@@ -16,9 +16,9 @@ Information on the left part of the page depends on the track type:
 
 - For Stunt type maps, this section will display the points required for all medals as well as the world record.
 
-The right side displays the user's statistics on the map (Personal best, World/Continent/Country/Region ranking) as well as buttons to add the map to Favorites, pin the map to the user's profile, download the map and report the map.
+The right side displays the your statistics on the map (Personal best, World/Continent/Country/Region rankings) as well as buttons to add the map to your favorites, pin the map to the your profile, download the map and report the map.
 
-If the map is a TOTD, there will be another section at the bottom with the top 5 rankings and the user's placement for each Cup of the Day.
+If the map is a TOTD, there will be another section at the bottom with the top 5 rankings and the your placement for each Cup of the Day.
 
 ## Map author admin
 
@@ -26,8 +26,10 @@ If you are the author of the track, there will be two more sections below the ma
 
 ![Example map page with admin panel](../../img/tmWebsite-mappage-author.png)
 
-The map rating section displays a percentage of likes and dislikes given by players on your map (not to be confused with map ratings in [Map Review](/web/tm-com/player-tracks#map-review)).
+The **map rating** section displays a percentage of likes and dislikes given by players on your map (not to be confused with map ratings in [Map Review](/web/tm-com/player-tracks#map-review)).
 
-Using the top secret feature will allow you to hide records that are faster than a set time. The threshold has to be inputted in milliseconds (12500 -> 12.500s).
+The **Top Secret** feature prevents viewing ghosts and times of records set on your map. The value in the **Threshold score** field will determine the cutoff at which records with a faster time will be considered secret (the threshold must be entered in milliseconds, for example 12500 -> 12.500s).
 
-Any records faster than the set threshold will turn secret - on the leaderboard the timer will display **SECRET** and the ghost will be unwatchable. By default, any officially accepted Weekly short maps have this feature set to the author time until the next Weekly Shorts rotation comes.
+Other players' records faster than the threshold will display **SECRET** as the score and the ghost will be unwatchable. The in-game leaderboard timer is not affected by this.
+
+Current **Weekly Shorts** will always have their Top Secret threshold score set as the map's Author Time. This restriction lasts until the next Weekly Shorts rotation.
