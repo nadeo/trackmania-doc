@@ -1,6 +1,6 @@
 # Player Tracks
 
-On this page you can manage any tracks uploaded to Nadeo services. Those tracks are unable to be deleted.
+On this page you can manage tracks uploaded to Nadeo services. Those tracks are unable to be deleted.
 
 The **Author** tab contains all maps created by you. It does not matter who uploads the map to Nadeo services (for example via a club activity).
 
