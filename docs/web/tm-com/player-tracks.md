@@ -2,11 +2,11 @@
 
 On this page you can manage any tracks uploaded to Nadeo services. Those tracks are unable to be deleted.
 
-The **Author** tab contains all maps created by the user. It does not matter who uploads the map to Nadeo services (for example via a club activity).
+The **Author** tab contains all maps created by you. It does not matter who uploads the map to Nadeo services (for example via a club activity).
 
-The **Uploads** tab contains maps that have been uploaded to Nadeo services by the user.
+The **Uploads** tab contains maps that have been uploaded to Nadeo services by you.
 
-The **Favorites** tab contains maps that the user has marked as favorite either in game or [on the map page](/web/tm-com/map-page).
+The **Favorites** tab contains maps that you have marked as favorite either in game or [on the map page](/web/tm-com/map-page).
 
 ## Map review
 
