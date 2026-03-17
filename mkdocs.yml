@@ -143,5 +143,12 @@ nav:
     - How to make Parallax signs: create/parallax-signs/index.md
     - Help expand this section: create/index.md
   - Web:
+    - Trackmania Website:
+      - Main page: web/tm-com/index.md
+      - Dashboard: web/tm-com/dashboard.md
+      - Player page: web/tm-com/player-page.md
+      - Map page: web/tm-com/map-page.md
+      - Player tracks: web/tm-com/player-tracks.md
+      - Club Management: web/tm-com/club-management.md
     - Web Services: web/web-services/index.md
     - Auth: web/web-services/auth.md
