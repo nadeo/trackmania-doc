@@ -68,6 +68,7 @@ In-game, you can find the VIPs in the leaderboard widget on the left of the scre
 |Queen_Clown|[https://www.twitch.tv/queen_clown](https://www.twitch.tv/queen_clown)|33BF-KXGG-D6PJ-RGTE-C9CF|
 |Racehans|[https://www.twitch.tv/racehans](https://www.twitch.tv/racehans)|N3R8-7M65-C7NX-9XHP-A7BT|
 |Razii|[https://www.twitch.tv/razii](https://www.twitch.tv/razii)|F5BK-BAE3-6BBY-PA38-YJY7|
+|riolu|[https://www.twitch.tv/riolutm](https://www.twitch.tv/riolutm)|EMM6-E7X7-PTRX-66WA-K6WN|
 |resir014|[https://www.twitch.tv/resir014](https://www.twitch.tv/resir014)|XXAP-E3BG-9754-KJ99-Y7W5|
 |s314ke|[https://www.twitch.tv/s314ke](https://www.twitch.tv/s314ke)|RE5H-HAJ5-DDBM-XP8E-WYCC|
 |SamZim|[https://www.twitch.tv/samzim](https://www.twitch.tv/samzim)|9A85-9JBH-XMDT-C3TX-3KGM|
@@ -96,7 +97,6 @@ In-game, you can find the VIPs in the leaderboard widget on the left of the scre
 |xEmlanx|[https://www.twitch.tv/xEmlanx](https://www.twitch.tv/xEmlanx)|7R9J-MA6R-3FXW-GXN4-RMH5|
 |Yannex|[https://www.twitch.tv/yannex](https://www.twitch.tv/yannex)|ADMB-AM8D-JERR-D9AG-4BG6|
 |ZeratoR|[https://www.twitch.tv/zerator](https://www.twitch.tv/zerator)|TG4N-E3GE-3G8A-EFT4-9GMM|
-
 
 <hr>
 Author: [tooInfinite](https://twitter.com/davidbmaier)
