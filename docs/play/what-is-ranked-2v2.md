@@ -81,7 +81,7 @@ The current campaign map pool distribution is as follows:
 |    Silver 3    | Maps 9 - 18  |
 |     Gold 1     | Maps 11 - 20 |
 |     Gold 2     | Maps 12 - 21 |
-|     Gold 3     | Maps 14 - 23 |
+|     Gold 3     | Maps 14 - 22 |
 |     Master     | Maps 16 - 25 |
 
 ![Map pool for Ranked](../img/rankedMapPool.png)
