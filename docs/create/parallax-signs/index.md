@@ -4,7 +4,7 @@
 
 ## Create your DDS files
 
-First you need a drawing program that allows you to draw your image in mutiple layers. Choose any you are comfortable with like Photoshop, gimp, paint.NET, Krita, etc.. 
+First you need a drawing program that allows you to draw your image in multiple layers. Choose any you are comfortable with like Photoshop, gimp, paint.NET, Krita, etc.. 
 
 Parallax signs come in 3 different formats: 1x1, 2x1, and 4x1. Make sure to choose the dimensions of your image to fit one of these formats. (e.g. 1024x256, 1024x512, 1024x1024). 
 
@@ -42,7 +42,7 @@ The Skin.json file is a simple text file. You can open and edit it with any text
 }
 ```
 
-In this example `Layer1.dds` is the name of the file displayed in the foreground and `Layer4.dds` is the name of the file displayed all the way in the background. Additionally to the order each Layer gets a property `Depth`. This indicates how "far away" the layer is supposed to be. This is what will cause the parallax effect ingame.
+In this example `Layer1.dds` is the name of the file displayed in the foreground and `Layer4.dds` is the name of the file displayed all the way in the background. Additionally to the order each Layer gets a property `Depth`. This indicates how "far away" the layer is supposed to be. This is what will cause the parallax effect in-game.
 
 **Note:** You can choose any Depth you like for every layer, even higher values for layers in the foreground and lower values for layers in the background.
 
@@ -56,4 +56,4 @@ Once you have created both your .dds files and our Skin.json file, select all th
 
 Now start (or restart!) Trackmania, go into the map editor, place a sign and select the `Skin Mode (F5)`. Click in the sign you placed and your parallax sign should be selectable from the menu.
 
-**Note:** Selecting a sign or iamge from your local disc does *NOT* make it available to other players who download and play your map. In order to do that you need to upload your file somewhere (like dropbox, Google Drive, or [ManiaCDN](http://upload.maniacdn.net/)) and then create a locator file (.loc) for your parallax sign. (The locator file for `MyParallax.zip` must be named `MyParallax.zip.loc` and contains a single line with the url where the zip file can be downloaded from)
+**Note:** Selecting a sign or image from your local disc does *NOT* make it available to other players who download and play your map. In order to do that you need to upload your file somewhere (like dropbox, Google Drive, or [ManiaCDN](http://upload.maniacdn.net/)) and then create a locator file (.loc) for your parallax sign. (The locator file for `MyParallax.zip` must be named `MyParallax.zip.loc` and contains a single line with the url where the zip file can be downloaded from)
