@@ -11,7 +11,7 @@ However it is still possible to make .Mesh.Gbx, .Shape.Gbx or .Mat.Gbx files, bu
 
 `Collection="Stadium"` remains mandatory for NadeoImporter. However, current Trackmania resolves an imported `CPlugSolid2Model` material link through its `MaterialsFolderName`. A GBX-aware post-processor can, for example, change this folder from `Stadium\Media\Material\` to `GreenCoast\Media\Material\` while preserving `Link="Grass"` and `IsUsingGameMaterial=false`, causing the item to use GreenCoast Grass.
 
-This is a version-sensitive post-import operation which is not exposed by `.MeshParams.xml`. Test every material and environment combination separately, and preserve the item's identifier, collection and author when it is already placed in a map.
+This is a version-sensitive post-import operation which is not exposed by `.MeshParams.xml`.
 
 ## Mesh and Shape files
 
