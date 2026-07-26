@@ -23,3 +23,13 @@ Once you press the **SEND FOR REVIEW** button, you'll automatically join the Map
 The track editor allows you to immediately jump into Map Review. Once you save a **validated** map that has **computed shadows**, a screen will pop up with the **LIVE TEST** options that will join Map Review and send your map to the queue.
 
 ![Track Editor Live Test](../../img/mapReviewUpdate_Submit_Editor.png)
+
+## Checking the map ratings
+
+After your map has been played on the Map Review server, players will be able to rate the map on a 5 star scale. Only one vote per player counts - voting again will overwrite the previous rating.
+
+You may view the ratings in game by opening the **MY SUBMITTED TRACKS** menu. Each submitted track will feature a graphic on the thumbnail showcasing the average player rating.
+
+<!-- an image would be nice here, i don't have club access anymore -->
+
+For more detailed stats, head to the [Player Tracks](/web/tm-com/player-tracks/#map-review) section on the Trackmania.com website.
