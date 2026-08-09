@@ -28,7 +28,7 @@ In-game, you can find the VIPs in the leaderboard widget on the left of the scre
 |Down|[https://www.twitch.tv/ar_down](https://www.twitch.tv/ar_down)|TXDT-BTK4-87NR-X38X-JTDB|
 |eLconn|[https://www.twitch.tv/elconn21](https://www.twitch.tv/elconn21)|AN8W-PBXA-KNR9-WRN8-DHAH|
 |erizel|[https://www.twitch.tv/erizel](https://www.twitch.tv/erizel)|K4J3-AMNR-HMYF-599P-R5J3|
-|Esszz|[https://www.twitch.tv/esszz](https://www.twitch.tv/esszz)|WGB8-W6MP-EYHD-RTKG-FTWT|
+|Esszz|[https://www.twitch.tv/esszz](https://www.twitch.tv/esszz)|C59M-K5B6-KRX6-CX8C-EP4E|
 |Etoiles|[https://www.twitch.tv/etoiles](https://www.twitch.tv/etoiles)|4BEX-93FT-R6KX-HCM5-873M|
 |GranaDy|[https://www.twitch.tv/granadyy](https://www.twitch.tv/granadyy)|X5PN-3R6J-FFYE-XFM5-BNHF|
 |h3llomarc|[https://www.twitch.tv/h3llomarc](https://www.twitch.tv/h3llomarc)|ME8F-KAW9-EDYP-63H8-4WY5|
