@@ -15,6 +15,7 @@ In-game, you can find the VIPs in the leaderboard widget on the left of the scre
 |Player name|Twitch|VIP key|
 :--|:--|:--|
 |AmaterasuTM|[https://www.twitch.tv/amaterasutm](https://www.twitch.tv/amaterasutm)|76JK-6E6M-JRFN-K9GB-XGG4|
+|AR_Down|[https://www.twitch.tv/ar_down](https://www.twitch.tv/ar_down)|TXDT-BTK4-87NR-X38X-JTDB|
 |BagheraJones|[https://www.twitch.tv/bagherajones](https://www.twitch.tv/bagherajones)|A4F5-6K8K-PX69-M9RH-WN59|
 |BirdieTM|[https://www.twitch.tv/birdietm](https://www.twitch.tv/birdietm)|ECRT-6NAY-W54C-AFNG-D9CG|
 |Bren_TM2|[https://www.twitch.tv/bren_tm2](https://www.twitch.tv/bren_tm2)|WCF8-35YX-RFNN-PJ4F-47XP|
@@ -25,7 +26,6 @@ In-game, you can find the VIPs in the leaderboard widget on the left of the scre
 |DamDam|[https://www.twitch.tv/damdamlive](https://www.twitch.tv/damdamlive)|X698-M4H3-86A6-3PHF-XHCN|
 |daregenn|[https://www.twitch.tv/daregenn](https://www.twitch.tv/daregenn)|FDAP-NBGA-R769-AJA5-ACTH|
 |DontCare|[https://www.twitch.tv/dontcare_tm](https://www.twitch.tv/dontcare_tm)|H53C-8XFK-5346-5A7K-XPNX|
-|Down|[https://www.twitch.tv/ar_down](https://www.twitch.tv/ar_down)|TXDT-BTK4-87NR-X38X-JTDB|
 |eLconn|[https://www.twitch.tv/elconn21](https://www.twitch.tv/elconn21)|AN8W-PBXA-KNR9-WRN8-DHAH|
 |erizel|[https://www.twitch.tv/erizel](https://www.twitch.tv/erizel)|K4J3-AMNR-HMYF-599P-R5J3|
 |Esszz|[https://www.twitch.tv/esszz](https://www.twitch.tv/esszz)|WGB8-W6MP-EYHD-RTKG-FTWT|
