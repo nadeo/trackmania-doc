@@ -17,24 +17,18 @@ In-game, you can find the VIPs in the leaderboard widget on the left of the scre
 |AmaterasuTM|[https://www.twitch.tv/amaterasutm](https://www.twitch.tv/amaterasutm)|76JK-6E6M-JRFN-K9GB-XGG4|
 |AR_Down|[https://www.twitch.tv/ar_down](https://www.twitch.tv/ar_down)|TXDT-BTK4-87NR-X38X-JTDB|
 |BagheraJones|[https://www.twitch.tv/bagherajones](https://www.twitch.tv/bagherajones)|A4F5-6K8K-PX69-M9RH-WN59|
-|BirdieTM|[https://www.twitch.tv/birdietm](https://www.twitch.tv/birdietm)|ECRT-6NAY-W54C-AFNG-D9CG|
 |Bren_TM2|[https://www.twitch.tv/bren_tm2](https://www.twitch.tv/bren_tm2)|WCF8-35YX-RFNN-PJ4F-47XP|
 |CarlJRtm|[https://www.twitch.tv/carljrtm](https://www.twitch.tv/carljrtm)|YTK7-T8NE-58BG-6G6H-RTNN|
 |Chroma|[https://www.twitch.tv/chroma](https://www.twitch.tv/chroma)|JJAR-3DF3-JC4N-JPM5-FRY5|
 |Ciremyxx|[https://www.twitch.tv/ciremyxx](https://www.twitch.tv/ciremyxx)|WYDR-4MF3-XFRX-RTN6-5JAK|
 |Cosmos24|[https://www.twitch.tv/cosmos24tm](https://www.twitch.tv/cosmos24tm)|XC3Y-434J-THP7-PHY3-NHFH|
-|DamDam|[https://www.twitch.tv/damdamlive](https://www.twitch.tv/damdamlive)|X698-M4H3-86A6-3PHF-XHCN|
 |daregenn|[https://www.twitch.tv/daregenn](https://www.twitch.tv/daregenn)|FDAP-NBGA-R769-AJA5-ACTH|
 |DontCare|[https://www.twitch.tv/dontcare_tm](https://www.twitch.tv/dontcare_tm)|H53C-8XFK-5346-5A7K-XPNX|
-|eLconn|[https://www.twitch.tv/elconn21](https://www.twitch.tv/elconn21)|AN8W-PBXA-KNR9-WRN8-DHAH|
 |erizel|[https://www.twitch.tv/erizel](https://www.twitch.tv/erizel)|K4J3-AMNR-HMYF-599P-R5J3|
 |Esszz|[https://www.twitch.tv/esszz](https://www.twitch.tv/esszz)|C59M-K5B6-KRX6-CX8C-EP4E|
-|Etoiles|[https://www.twitch.tv/etoiles](https://www.twitch.tv/etoiles)|4BEX-93FT-R6KX-HCM5-873M|
 |GranaDy|[https://www.twitch.tv/granadyy](https://www.twitch.tv/granadyy)|X5PN-3R6J-FFYE-XFM5-BNHF|
 |h3llomarc|[https://www.twitch.tv/h3llomarc](https://www.twitch.tv/h3llomarc)|ME8F-KAW9-EDYP-63H8-4WY5|
-|HuntedCast|[https://www.twitch.tv/huntedcast](https://www.twitch.tv/huntedcast)|3W6X-93HG-H5XH-MG3F-EMJG|
 |ItsAsh_btw|[https://www.twitch.tv/itsash_btw](https://www.twitch.tv/itsash_btw)|9APF-DXPX-G95C-5WJ5-HPHM|
-|Ivycomb|[https://www.twitch.tv/ivycomb](https://www.twitch.tv/ivycomb)|C7KC-NNYA-5RWT-EEDP-8CFK|
 |Jean-René|[https://www.twitch.tv/jean__rene](https://www.twitch.tv/jean__rene)|WWWM-PA9J-D8PM-FFMR-P5D5|
 |Jnic|[https://www.twitch.tv/jnic](https://www.twitch.tv/jnic)|G93C-FEBG-WAGX-3R6H-N8N6|
 |jojomaking|[https://www.twitch.tv/Jojomaking](https://www.twitch.tv/Jojomaking)|WTTN-R4RK-FWAP-A8Y9-DW4P|
@@ -46,13 +40,9 @@ In-game, you can find the VIPs in the leaderboard widget on the left of the scre
 |lauranbk|[https://www.twitch.tv/lauranbk](https://www.twitch.tv/lauranbk)|W98G-Y9T8-EYK8-6WNM-H7B4|
 |LeachyLive|[https://www.twitch.tv/leachylive](https://www.twitch.tv/leachylive)|7JWR-96M5-HAWG-5E8E-6N8E|
 |Legion2k|[https://www.twitch.tv/Legion2k](https://www.twitch.tv/Legion2k)|5E33-K4W5-G8KC-HW5N-3KD5|
-|Lentillion|[https://www.twitch.tv/lentillion](https://www.twitch.tv/lentillion)|NPNX-4RCP-EJKY-FKGX-XMHR|
-|LIRIK|[https://www.twitch.tv/lirik](https://www.twitch.tv/lirik)|RGNM-84BG-NMAT-7B6H-8N6M|
-|lowkeycuteboy|[https://www.twitch.tv/lowkeycuteboy](https://www.twitch.tv/lowkeycuteboy)|RKAP-6KPE-EP6R-WT88-P3F7|
 |luckersturbo|[https://www.twitch.tv/luckersturbo](https://www.twitch.tv/luckersturbo)|D47G-Y6FF-EYPB-4E4Y-43DK|
 |lupo0999|[https://www.twitch.tv/lupo0999](https://www.twitch.tv/lupo0999)|TCN9-R4BC-BTWY-G756-K3P3|
 |Majijej|[https://www.twitch.tv/majijej](https://www.twitch.tv/majijej)|X394-F99F-GT3G-8DPW-HWKX|
-|marty_vole|[https://www.twitch.tv/marty_vole](https://www.twitch.tv/marty_vole)|YHWG-354D-9983-XGGR-YCXH|
 |Massa|[https://www.twitch.tv/massa](https://www.twitch.tv/massa)|YMX7-MAER-AA8B-MDWD-G476|
 |MCYC|[https://www.twitch.tv/mcycguy](https://www.twitch.tv/mcycguy)|T64M-KMPR-X436-8RJ9-GRP7|
 |Micka_tm|[https://www.twitch.tv/micka_tm](https://www.twitch.tv/micka_tm)|7AN6-TKGY-9BDB-8A9W-J6FN|
@@ -76,7 +66,6 @@ In-game, you can find the VIPs in the leaderboard widget on the left of the scre
 |Sardoche|[https://www.twitch.tv/sardoche](https://www.twitch.tv/sardoche)|NJPX-5TKC-AK9H-XJ45-RK6B|
 |SashoStoichkov|[https://www.twitch.tv/sashostoichkov](https://www.twitch.tv/sashostoichkov)|AD8J-H8CM-K7F4-MKRR-HMKG|
 |sbville|[https://www.twitch.tv/sbville](https://www.twitch.tv/sbville)|AA4D-GKT8-X7BB-8TD3-7ED8|
-|Scarzor|[https://www.twitch.tv/scarzor](https://www.twitch.tv/scarzor)|9MBB-AABC-Y553-RH6A-TFD9|
 |Scrapie|[https://www.twitch.tv/scrapie](https://www.twitch.tv/scrapie)|45PK-X97A-BKCB-FMT4-6TKD|
 |sh0rty|[https://www.twitch.tv/sh0rtyde](https://www.twitch.tv/sh0rtyde)|E9TF-BBYY-PFYE-FCR7-WEH4|
 |Shcr|[https://www.twitch.tv/shcrtm](https://www.twitch.tv/shcrtm)|RTMH-YP39-G7GT-34X8-3DJ8|
@@ -85,9 +74,7 @@ In-game, you can find the VIPs in the leaderboard widget on the left of the scre
 |Spammiej|[https://www.twitch.tv/spammiej](https://www.twitch.tv/spammiej)|K7MY-C34N-EEGY-PKT5-JJ7K|
 |Speedself|[https://www.twitch.tv/speedself](https://www.twitch.tv/speedself)|TY6M-RYBB-YPKG-BT76-W8YA|
 |Tarpor|[https://www.twitch.tv/tarpor](https://www.twitch.tv/tarpor)|C7CR-WEB9-D464-JKRM-YNKD|
-|Tatauna|[https://www.twitch.tv/tatauna](https://www.twitch.tv/tatauna)|EKDH-WHK8-NM9R-88HB-9GXY|
 |Tekky|[https://www.twitch.tv/tekkytm](https://www.twitch.tv/tekkytm)|7BRA-9FHN-CKXY-NC37-5TX4|
-|Tr1x|[https://www.twitch.tv/tr1x_tm](https://www.twitch.tv/tr1x_tm)|7M5B-NJM3-GKNH-RHRM-XCEA|
 |Trilluxe|[https://www.twitch.tv/trilluxe](https://www.twitch.tv/trilluxe)|9GEG-CTGF-64TP-DFJT-XPMB|
 |UnanimousIndecision|[https://www.twitch.tv/unanimousindecision](https://www.twitch.tv/unanimousindecision)|F3JW-WR3F-37DT-RHFH-876P|
 |Vaelyn|[https://www.twitch.tv/vaelyn](https://www.twitch.tv/vaelyn)|3RAE-5D7B-X3TT-H859-P8G4|
@@ -97,7 +84,6 @@ In-game, you can find the VIPs in the leaderboard widget on the left of the scre
 |Wirtual|[https://www.twitch.tv/wirtual](https://www.twitch.tv/wirtual)|WTKX-RXFM-ETP5-DCYR-T59N|
 |xEmlanx|[https://www.twitch.tv/xEmlanx](https://www.twitch.tv/xEmlanx)|7R9J-MA6R-3FXW-GXN4-RMH5|
 |Yannex|[https://www.twitch.tv/yannex](https://www.twitch.tv/yannex)|ADMB-AM8D-JERR-D9AG-4BG6|
-|ZeratoR|[https://www.twitch.tv/zerator](https://www.twitch.tv/zerator)|TG4N-E3GE-3G8A-EFT4-9GMM|
 
 <hr>
 Author: [tooInfinite](https://twitter.com/davidbmaier)
