@@ -8,14 +8,14 @@ This is a living document - if you see something inaccurate/missing, feel free t
 | :-: | :-: | :-: | :-: | :-: |
 | \_D | Diffuse | DDS (BC1)<br>DDS (BC3 if transparent) | Base image/texture |
 | \_H | | DDS (BC1) | Height | Grey `(128,128,128)` is level<br>Black `(0,0,0)` lowers elevations<br>White `(255,255,255)` raises elevation
-| \_I | Ilium | | InsideColor<br>Colorization of things behind glass | Multiplication before applying glass layers
+| \_I | Illum | | Self-illumination, texture glows but doesn't emit light | 
 | \_L | | | Color of lightbulbs/LEDs | Displaced by `_H`
 | \_M | | DDS (BC1) | Mask (black/white) | Color is determined by `DecalPaint_D`
 | \_N | Normal | DDS (BC5) | Texture that stores a direction at each pixel
-| \_O |
-| \_R | Roughness | DDS (BC5) | Roughness (matte/shiny)<br>Metallic | Can be kept as greyscale (BC1) if not used.
-| \_T |
-| \_X2 | | DDS (BC1) | Large overlay for color values | Upscaled texture for `CustomMaterial` projection
+| \_O | | | Texture overlaid on top of glass (grayscale)
+| \_R | Roughness | DDS (BC5) | Roughness (matte/shiny)<br>Metallic | Can be kept as greyscale (BC1) if not used<br> Red channel is used for roughness, green channel is used for metallic
+| \_T | | | Glass color
+| \_X2 | | DDS (BC1) | Large overlay for color values |
 
 ### Hue Masks
 
@@ -34,270 +34,282 @@ These textures determine what is tintable and what isn't - they use the RGB chan
 
 | **Name** | **Used For** | **\_D** | **\_H** | **\_I** | **\_L** | **\_M** | **\_N** | **\_O** | **\_R** | **\_T** | **\_X2** | **\_HueShiftMask**
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|Ad1x1Screen|"Default" 1x1 Sign|||||||||||
-|Ad2x1Screen|"Default" 2x1 Sign|||||||||||
-|Ad4x1Screen|"Default" 4x1 Sign|||||||||||
-|AdScreenOff|"Off" Sign|||||||||||
-|Canopy|Canopy Pattern|_D|||||_N||_R|||_D
-|CanopyGlass|Canopy Glass|_D|||||_N||_R|||_D
-|CanopyStructure|Canopy Pattern Edges|_D|_H|_I|_L||_N||_R|||_D, _L
-|Chrono||_D|_H|_I|_L||_N||_R|||
-|ChronoCheckpoint||||_I||||||||
-|ChronoFinish||||_I||||||||
-|CustomBricks||_D|||||_N||_R|||
-|CustomConcrete||_D|||||_N||_R||_X2|
-|CustomDirt||_D|||||_N||_R|||
-|CustomGrass||_D|||||_N||_R||_X2|
-|CustomIce||_D|||||_N||_R|||
-|CustomMetal||_D|||||_N||_R|||
-|CustomMetalPainted||_D|||||_N||_R|||
-|CustomModAddSelfIllum||||_I||||||||
-|CustomModAddSelfIllum2||||_I||||||||
-|CustomModColorize||_D|||||_N||_R|||_D
-|CustomModColorize2||_D|||||_N||_R|||_D
-|CustomModDecal||_D|||||_N||_R|||
-|CustomModDecal2||_D|||||_N||_R|||
-|CustomModOpaque||_D|||||_N||_R|||
-|CustomModOpaque2||_D|||||_N||_R|||
-|CustomModSelfIllum||_D|_H|_I|_L||_N||_R|||
-|CustomModSelfIllum2||_D|_H|_I|_L||_N||_R|||
-|CustomModSelfIllumSimple||_D||_I|||_N||_R|||
-|CustomModSelfIllumSimple2||_D||_I|||_N||_R|||
-|CustomModTrans||_D|||||_N||_R|||
-|CustomModTrans2||_D|||||_N||_R|||
-|CustomPlastic||_D|||||_N||_R|||
-|CustomPlasticShiny||_D|||||_N||_R|||
-|CustomRock||_D|||||_N||_R|||
-|CustomRockPxz||_D|||||_N||_R|||
-|CustomRockPy|||||||||||_X2|
-|CustomRoughWood||_D|||||_N||_R|||
-|CustomSand||_D|||||_N||_R|||
-|CustomSnow||_D|||||_N||_R||_X2|
-|DecalCurbs||_D|||||_N||_R|||_D
-|DecalGateGameplay||_D|||||_N||_R|||
-|DecalLogo4x1||||||_M||||||
-|DecalLogo8x1||||||_M||||||
-|DecalMarks||_D|||||_N||_R|||
-|DecalMarksItems||_D|||||_N||_R|||_D
-|DecalMarksRamp||_D|||||_N||_R|||
-|DecalMarksStart||_D|||||_N||_R|||_D
-|DecalObstaclePusher||_D|||||_N||_R|||
-|DecalObstacleTube||_D|||||_N||_R|||
-|DecalObstacleTurnstile|||||||_N||_R|||
-|DecalObstacleTurnstileLeft||_D||||||||||
-|DecalObstacleTurnstileRight||_D||||||||||
-|DecalPaint||_D|||||_N||_R|||_D
-|DecalPaint2||_D||||||||||
-|DecalPlatform||_D|||||_N||_R|||_D
-|DecalPlatformDirt||_D||||||||||
-|DecalPlatformGrass||_D||||||||||
-|DecalPlatformIce||_D||||||||||
-|DecalPlatformPlastic||_D||||||||||
-|DecalSpecial|||||||_N||_R|||
-|DecalSpecialBoost||_D||||||||||
-|DecalSpecialBoost2||_D||||||||||
-|DecalSpecialCruise||_D||||||||||
-|DecalSpecialFragile||_D||||||||||
-|DecalSpecialMarks||_D|||||_N||_R|||
-|DecalSpecialNoBrake||_D||||||||||
-|DecalSpecialNoEngine||_D||||||||||
-|DecalSpecialNoSteering||_D||||||||||
-|DecalSpecialReset||_D||||||||||
-|DecalSpecialSlowMotion||_D||||||||||
-|DecalSpecialTurbo||_D||||||||||
-|DecalSpecialTurbo2||_D||||||||||
-|DecalSpecialTurboRoulette||_D||||||||||
-|DecalSponsor1x1BigA||_D|||||_N||_R|||
-|DecalSponsor4x1A||||||_M||||||
-|DecalSponsor4x1B||||||_M||||||
-|DecalSponsor4x1C||||||_M||||||
-|DecalSponsor4x1D||||||_M||||||
-|DecoCliffBase||_D|||||_N||_R|||_D|
-|DecoCliffBaseDirt||_D||||||||||
-|DecoCliffBaseIce||_D||||||||||
-|DecoCliffIcePxz||_D|||||_N||_R|||
-|DecoCliffPxz||_D|||||_N||_R|||
-|DecoHill||_D|||||_N||_R|||
-|DecoHill2||_D||||||||||
-|DecoHillDirt||_D|||||_N||_R|||
-|DecoHillDirt2||_D||||||||||
-|DecoHillDirtPy||_D|||||_N||_R||_X2||
-|DecoHillIce||_D|||||_N||_R|||
-|DecoHillIce2||_D||||||||||
-|DecoHillIcePy||_D|||||_N||_R||_X2|
-|DecoHillPy||_D|||||_N||_R||_X2|
-|DecoTechnics||_D|||||_N||_R|||
-|DirtPy||_D|||||_N||_R||_X2|_D
-|FoggerSmoke||||||||||||
-|GateGameplayScreen||||||||||||
-|GlassWaterWall|||||||_N|_O|_R|_T||
-|GlossyFloor||_D|||||_N||_R|||
-|Grass||_D|||||_N||_R||_X2|
-|GrassFence||_D||||||||||
-|IceMarks||||||_M|_N||_R|||
-|IcePy|||||||_N||_R|||
-|ItemAd1x1ScreenSmall||||_I||||||||
-|ItemAd1x1ScreenSmallB||||_I||||||||
-|ItemAd1x1ScreenSmallC||||_I||||||||
-|ItemAd1x1ScreenSmallWrongWay||||_I||||||||
-|ItemBase||_D|||||_N||_R|||
-|ItemBorder||_D|||||_N||_R|||
-|ItemCactus||_D|||||_N||_R|||
-|ItemCherryTreeBranch||_D|||||_N||_R|||
-|ItemCherryTreePetals||_D|||||_N|||||
-|ItemCypressBranch||_D|||||_N||_R|||
-|ItemFallTreeBranch||_D||||||||||
-|ItemFallTreePetals||_D|||||_N|||||
-|ItemFirBranch||_D|||||_N||_R|||
-|ItemFirSnowBranch||_D|||||_N||_R|||
-|ItemFlag||_D|||||||_R|||_D
-|ItemFrozenTreeBranch||_D||||||||||
-|ItemInflatableFloor||_D|||||_N||_R|||_D
-|ItemInflatableMat||_D|||||_N||_R|||_D
-|ItemInflatableTube||_D|||||_N||_R|||_D
-|ItemLamp||_D|_H|_I|_L||_N||_R|||
-|ItemLampB||||_I||||||||
-|ItemLampC||||_I||||||||
-|ItemObstacle||_D|||||_N||_R|||
-|ItemObstacleLight||_D|_H|_I|_L||_N||_R|||
-|ItemObstaclePusher||_D|||||_N||_R|||
-|ItemPalmTreeBark||_D|||||_N||_R|||
-|ItemPalmTreeBranch||_D|||||_N||_R|||
-|ItemPillar||_D|||||_N||_R|||_D
-|ItemPillar2||_D|||||||_R|||
-|ItemRamp||_D|||||_N||_R|||_D
-|ItemRoadSign||_D|||||_N||_R|||
-|ItemSpectator||_D|||||_N||_R|||
-|ItemSpectatorLow||_D|||||_N||_R|||
-|ItemSpringTreeBranch||_D|||||_N||_R|||
-|ItemSupportConnector||_D|||||_N||_R|||
-|ItemSupportTube||_D|||||_N||_R|||_D
-|ItemTorchFlame||||_I||||||||
-|ItemTrackBarrier||_D|||||_N||_R|||_D
-|ItemTrackBarrier2||_D||||||||||_D
-|ItemTrackBarrierB||_D||||||||||_D
-|ItemTrackBarrierC||_D||||||||||_D
-|ItemTreeTrunk||_D|||||_N||_R|||
-|LightCells|||||||_N||_R|||
-|LightCells2||_D|_H||_L||_N||_R|||
-|LightCells3||_D|_H||_L||_N||_R|||
-|LightShape||_D|_H|_I|_L||_N||_R|||
-|LightSpot||_D|_H|_I|_L||_N||_R|||
-|LightSpot2||_D|_H||_L||_N||_R|||
-|LightTube||_D||_I|||_N||_R|||
-|LightTubeBig||||||||||||
-|LightTubeRefract||||_I||||||||
-|LightTubeSmall||||||||||||
-|OpenDirtBorders||_D||||||||||
-|OpenGrassBorders||_D||||||||||
-|OpenIceBorders||_D||||||||||
-|OpenTechBorders||_D|||||_N||_R|||_D
-|PlatformGrass||_D|||||_N||_R|||
-|PlatformIce||_D|_H|||||||||
-|PlatformTech||_D|||||_N||_R|||
-|PodiumBorder||_D|_H|_I|_L||_N||_R|||
-|PodiumMedalMetal||_D|||||_N||_R|||
-|PodiumScreen155||||_I||||||||
-|PodiumScreen16x9||||_I||||||||
-|PodiumSelfIllum||_D||_I|||_N||_R|||
-|PodiumStepScreen||||||||||||
-|Pylon||_D|||||_N||_R|||
-|RaceAd6x1||||||||||||
-|RaceArch||_D|_H||_L||_N||_R|||
-|RaceArchCheckpoint||||_I||||||||
-|RaceArchFinish||||_I||||||||
-|RaceScreenStart||||_I||||||||
-|RaceTriggerFXCheckpoint||||_I||||||||
-|RaceTriggerFXFinish||||_I||||||||
-|RaceTriggerFXMultilap||||_I||||||||
-|RoadBump||_D|||||_N||_R|||_D
-|RoadDirt||_D|||||_N||_R|||_D
-|RoadIce||_D|_H|||||||||_D
-|RoadTech||_D|||||_N||_R|||_D
-|ScreenBack||_D|||||_N||_R|||
-|ScreenPusher||_D|_H|_I|_L||_N||_R|||
-|Show4x1||||||||||||
-|Sparkler||_D||||||||||
-|SparklerEnd||_D||||||||||
-|SpeakerFront||_D|||||_N||_R|||
-|SpeakerSide||_D|||||_N||_R|||
-|SpecialFXBoost||||_I||||||||
-|SpecialFXBoost2||||_I||||||||
-|SpecialFXCruise||||_I||||||||
-|SpecialFXFragile||||_I||||||||
-|SpecialFXGateGameplay||||_I||||||||
-|SpecialFXNoBrake||||_I||||||||
-|SpecialFXNoEngine||||_I||||||||
-|SpecialFXNoSteering||||_I||||||||
-|SpecialFXReset||||_I||||||||
-|SpecialFXSlowMotion||||_I||||||||
-|SpecialFXTurbo||||_I||||||||
-|SpecialFXTurbo2||||_I||||||||
-|SpecialFXTurboRoulette||||_I||||||||
-|SpecialSignBoost||||_I||||||||
-|SpecialSignBoost2||||_I||||||||
-|SpecialSignBoost2Down||||_I||||||||
-|SpecialSignBoostDown||||_I||||||||
-|SpecialSignCruise||||_I||||||||
-|SpecialSignFragile||||_I||||||||
-|SpecialSignNoBrake||||_I||||||||
-|SpecialSignNoEngine||||_I||||||||
-|SpecialSignNoSteering||||_I||||||||
-|SpecialSignOff||||_I||||||||
-|SpecialSignReset||||_I||||||||
-|SpecialSignSlowMotion||||_I||||||||
-|SpecialSignTurbo||||_I||||||||
-|SpecialSignTurbo2||||_I||||||||
-|SpecialSignTurbo2Off||||_I||||||||
-|SpecialSignTurboOff||||_I||||||||
-|SpecialSignTurboRoulette||||_I||||||||
-|SpecialSignTurboRouletteOff||||_I||||||||
-|Speedometer||_D||_I|||_N||_R|||
-|Structure||_D|||||_N||_R|||
-|Technics||_D|||||_N||_R|||_D
-|TechnicsSpecials||_D|||||_N||_R|||
-|TechnicsStep||_D|||||_N||_R|||_D
-|TechnicsStepLow|||||||_N|||||
-|TechnicsTrims||_D|||||_N||_R|||
-|ThemeDesertBarrier||_D|||||_N||_R||||_D
-|ThemeRallyBarrier||_D|||||_N||_R|||
-|ThemeRallyCastleBorders||_D|||||_N||_R|||
-|ThemeRallyCastleRoof||_D|||||_N||_R|||_D
-|ThemeRallyCastleWall||_D|||||_N||_R|||
-|ThemeSnowRoad||_D|||||_N||_R|||
-|ThemeSnowRoadBorder||_D|||||_N||_R|||_D
-|ThemeSnowTempleDetails||_D|||||_N||_R|||_D
-|ThemeSnowTempleFloor||_D||||||||||_D
-|ThemeSnowTempleLamp||_D|_H|_I|_L||_N||_R|||
-|ThemeSnowTempleTransparent||_D|||||_N||_R|||
-|TrackBorders||_D|_H||_L||_N||_R|||_D, _L
-|TrackWall||_D|||||_N||_R|||
-|TrackWallClips||_D|||||_N||_R|||_D
-|TrackWallPxz||_D|||||_N||_R|||_D
-|TrackWallPy|||||||||||_X2|
-|TriggerFXBoost||||_I||||||||
-|TriggerFXBoost2||||_I||||||||
-|TriggerFXCruise||||_I||||||||
-|TriggerFXFragile||||_I||||||||
-|TriggerFXGateGameplay||||_I||||||||
-|TriggerFXNoBrake||||_I||||||||
-|TriggerFXNoEngine||||_I||||||||
-|TriggerFXNoSteering||||_I||||||||
-|TriggerFXReset||||_I||||||||
-|TriggerFXSlowMotion||||_I||||||||
-|TriggerFXTurbo||||_I||||||||
-|TriggerFXTurbo2||||_I||||||||
-|TriggerFXTurboRoulette||||_I||||||||
-|Underwater||_D|||||_N||_R|||
-|Water.tga||||||||||||
-|WaterBorders||_D|||||_N||_R|||
-|WaterFog.tga||||||||||||
-|Waterground||_D|||||_N||_R|||
-|WaterTransmittance.ImageGen.Gbx||||||||||||
+| Ad1x1Screen | Default 1x1 sign |||||||||||| 
+| Ad2x1Screen | Default 2x1 sign |||||||||||| 
+| Ad4x1Screen | Default 4x1 sign |||||||||||| 
+| CanopyGlass | Canopy glass | _D ||||| _N || _R ||| _HueMask | 
+| CanopyStructure | Canopy edges | _D | _H | _I | _L || _N || _R ||| _HueMask | 
+| Canopy | Canopy "X" shapes | _D ||||| _N || _R ||| _HueMask | 
+| ChronoCheckpoint | Checkpoint chronometer ||| _I ||||||||| 
+| ChronoFinish | Finish chronometer ||| _I ||||||||| 
+| Chrono | Multilap chronometer | _D | _H | _I | _L || _N || _R |||| 
+| CustomBricks | | _D ||||| _N || _R |||| 
+| CustomConcrete | | _D ||||| _N || _R || _X2 || 
+| CustomDirt | | _D ||||| _N || _R |||| 
+| CustomGrass | | _D ||||| _N || _R || _X2 || 
+| CustomIce | | _D ||||| _N || _R |||| 
+| CustomMetalPainted | | _D ||||| _N || _R |||| 
+| CustomMetal | | _D ||||| _N || _R |||| 
+| CustomModAddSelfIllum2 | ||| _I ||||||||| 
+| CustomModAddSelfIllum | ||| _I ||||||||| 
+| CustomModColorize2 | | _D ||||| _N || _R ||| _HueShiftMask | 
+| CustomModColorize | | _D ||||| _N || _R ||| _HueShiftMask | 
+| CustomModDecal2 | | _D ||||| _N || _R |||| 
+| CustomModDecal | | _D ||||| _N || _R |||| 
+| CustomModOpaque2 | | _D ||||| _N || _R |||| 
+| CustomModOpaque | | _D ||||| _N || _R |||| 
+| CustomModSelfIllum2 | | _D | _H | _I | _L || _N || _R |||| 
+| CustomModSelfIllumSimple2 | | _D || _I ||| _N || _R |||| 
+| CustomModSelfIllumSimple | | _D || _I ||| _N || _R |||| 
+| CustomModSelfIllum | | _D | _H | _I | _L || _N || _R |||| 
+| CustomModTrans2 | | _D ||||| _N || _R |||| 
+| CustomModTrans | | _D ||||| _N || _R |||| 
+| CustomPlasticShiny | | _D ||||| _N || _R |||| 
+| CustomPlastic | | _D ||||| _N || _R |||| 
+| CustomRockPxz | | _D ||||| _N || _R |||| 
+| CustomRockPy | |||||||||| _X2 || 
+| CustomRock | | _D ||||| _N || _R |||| 
+| CustomRoughWood | | _D ||||| _N || _R |||| 
+| CustomSand | | _D ||||| _N || _R |||| 
+| CustomSnow | | _D ||||| _N || _R || _X2 || 
+| DecalCurbs | Markings on curved roads | _D ||||| _N || _R ||| _HueMask | 
+| DecalGateGameplay | Stadium gate decal | _D ||||| _N || _R |||| 
+| DecalGateGameplay_Desert | Desert gate decal |||||||||||| 
+| DecalGateGameplay_Rally | Rally gate decal |||||||||||| 
+| DecalGateGameplay_Snow | Snow gate decal |||||||||||| 
+| DecalLogo4x1 | Trackmania logo ||||| _M ||||||| 
+| DecalLogo8x1 | Trackmania text ||||| _M ||||||| 
+| DecalMarksItems | Item decals | _D ||||| _N || _R ||| _HueShiftMask | 
+| DecalMarksRamp | Ramp decals | _D ||||| _N || _R |||| 
+| DecalMarksStart | Start pad decal | _D ||||| _N || _R ||| _HueMask | 
+| DecalMarks | Decals | _D ||||| _N || _R |||| 
+| DecalObstaclePusher | Pusher decals | _D ||||| _N || _R |||| 
+| DecalObstacleTube | Pipe decals | _D ||||| _N || _R |||| 
+| DecalObstacleTurnstile | Spinner decals |||||| _N || _R |||| 
+| DecalObstacleTurnstileLeft | Spinner decals | _D ||||||||||| 
+| DecalObstacleTurnstileRight | Spinner decals | _D ||||||||||| 
+| DecalPaint | Color of roadside decals | _D ||||| _N || _R ||| _HueMask | 
+| DecalPaint2 | Color of roadside decals | _D ||||||||||| 
+| DecalPlatform | Tech platform borders | _D ||||| _N || _R ||| _HueMask | 
+| DecalPlatformDirt | Dirt platform borders | _D ||||||||||| 
+| DecalPlatformGrass | Grass platform borders | _D ||||||||||| 
+| DecalPlatformIce | Ice platform borders | _D ||||||||||| 
+| DecalPlatformPlastic | Plastic platform borders | _D ||||||||||| 
+| DecalSpecialBoost2 | Super reactor boost decal | _D ||||||||||| 
+| DecalSpecialBoost | Reactor boost decal | _D ||||||||||| 
+| DecalSpecialCruise | Cruise control decal | _D ||||||||||| 
+| DecalSpecialFragile | Fragile decal | _D ||||||||||| 
+| DecalSpecialMarks | Effect block decals | _D ||||| _N || _R |||| 
+| DecalSpecialNoBrake | No brakes decal | _D ||||||||||| 
+| DecalSpecialNoEngine | Engine off decal | _D ||||||||||| 
+| DecalSpecialNoSteering | No steering decal | _D ||||||||||| 
+| DecalSpecialReset | Reset decal | _D ||||||||||| 
+| DecalSpecialSlowMotion | Slow motion decal | _D ||||||||||| 
+| DecalSpecialTurbo2 | Super turbo decal | _D ||||||||||| 
+| DecalSpecialTurboRoulette | Roulette turbo decal | _D ||||||||||| 
+| DecalSpecialTurbo | Turbo decal | _D ||||||||||| 
+| DecalSpecial | Effect block decal |||||| _N || _R |||| 
+| DecalSponsor1x1BigA | 1x1 decal on waypoints (can be overridden by clubs) | _D ||||| _N || _R |||| 
+| DecalSponsor4x1A | "Trackmania" decal on waypoints (can be overridden by clubs) ||||| _M ||||||| 
+| DecalSponsor4x1B | "Nadeo" decal on waypoints ||||| _M ||||||| 
+| DecalSponsor4x1C | "Ubisoft" decal on waypoints ||||| _M ||||||| 
+| DecalSponsor4x1D | "Stadium" decal on waypoints ||||| _M ||||||| 
+| DecoCliffBase | Bottom of large grass cliff blocks | _D ||||| _N || _R ||| _HueMask | 
+| DecoCliffBaseDirt | Bottom of large sand cliff blocks | _D ||||||||||| 
+| DecoCliffBaseIce | Bottom of large snow cliff blocks | _D ||||||||||| 
+| DecoCliffPxz | Grass cliff rocks | _D ||||| _N || _R |||| 
+| DecoCliffDirtPxz | Sand cliff rocks | _D ||||| _N || _R |||| 
+| DecoCliffIcePxz | Snow cliff rocks | _D ||||| _N || _R |||| 
+| DecoHill | DecoHill block texture | _D ||||| _N || _R |||| 
+| DecoHill2 | Borders of open roads | _D ||||||||||| 
+| DecoHillPy | UVless grass texture | _D ||||| _N || _R || _X2 || 
+| DecoHillDirt | DecoHill block texture | _D ||||| _N || _R |||| 
+| DecoHillDirt2 | Borders of open roads | _D ||||||||||| 
+| DecoHillDirtPy | UVless sand texture | _D ||||| _N || _R || _X2 || 
+| DecoHillIce | DecoHill block texture | _D ||||| _N || _R |||| 
+| DecoHillIce2 | Borders of open roads | _D ||||||||||| 
+| DecoHillIcePy | UVless snow texture | _D ||||| _N || _R || _X2 || 
+| DecoTechnics | | _D ||||| _N || _R |||| 
+| DirtPy | Dirt platform | _D ||||| _N || _R || _X2 | _HueMask | 
+| FoggerSmoke | Smoke from foggers |||||||||||| 
+| GateGameplayScreen | Stadium gate screen |||||||||||| 
+| GateGameplayScreen_Desert | Desert gate screen |||||||||||| 
+| GateGameplayScreen_Rally | Rally gate screen |||||||||||| 
+| GateGameplayScreen_Snow | Snow gate screen |||||||||||| 
+| GlassWaterWall | Waterfall |||||| _N | _O | _R | _T ||| 
+| GlossyFloor | Floor of the disc in the main menu | _D ||||| _N || _R |||| 
+| GrassFence | 3D grass on the stadium floor | _D ||||||||||| 
+| Grass | Stadium grass | _D ||||| _N || _R || _X2 || 
+| IceMarks | Scratch marks on ice ||||| _M | _N || _R |||| 
+| IcePy | |||||| _N || _R |||| 
+| ItemAd1x1ScreenSmall | Yellow arrow sign ||| _I ||||||||| 
+| ItemAd1x1ScreenSmallC | Green arrow sign ||| _I ||||||||| 
+| ItemAd1x1ScreenSmallB | Red arrow sign ||| _I ||||||||| 
+| ItemAd1x1ScreenSmallWrongWay | Wrong way sign ||| _I ||||||||| 
+| ItemBase | Bottom of tree items | _D ||||| _N || _R |||| 
+| ItemBorder | | _D ||||| _N || _R |||| 
+| ItemCactus | Cactus | _D ||||| _N || _R |||| 
+| ItemCherryTreeBranch | Cherry tree leaves | _D ||||| _N || _R |||| 
+| ItemCherryTreePetals | Cherry tree falling petals | _D ||||| _N |||||| 
+| ItemCypressBranch | Cypress leaves | _D ||||| _N || _R |||| 
+| ItemFallTreeBranch | Fall tree leaves | _D ||||||||||| 
+| ItemFallTreePetals | Fall tree falling leaves | _D ||||| _N |||||| 
+| ItemFirBranch | Fir leaves | _D ||||| _N || _R |||| 
+| ItemFirSnowBranch | Snowy fir leaves | _D ||||| _N || _R |||| 
+| ItemFlag | Flag | _D ||||||| _R ||| _HueMask | 
+| ItemFrozenTreeBranch | Frozen tree leaves | _D ||||||||||| 
+| ItemInflatableFloor | Plastic platform | _D ||||| _N || _R ||| _HueMask | 
+| ItemInflatableMat | Plastic item sides | _D ||||| _N || _R ||| _HueMask | 
+| ItemInflatableTube | Pipe items | _D ||||| _N || _R ||| _HueMask | 
+| ItemLamp | Lamp item | _D | _H | _I | _L || _N || _R |||| 
+| ItemLampB | Lamp item (warm white) ||| _I ||||||||| 
+| ItemLampC | Lamp item (cool white) ||| _I ||||||||| 
+| ItemObstacle | Moving items | _D ||||| _N || _R |||| 
+| ItemObstacleLight | Lights on moving items | _D | _H | _I | _L || _N || _R |||| 
+| ItemObstaclePusher | Pushers | _D ||||| _N || _R |||| 
+| ItemPalmTreeBark | Palm tree bark | _D ||||| _N || _R |||| 
+| ItemPalmTreeBranch | Palm tree leaves | _D ||||| _N || _R |||| 
+| ItemPillar | Pole | _D ||||| _N || _R ||| _HueMask | 
+| ItemPillar2 | Pole | _D ||||||| _R |||| 
+| ItemRamp | Ramp item | _D ||||| _N || _R ||| _HueMask | 
+| ItemRoadSign | Road sign item | _D ||||| _N || _R |||| 
+| ItemSpectatorLow | Spectators, lowest LOD | _D ||||| _N || _R |||| 
+| ItemSpectator | Spectators | _D ||||| _N || _R |||| 
+| ItemSpringTreeBranch | Tree leaves | _D ||||| _N || _R |||| 
+| ItemSupportConnector | Support connectors | _D ||||| _N || _R |||| 
+| ItemSupportTube | Support tubes | _D ||||| _N || _R ||| _HueMask | 
+| ItemTorchFlame | Torch flames ||| _I ||||||||| 
+| ItemTrackBarrier | Barrier | _D ||||| _N || _R ||| _HueMask | 
+| ItemTrackBarrier2 | Barrier | _D ||||||||||| 
+| ItemTrackBarrierB | White barrier | _D ||||||||||| 
+| ItemTrackBarrierC | Black barrier | _D ||||||||||| 
+| ItemTreeTrunk | Tree trunks | _D ||||| _N || _R |||| 
+| LightCells | Screen pixels |||||| _N || _R |||| 
+| LightCells2 | Screen pixels | _D | _H || _L || _N || _R |||| 
+| LightCells3 | Screen pixels | _D | _H || _L || _N || _R |||| 
+| LightShape | Light shape items | _D | _H | _I | _L || _N || _R |||| 
+| LightSpot | Lights | _D | _H | _I | _L || _N || _R |||| 
+| LightSpot2 | Lights | _D | _H || _L || _N || _R |||| 
+| LightTubeBig | Light tube items |||||||||||| 
+| LightTubeRefract | Light tube items refraction ||| _I ||||||||| 
+| LightTubeSmall | Light tube items |||||||||||| 
+| LightTube | Light tube items | _D || _I ||| _N || _R |||| 
+| OpenDirtBorders | Open dirt road borders | _D ||||||||||| 
+| OpenGrassBorders | Open grass road borders | _D ||||||||||| 
+| OpenIceBorders | Open ice road borders | _D ||||||||||| 
+| OpenTechBorders | Open tech road borders | _D ||||| _N || _R ||| _HueMask | 
+| PlatformGrass | Grass platform | _D ||||| _N || _R |||| 
+| PlatformIce | Ice platform | _D | _H |||||||||| 
+| PlatformTech | Tech platform | _D ||||| _N || _R |||| 
+| PodiumBorder | Podium borders | _D | _H | _I | _L || _N || _R |||| 
+| PodiumMedalMetal | Podium metals | _D ||||| _N || _R |||| 
+| PodiumScreen155 | Podium screen (unused) ||| _I ||||||||| 
+| PodiumSelfIllum | Podium numbers | _D || _I ||| _N || _R |||| 
+| PodiumStepScreen | Podium steps |||||||||||| 
+| Pylon | | _D ||||| _N || _R |||| 
+| RaceAd6x1 | Default 64x10 sign |||||||||||| 
+| RaceArchCheckpoint | Top of checkpoint arch ||| _I ||||||||| 
+| RaceArchFinish | Top of finish arch ||| _I ||||||||| 
+| RaceArch | Top of checkpoint and finish arches | _D | _H || _L || _N || _R |||| 
+| RaceScreenStart | 3-2-1-go sign ||| _I ||||||||| 
+| RaceTriggerFXCheckpoint | Checkpoint gate trigger ||| _I ||||||||| 
+| RaceTriggerFXFinish | Finish gate trigger ||| _I ||||||||| 
+| RaceTriggerFXMultilap | Multilap gate trigger ||| _I ||||||||| 
+| RoadBump | Sausage road | _D ||||| _N || _R ||| _HueMask | 
+| RoadDirt | Dirt road | _D ||||| _N || _R ||| _HueMask | 
+| RoadIce | Bobsleigh | _D | _H ||||||||| _HueMask | 
+| RoadTech | Tech road | _D ||||| _N || _R ||| _HueMask | 
+| ScreenBack | Back of signs | _D ||||| _N || _R |||| 
+| ScreenPusher | Pusher screen | _D | _H | _I | _L || _N || _R |||| 
+| Show4x1 | |||||||||||| 
+| SparklerEnd | Sparkler ending animation | _D ||||||||||| 
+| Sparkler | Sparkler shooting animation | _D ||||||||||| 
+| SpeakerFront | Front of speakers | _D ||||| _N || _R |||| 
+| SpeakerSide | Side of speakers | _D ||||| _N || _R |||| 
+| SpecialFXBoost2 | Super reactor boost energy ||| _I ||||||||| 
+| SpecialFXBoost | Reactor boost energy ||| _I ||||||||| 
+| SpecialFXCruise | Cruise control energy ||| _I ||||||||| 
+| SpecialFXFragile | Fragile energy ||| _I ||||||||| 
+| SpecialFXGateGameplay | Transformation gate energy ||| _I ||||||||| 
+| SpecialFXNoBrake | No brakes gate energy ||| _I ||||||||| 
+| SpecialFXNoEngine | Engine off gate energy ||| _I ||||||||| 
+| SpecialFXNoSteering | No steering gate energy ||| _I ||||||||| 
+| SpecialFXReset | Reset gate energy ||| _I ||||||||| 
+| SpecialFXSlowMotion | Slow motion gate energy ||| _I ||||||||| 
+| SpecialFXTurbo2 | Super turbo gate energy ||| _I ||||||||| 
+| SpecialFXTurboRoulette | Roulette turbo gate energy ||| _I ||||||||| 
+| SpecialFXTurbo | Turbo gate energt||| _I ||||||||| 
+| SpecialSignBoost2Down | Super reactor boost down sign ||| _I ||||||||| 
+| SpecialSignBoost2 | Super reactor boost up sign ||| _I ||||||||| 
+| SpecialSignBoostDown | Reactor boost down sign ||| _I ||||||||| 
+| SpecialSignBoost | Reactor boost up sign ||| _I ||||||||| 
+| SpecialSignCruise | Cruise control sign ||| _I ||||||||| 
+| SpecialSignFragile | Fragile sign ||| _I ||||||||| 
+| SpecialSignNoBrake | No brakes sign ||| _I ||||||||| 
+| SpecialSignNoEngine | Engine off sign ||| _I ||||||||| 
+| SpecialSignNoSteering | No steering sign ||| _I ||||||||| 
+| SpecialSignOff | Reverse turbo sign (unused) ||| _I ||||||||| 
+| SpecialSignReset | Reset sign ||| _I ||||||||| 
+| SpecialSignSlowMotion | Slow motion sing ||| _I ||||||||| 
+| SpecialSignTurbo2Off | Reverse super turbo sign ||| _I ||||||||| 
+| SpecialSignTurbo2 | Super turbo sign ||| _I ||||||||| 
+| SpecialSignTurboRouletteOff | Reverse roulette turbo sign ||| _I ||||||||| 
+| SpecialSignTurboRoulette | Roulette turbo sign ||| _I ||||||||| 
+| SpecialSignTurboOff | Reverse turbo sign||| _I ||||||||| 
+| SpecialSignTurbo | Turbo sign ||| _I ||||||||| 
+| Speedometer | Blue lights on checkpoints and finishes | _D || _I ||| _N || _R |||| 
+| Structure | Pillars | _D ||||| _N || _R ||| _HueMask | 
+| StructureInWorld | Pillars in vistas | _D ||||| _N || _R ||| _HueMask | 
+| StructureTruss | Truss items | _D ||||| _N || _R ||| _HueMask | 
+| TechnicsSpecials | Effect block details | _D ||||| _N || _R |||| 
+| TechnicsStepLow | Stand steps, lowest LOD |||||| _N |||||| 
+| TechnicsStep | Stand steps | _D ||||| _N || _R ||| _HueMask | 
+| TechnicsTrims | Details | _D ||||| _N || _R ||| _HueMask | 
+| Technics | Details | _D ||||| _N || _R ||| _HueMask | 
+| ThemeDesertBarrier | Desert barrier | _D ||||| _N || _R ||| _HueMask | 
+| ThemeRallyBarrier | Rally barrier | _D ||||| _N || _R |||| 
+| ThemeRallyCastleBorders | Castle borders | _D ||||| _N || _R |||| 
+| ThemeRallyCastleRoof | Castle roof | _D ||||| _N || _R ||| _HueMask | 
+| ThemeRallyCastleWall | Castle walls | _D ||||| _N || _R |||| 
+| ThemeSnowRoadBorder | Wood road border | _D ||||| _N || _R ||| _HueMask | 
+| ThemeSnowRoad | Wood road | _D ||||| _N || _R |||| 
+| ThemeSnowTempleDetails | Temple details | _D ||||| _N || _R ||| _HueMask | 
+| ThemeSnowTempleFloor | Temple floor | _D |||||||||| _HueMask | 
+| ThemeSnowTempleLamp | Temple lamp | _D | _H | _I | _L || _N || _R |||| 
+| ThemeSnowTempleTransparent | Temple transparent parts | _D ||||| _N || _R |||| 
+| TrackBordersInWorld | Walls and edges of roads in vistas | _D ||||| _N || _R ||| _HueMask | 
+| TrackBorders | Walls and edges of roads | _D | _H | _I | _L || _N || _R ||| _HueMask | 
+| TrackWallClipsInWorld | Black roads and platforms in vistas | _D ||||| _N || _R ||| _HueMask | 
+| TrackWallClips | Black roads and platforms | _D ||||| _N || _R ||| _HueMask | 
+| TrackWallPxzInWorld | Wooden pillars in vistas | _D ||||| _N || _R |||| 
+| TrackWallPxz | Wooden pillars | _D ||||| _N || _R ||| _HueMask | 
+| TrackWallPy | |||||||||| _X2 || 
+| TrackWall | Wooden pillar stripes | _D ||||| _N || _R |||| 
+| TriggerFXBoost2 | Super reactor boost gate trigger ||| _I ||||||||| 
+| TriggerFXBoost | Reacot boost gate trigger ||| _I ||||||||| 
+| TriggerFXCruise | Cruise control gate trigger ||| _I ||||||||| 
+| TriggerFXFragile | Fragile gate trigger ||| _I ||||||||| 
+| TriggerFXGateGameplay | Transformation gate trigger ||| _I ||||||||| 
+| TriggerFXNoBrake | No brakes gate trigger ||| _I ||||||||| 
+| TriggerFXNoEngine | Engine off gate trigger ||| _I ||||||||| 
+| TriggerFXNoSteering | No steering gate trigger ||| _I ||||||||| 
+| TriggerFXReset | Reset gate trigger ||| _I ||||||||| 
+| TriggerFXSlowMotion | Slow motion gate trigger ||| _I ||||||||| 
+| TriggerFXTurbo2 | Super turbo gate trigger ||| _I ||||||||| 
+| TriggerFXTurboRoulette | Roulette turbo gate trigger ||| _I ||||||||| 
+| TriggerFXTurbo | Turbo gate trigger ||| _I ||||||||| 
+| Underwater | Pool walls | _D ||||| _N || _R |||| 
+| Water_SxSySz | Water surface |||||||||||| 
+| WaterBorders | Pool walls | _D ||||| _N || _R |||| 
+| WaterFog | Unused |||||||||||| 
+| Waterground | Pool floor | _D ||||| _N || _R |||| 
+| WaterTransmittance.ImageGen.Gbx | Water colour |||||||||||| 
+
 
 Notes:
 
 - All files are .dds unless mentioned otherwise.
+- In the case of `ItemObstacle_D`, `ItemObstaclePusher_D` and `ItemObstacleLight_I`, A second suffix exists
 - Add a second suffix depending on type of obstacle:
     - Pink: `_DiscontinuousLevel0`
     - Violet: `_DiscontinuousLevel1`
@@ -305,69 +317,39 @@ Notes:
     - Yellow: `_Level0`
     - Orange: `_Level1`
     - Red: `_Level2`
-- In the case of `ItemObstacle_D`, `ItemObstaclePusher_D` and `ItemObstacleLight_I`, A second suffix exists
 - ItemTrackBarrier_D uses `_HueMask`. ItemTrackBarrierB_D and C_D use `_HueMask2`.
 - SpecialFXTurboRoulette_LightColor exists.
-- DecalGateGameplay has Desert.dds, Rally.dds and Snow.dds variants for the snow and rally car respectively.
-- ItemSpringTreeBranch contains additional _N.tga and _R.tga textures.
-- LightTubeBig contains a _G.tga texture.
+- LightTubeBig and LightTubeSmall contain a _G.tga texture.
 - Structure contains a _D.tga HueMask.
-- Trackborders _I is a .tga file rather than a .dds file. 
+- TrackBorders _I is a .tga file rather than a .dds file. 
 
-<!-- TODO
+
 ## 📁 Moods
 | **Name** | **Used For** |
 |:-:|:-:|
+| AmbCube
+| AmbCubeP
+| Clouds | Cloud shadows moving on top of the map
+| EnvCubicHdr | Cubemap reflections (DDS BC6U)
+| Fresnel
+| IconMoodSmall
+| Mood.MoodSetting.xml | Determines parameters for the mood lighting. For more info see [this documentation page](https://doc.maniaplanet.com/title-pack/mood)
+| SkyClouds | Cloud textures
+| SkyColor | Skybox texture (DDS BC6U)
 
--->
 
 ## Car Effects
 
 | **Name** | **Used For** |
 |:-:|:-:|
-| AirBubble_Medium |
-| AirBubble_Small
-| AnimBoost_D
-| AnimBoost_Turbo_D
-| AnimBoost_Turbo2_D
-| AnimBoost_TurboRoulette2_D
-| AnimBoost_TurboRoulette3_D
-| AnimFire_D
-| AnimNitro_D
-| AsphaltMarks
-| AsphaltSmoke
-| CarLights
-| CommonCarDetails
-| CommonCarShadowProj
-| CommonCarWheelShadowProj
-| DirtGravels
-| DirtMarks
-| DirtSmoke
-| DirtSmokeHovering
-| GrassMarkGround
-| HeadLightsProj
-| IceMarks_A
-| IceMarks_N
-| IceMarks_RoughMetal
-| Sand
-| SandMarks
-| SandSmoke
-| SmokeWLightmap_D
-| SmokeWLightmap_LM
-| Snow
-| SnowMarks
-| SnowSmoke
-| Sparkle
-| StadiumCarIcon
-| StemFoamFxd
-| VehicleFXFlare
-| WaterSplash
-| WaterWake_N
-| WetWheelsMarks
-| WetWheelsMarks_RM
+| CarAsphaltMarks | Skidmarks on road
+| CarDirtMarks | Skidmarks on dirt
+| CarDirtSmoke | Smoke while skidding on dirt
+| CarGrassMarks | Skidmarks on grass
+| EnvLayerDirt_D | Color of dirt on the car
 
 Note: 
 TBC
 
-Last updated on the 24th of May 2024 (Desert Update).
-Last edited by MarsyTM
+Last updated on 5 August 2026.
+Last edited by Zai
