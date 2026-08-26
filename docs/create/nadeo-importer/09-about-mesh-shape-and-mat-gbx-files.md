@@ -7,6 +7,12 @@ NadeoImporter and in-game editors usually produce .Item.gbx files which have no 
 
 However it is still possible to make .Mesh.Gbx, .Shape.Gbx or .Mat.Gbx files, but for very specific purposes. If you are curious, see the details below.
 
+## Materials from another environment (advanced)
+
+`Collection="Stadium"` remains mandatory for NadeoImporter. However, current Trackmania resolves an imported `CPlugSolid2Model` material link through its `MaterialsFolderName`. A GBX-aware post-processor can, for example, change this folder from `Stadium\Media\Material\` to `GreenCoast\Media\Material\` while preserving `Link="Grass"` and `IsUsingGameMaterial=false`, causing the item to use GreenCoast Grass.
+
+This is a version-sensitive post-import operation which is not exposed by `.MeshParams.xml`.
+
 ## Mesh and Shape files
 
 You can create .Mesh.Gbx and .Shape.Gbx files with the following command line:
