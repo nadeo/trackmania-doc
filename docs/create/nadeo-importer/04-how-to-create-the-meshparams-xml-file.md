@@ -18,7 +18,7 @@ Then adapt it to your situation, according to the following explanations:
 - `MeshParams` tag is mandatory
   - attributes:
     - `MeshType` is mandatory and should not be changed ("Static")
-    - `Collection` is mandatory and should not be changed ("Stadium")
+    - `Collection` is mandatory and should not be changed ("Stadium"). This is an importer restriction; the material library used by the game after import is a separate concern. See [Materials from another environment].
     - `Scale` is facultative. You can set a value greater than 1 to make your item bigger, or less than 1 to make it smaller. But you should not set it to 0 or a negative value.
     - `FbxFile` is facultative. **If this attribute is omitted, then the fbx file is supposed to be next to this xml file, with the same name** (but a different extension: .fbx). If the fbx file has a different name or is in a different folder though, you have to put its relative path in this attribute.
   - sub-tags:
@@ -113,3 +113,4 @@ Here are the values of attribute `Link` that enable the use of attribute `Gamepl
 
 [Download and install]: ../01-download-and-install/
 [How to create the fbx file]: ../03-how-to-create-the-fbx-file/
+[Materials from another environment]: ../09-about-mesh-shape-and-mat-gbx-files/#materials-from-another-environment-advanced
