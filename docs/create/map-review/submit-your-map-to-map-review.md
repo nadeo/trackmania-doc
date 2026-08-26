@@ -30,6 +30,6 @@ After your map has been played on the Map Review server, players will be able to
 
 You may view the ratings in game by opening the **MY SUBMITTED TRACKS** menu. Each submitted track will feature a graphic on the thumbnail showcasing the average player rating.
 
-<!-- an image would be nice here, i don't have club access anymore -->
+![Submitted tracks menu](../../img/mapReviewUpdate_Submitted_Tracks.png)
 
 For more detailed stats, head to the [Player Tracks](/web/tm-com/player-tracks/#map-review) section on the Trackmania.com website.
